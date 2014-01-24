@@ -1,18 +1,22 @@
 <html>
   <head>
+    <title>Interactive Labs</title>
     <link href="css/main.css" rel='stylesheet' type="text/css">
+    <link href="css/slider.css" rel='stylesheet' type="text/css">
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="scripts/jquery.slides.min.js"></script>
   </head>
   <body>
     <div id="header">
       <h3 id="logo">Interactive Labs</h2>
       <div id="header-nav">
         <ul class="horizontal">
+          <li class="selected">WORK</li>
           <li>SERVICES</li>
-          <li class="selected">PROCESS</li>
-          <li>WORK</li>
+          <li>PROCESS</li>
           <li>CONTACT</li>
         </ul>
       </div>
@@ -25,10 +29,17 @@
           <li class="normal">interactive mobile apps</li>
         </ul>
       </div>
-      <div id="work" class="section">
-      
+      <div id="work" class="section" style="text-align:center;">
+        <p class="section-title">What we have built</p> 
+        <div class="slides-container" style="width:900px;height:563px;margin:0 auto;">
+          <div id="slides">
+              <img src="images/work_threadflip.png"/>
+              <img src="images/work_songbooth.png"/> 
+          </div>
+        </div>
       </div>
       <div id="whatwedo" class="section">
+        <p class="section-title">What we do</p>
         <ul id="platforms" class="horizontal">
           <li class="ios first">iOS</li> 
           <li class="android">Android</li> 
@@ -40,6 +51,7 @@
         </p>
       </div>
       <div id="services" class="section">
+        <p class="section-title">How we do it</p> 
         <ul id="steps" class="horizontal">
           <li class="discover first">Discover</li> 
           <li class="development">Develop</li> 
@@ -53,11 +65,39 @@
             Best practices in development methodology + best and latest practices in code crafting  
           </li> 
           <li class="last">
-            Complete test coverage + service deployment + app submission + app insight 
+            Automated and manual testing + service deployment + app submission + app insight 
           </li> 
         </ul> 
       </div>
-      <div id="who" class="section"></div>
+      <!--div id="who" class="section"></div-->
     </div>
+    <script>
+      $(function(){
+        $("#slides").slidesjs({
+          width: 900,
+          height: 563,
+          callback: {
+            complete: function(number) {
+              setWorkTitle(number);
+            }
+          }
+        });
+        $('a.slidesjs-next').after(
+          '<a id="work-title"></a>'
+        );
+        setWorkTitle(1);
+      });
+      
+      function setWorkTitle(number) {
+        switch(number) {
+          case 1:
+            $("#work-title").attr('href', 'https://itunes.apple.com/us/app/threadflip-buy-sell-fashion/id531527909?mt=8').html("Threadflip");
+            break;
+          case 2:
+            $("#work-title").attr('href', 'https://itunes.apple.com/us/app/songbooth/id579884644?mt=8').html("Songbooth");
+          break;
+        };
+      };
+    </script>
   </body>
 </html>

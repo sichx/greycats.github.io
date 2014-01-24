@@ -117,10 +117,14 @@ ul.horizontal li.selected {
 }
 
 #content .section {
-  width:80%;
-  margin:0 auto;
+  margin:0 75px;
   padding:50px 0;
   border-bottom: 1px solid #333;
+}
+
+#content .section .section-title {
+  margin-bottom:30px;
+  font-size:1.5em;
 }
 
 #content #services ul#steps li.discover {
@@ -150,4 +154,14 @@ ul.horizontal li.selected {
   font-weight:300;
   font-size:1.0em;
   line-height:1.3em;
+}
+
+#content #work #slides a#work-title {
+  float:left;
+  margin-top:5px;
+  margin-left:3px;
+}
+
+#content #work #slides a#work-title:link {
+  text-decoration:none; 
 }
