@@ -14,6 +14,10 @@ body {
 div#header {
   box-shadow:0px 1px 5px #888888;
   padding:20px 0;
+  width:100%;
+  position:fixed;
+  background-color:#fff;
+  z-index:100000;
 }
 
 h3#logo {
@@ -49,7 +53,7 @@ ul.horizontal li.selected {
 #content #showcase ul.staggered {
   border-left:5px solid #333;
   padding-left:30px;
-  margin:0 auto;
+  margin:90px auto 0;
   display:inline-block;
   text-align:left;
 }
@@ -122,9 +126,14 @@ ul.horizontal li.selected {
   border-bottom: 1px solid #333;
 }
 
+#content .section.last {
+  border-bottom: none;
+}
+
 #content .section .section-title {
   margin-bottom:30px;
   font-size:1.5em;
+  text-align:center;
 }
 
 #content #services ul#steps li.discover {
