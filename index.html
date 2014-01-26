@@ -14,10 +14,10 @@
       <h3 id="logo">Interactive Labs</h2>
       <div id="header-nav">
         <ul class="horizontal">
-          <li class="selected">WORK</li>
-          <li>SERVICES</li>
-          <li>PROCESS</li>
-          <li>CONTACT</li>
+          <li id="work-nav" class="selected"><a href="#">WORK</a></li>
+          <li id="services-nav"><a href="#">SERVICES</a></li>
+          <li id="process-nav"><a href="#">PROCESS</a></li>
+          <li id="contact-nav"><a href="#">CONTACT</a></li>
         </ul>
       </div>
     </div>
@@ -120,6 +120,32 @@
           break;
         };
       };
+    </script>
+    <script>
+      $(function(){
+        $('#header-nav ul li').click(function() {
+          $('#header-nav ul li').removeClass('selected');
+          $(this).addClass('selected');
+          var destSection;
+          switch ($(this).attr("id")) {
+            case "work-nav":
+              destSection = "work";
+              break;
+            case "services-nav":
+              destSection = "whatwedo";
+              break;
+            case "process-nav":
+              destSection = "services";
+              break;
+            case "contact-nav":
+              destSection = "who";
+              break;
+          };
+          var el = document.getElementById(destSection);
+          window.scrollTo(el.offsetLeft, el.offsetTop - 82);
+          return false;
+        });
+      });
     </script>
   </body>
 </html>
