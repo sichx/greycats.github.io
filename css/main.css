@@ -3,6 +3,10 @@ body, p, div, ul, h1, h2, h3, h4 {
   padding:0;
 }
 
+table {
+  border:none;
+}
+
 ul {
   list-style: none;
 }
@@ -122,12 +126,15 @@ ul.horizontal li.selected {
 
 #content .section {
   margin:0 75px;
-  padding:50px 0;
+  padding:80px 0;
   border-bottom: 1px solid #333;
 }
 
 #content .section.last {
   border-bottom: none;
+  margin-left:0;
+  padding-bottom:0;
+  width:100%;
 }
 
 #content .section .section-title {
@@ -173,4 +180,45 @@ ul.horizontal li.selected {
 
 #content #work #slides a#work-title:link {
   text-decoration:none; 
+}
+
+#content #who #contact-info-container {
+  width:100%;
+  background-color:#1F1E1E;
+  padding:50px 0;
+}
+
+#content #who div#contact-info {
+  background-color:#1F1E1E;
+  color:#FFFFFF;
+  text-align:center;
+  width:80%;
+  margin:0 auto;
+}
+
+#content #who div#contact-info div.contact-section {
+  float:left;
+  display:inline-block;
+  width:33.33%;
+}
+
+#content #who div#contact-info div.contact-section h3.email {
+  background-image:url('../images/ico_email.png');
+}
+
+#content #who div#contact-info div.contact-section h3.phone {
+  background-image:url('../images/ico_phone.png');
+}
+
+#content #who div#contact-info div.contact-section h3.office {
+  background-image:url('../images/ico_office.png');
+}
+
+#content #who div#contact-info div.contact-section h3 {
+  display:inline-block;
+  padding-left:35px;
+  background-repeat:no-repeat;
+  background-position:top left;
+  margin:20px auto;
+  line-height:30px;
 }
