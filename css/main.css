@@ -26,7 +26,7 @@ body {
 
 div#header {
   box-shadow:0px 1px 5px #888888;
-  padding:20px 0;
+  padding:10px 0;
   width:100%;
   position:fixed;
   background-color:#fff;
@@ -66,7 +66,7 @@ ul.horizontal li.selected {
 #content #showcase ul.staggered {
   border-left:5px solid #fff;
   padding-left:30px;
-  margin:90px auto 0;
+  margin:35px auto 0;
   display:inline-block;
   text-align:left;
   color: #fff;
@@ -136,7 +136,7 @@ ul.horizontal li.selected {
 
 #content .section {
   margin:0 75px;
-  padding:80px 0;
+  padding:60px 0;
   border-bottom: 1px solid #333;
 }
 
@@ -154,7 +154,7 @@ ul.horizontal li.selected {
   display:block;
   position:relative;
   width:100%;
-  height:350px;
+  height:240px;
   padding-bottom:0;
   display:block;
   position:absolute;
