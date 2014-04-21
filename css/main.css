@@ -64,11 +64,12 @@ ul.horizontal li.selected {
 }
 
 #content #showcase ul.staggered {
-  border-left:5px solid #333;
+  border-left:5px solid #fff;
   padding-left:30px;
   margin:90px auto 0;
   display:inline-block;
   text-align:left;
+  color: #fff;
 }
 
 #content #showcase ul.staggered li {
@@ -145,11 +146,69 @@ ul.horizontal li.selected {
   padding-bottom:0;
   width:100%;
 }
+#content #showcase {
+  margin-left: 0;
+  border-bottom: none;
+}
+.fullscreen-img {
+  display:block;
+  position:relative;
+  width:100%;
+  height:350px;
+  padding-bottom:0;
+  display:block;
+  position:absolute;
+  background:transparent url('../images/Background.png') center center no-repeat;
+  background-size:cover;
+  z-index: -1;
+}
 
 #content .section .section-title {
   margin-bottom:30px;
   font-size:1.5em;
   text-align:center;
+  text-transform:capitalize;
+}
+
+#content .section .slides-container img{
+  width: 800px;
+  margin-bottom: 10px;
+  border-top: 1px solid #333;
+}
+
+#content .section .section-work-descrip {
+  margin-bottom:40px;
+  font-size:1em;
+  font-weight: normal;
+  text-align:center;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+font-weight: 300;
+font-size: 1.2em;
+line-height: 2em;
+}
+
+#content .section .section-work-descrip-title {
+  margin-bottom:30px;
+  font-size: 1.2em;
+  width: 8em;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 1px #333;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+#content .section .section-work-descrip-line {
+  margin-bottom: 12px;
+}
+
+#content .section .red-square {
+   display: inline-block;
+   width: 12px;
+   height: 12px;
+   background-color: red;
+   margin-right: 10px;
+   border-radius: 2px;
 }
 
 #content #services ul#steps li.discover {
@@ -231,3 +290,5 @@ ul.horizontal li.selected {
   margin:20px auto;
   line-height:30px;
 }
+
+
