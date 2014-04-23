@@ -146,6 +146,11 @@ ul.horizontal li.selected {
   padding-bottom:0;
   width:100%;
 }
+
+#content .main-section {
+  margin-top: 50px;
+}
+
 #content #showcase {
   margin-left: 0;
   border-bottom: none;
@@ -194,8 +199,22 @@ line-height: 2em;
   margin-left: auto;
   margin-right: auto;
   border: solid 1px #333;
-  padding: 5px 10px;
+  padding: 10px 10px;
   border-radius: 5px;
+}
+
+#content .section .section-work-descrip-title img {
+  width: 100px;
+}
+
+#content .section .section-work-descrip-badge {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+#content .section .section-work-descrip-badge img {
+  width: 120px;
 }
 
 #content .section .section-work-descrip-line {
