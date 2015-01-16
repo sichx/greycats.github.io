@@ -1,0 +1,286 @@
+.section-process-1 {
+	background: image-url("bg-section-1-process.jpg") center center no-repeat;
+	background-size: cover;
+	position: relative;
+	padding: 4em 0 2em;
+	@media #{$large-up} { 
+		padding-top: 160px;
+		padding-bottom: 265px;
+	}
+	&:before {
+		content: '';
+		display: block;
+		width: 100%;
+		height: 100%;
+		background: image-url("bg-section-1-process-01.png") center bottom no-repeat;
+		position: absolute;
+		bottom: 0;
+		background-size: contain;
+	} 
+
+	.bg-white {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		height: 247px;
+		background: #fff;
+	}
+
+	h1 {
+		font-size: 2.875rem;
+	}
+
+	.phones {
+		display: block;
+		margin: 0 auto;
+
+		@media #{$large-up} { 
+			position: absolute;
+			bottom: -600px;
+		}
+	}
+}
+
+.sketch-area {
+	//@media #{$xlarge-up} { 
+		position: relative;
+		text-align: center;
+
+		// img {
+		// 	position: absolute;
+		// 	right: 0;
+		// 	bottom: 0;
+		// 	left: 0;
+		// 	margin: auto;
+		// }
+	//}
+	.txt {
+		@extend .t-18, .text-right;
+		margin-bottom: 2em;
+		width: 290px;
+		margin-left: auto;
+		margin-right: auto;
+
+		@media #{$medium-up} { 
+			width: 50%;
+		}
+				
+		@media #{$xlarge-up} { 
+			width: 300px;
+			position: absolute;
+			left: 13%;
+			bottom: 115px;
+		}
+
+		@media only screen and (max-width: 1840px) {
+			left: 10%;
+		}
+
+		@media only screen and (max-width: 1740px) {
+			left: 3%;
+		}
+	} 
+}
+
+.section-wireframe {
+	padding-top: 150px;
+	padding-bottom: 120px;
+	background-color: #4d5b64;
+	background-image: image-url("wireframe-mount.png"), image-url("wireframe-mount-bottom.png");
+	background-repeat: no-repeat;
+	background-position: center top, center bottom;
+
+	@media #{$large-up} {
+		padding-top: 200px;
+		padding-bottom: 150px;
+	}
+}
+
+.section-final-roduct {
+	background-image: image-url("bg-final-product.jpg");
+	background-size: cover;
+	padding: 2em 0;
+	@media #{$xlarge-up} { 
+		padding-top: 90px;
+		padding-bottom: 640px;
+	}
+	position: relative;
+
+	.final-product {
+		@media #{$xlarge-up} { 
+			position: absolute;
+			left: 0;
+			right: 0;
+			margin: auto;
+			bottom: -130px;
+		}
+
+		@media only screen and (min-width: 1440px) and (max-width: 1600px) {
+			img {
+				width: 68%;
+				margin-left: -100px;
+			}
+		}
+
+		.txt {
+			text-align: left;
+			width: 250px;
+			margin: 0 auto;
+
+			@media #{$medium-up} { 
+				width: 50%;
+			}
+
+			@media #{$xlarge-up} { 
+				position: absolute;
+				right: 7%;
+				top: 135px;
+				width: 250px;
+			}
+
+			@media only screen and (max-width: 1800px) {
+				right: 0;
+			}
+		}
+	}
+}
+
+.section-girl--process {
+	background-image: image-url("bg-girl-process.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 2em 0;
+
+
+	@media only screen and (max-width: 90em) {
+		.large-4 {
+			width: 100%!important;
+
+			&.large-push-8 {
+				left: 0!important;
+			}
+		}
+	}
+	
+	@media #{$xlarge-up} { 
+		padding-bottom: 80px;
+		padding-top: 300px;
+
+
+		.mockups {
+			position: absolute;
+			bottom: -190px;
+			left: -150px;
+			z-index: 1;	
+		}
+	}
+}
+
+.section-process-last {
+	.fullwidth {
+		background: image-url("bg-process-last.jpg") center center no-repeat;
+		background-size: cover;
+		position: relative;
+		padding-top: 2em;
+		padding-bottom: 0;
+
+		@media #{$large-up} {
+			padding-top: 200px;
+			padding-bottom: 480px;
+		}
+		&:before {
+			content: '';
+			display: block;
+			width: 100%;
+			height: 100%;
+			background: image-url("bg-section-1-process-01.png") right bottom no-repeat;
+			position: absolute;
+			bottom: 0;
+
+			background-size: contain;
+		}
+	}
+}
+
+.iphone6 {
+		display: block;
+		margin: 0 auto;
+	}
+	@media #{$large-up} { 
+		.bg-white {
+			min-height: 225px;
+		}
+
+		.iphone6 {
+			position: absolute;
+			bottom: -370px;
+			right: 0;
+			max-width: 450px;
+		}
+	}
+
+	@media #{$xlarge-up} { 
+		.iphone6 {
+			right: 7%;
+		}
+	}
+
+	@media #{$xxlarge-up} { 
+		.iphone6 {
+			right: 20%;
+		}
+	}
+
+
+.services-platforms {
+	text-align: center;
+
+	@media #{$large-up} { 
+		text-align: left;
+
+		.to-right {
+			float: right;
+		}
+	}
+
+	@media #{$xlarge-up} { 
+		margin-top: 100px;
+	}
+}
+
+.xs-block {
+	display: block;
+
+	@media #{$large-up} { 
+		display: inline;
+	}
+}
+
+
+.process-page {
+	.column, .columns {
+		@media only screen and (min-width:40em) and (max-width: 64em) {
+			padding-left: 2em;
+			padding-right: 2em;
+		}
+
+		@media only screen and (max-width: 64em) {
+			text-align: center;
+		}
+	}
+
+	.section-white {
+
+		.services-platforms {
+			z-index: 100;
+			position: relative;
+
+		}
+		@media only screen and (max-width: 64em) {
+			padding: 0 0 2em;
+		}
+	}
+	.parallax-shape {
+		background-image: url(../images/par-proc.png);
+	}
+}

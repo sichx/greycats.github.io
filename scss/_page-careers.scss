@@ -1,0 +1,183 @@
+.career-page {
+
+	.section-mount {
+
+		h1 {
+			margin: rem-calc(70) 0 0;
+
+			span {
+				display: block;		
+			}
+
+			@media #{$medium-up} {				
+
+				span {
+					font-size: rem-calc(138px);
+				}
+			}
+			@media #{$large-up} {
+				margin: rem-calc(170) 0 0;
+			}
+		}
+
+		.text-center {
+			background-image: url(../images/fig-career.png);
+			background-position: 50% 50%;
+			padding-bottom: rem-calc(100);
+
+			@media #{$small-up} {
+				background-size: 90% auto;
+			}
+			@media #{$large-up} {
+				background-size: auto;
+				padding-bottom: rem-calc(225);
+			}
+		}
+
+	}
+
+	.section-white {
+		padding: rem-calc(60) 0 rem-calc(40);
+		display: block;
+
+		.icon-in-state:hover {
+			@extend .icon-in-hover;
+ 		}
+ 		.icon-twit-state:hover {
+			@extend .icon-twit-hover;
+ 		}
+
+ 		.person-container {
+ 			margin-top: 90px;
+ 		}
+
+ 		.person {
+ 			display: inline-block;
+ 			max-width: 50%;
+ 			margin:0 -35px rem-calc(40);
+
+ 			@media #{$large-up} {
+ 				max-width: 437px;
+ 			}
+ 			@media (max-width: 480px) {
+ 				max-width: 100%;
+ 			}
+
+ 			.name {
+ 				color: #37a1db;
+ 				font-size: rem-calc(50);
+ 				line-height: 1em;
+ 			}
+ 			.position {
+				display: block;
+				color: #545454;
+				margin: 0 0 20px;
+				font-size: rem-calc(22);
+ 			}
+ 			.soc {
+ 				list-style: none;
+ 				text-align: center;
+ 				margin: 0;
+ 				padding: 0;
+
+ 				li {
+ 					display: inline-block; 
+ 				}
+ 			}
+ 			.img {
+ 				margin: 0 0 60px;
+ 				display: block;
+
+ 				img {
+ 					max-width: 100%;
+ 				}
+
+				img:first-child {
+					display: none;
+				}
+
+				&:hover {
+
+					img:first-child {
+						display: block;
+					}
+					img:nth-child(2) {
+						display: none;
+					}
+				}
+ 			}
+ 		}
+	}
+
+	.section-polygon {
+		height: 385px;
+		padding: 0;
+		position: relative;
+
+		&:before {
+			position: absolute;
+			top: 0;
+			left:50%;
+			margin-left: -225px;
+			content: '';
+			width: 0;
+			height: 0;
+			border-style: solid;
+			border-width: 385px 225px 0 225px;
+			border-color: #1799d5 transparent transparent transparent;
+			z-index: 1;
+		}
+
+		.triangle {
+			color:#fff;
+			display: block;
+			z-index: 2;
+			position: absolute;
+			top: 0;
+			left:50%;
+			margin-left: -225px;
+			height: 385px;
+			width: 450px;
+			padding: rem-calc(60) 0 0;
+			font-size: 2.5rem;
+			font-weight: 300;
+			
+			& > span {
+				display: block;
+				line-height: 1.2em;
+
+				& > span {
+					font-weight: 600; 
+					display: inline;
+				}
+
+				&.hover {
+					display: none;
+					line-height: 1.1em;
+				}
+
+				&.state {
+					font-size: rem-calc(103);
+					border-top: 1px solid #fff; 
+					border-bottom: 1px solid #fff;
+					display: inline-block;
+				}
+
+				.icon-arrow-bottom {
+					margin-top: 40px;
+				}
+			}
+
+			&:hover {
+				
+				span.hover {
+					display: block;
+				}
+
+				span.state {
+					display: none;
+				}
+			}
+		}		
+	}
+}

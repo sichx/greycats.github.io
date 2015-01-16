@@ -1,236 +1,452 @@
-<html>
-  <head>
-    <title>Interactive Labs</title>
-    <link href="css/main.css" rel='stylesheet' type="text/css">
-    <link href="css/slider.css" rel='stylesheet' type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="scripts/jquery.slides.min.js"></script>
-  </head>
-  <body>
-    <div id="header">
-      <h3 id="logo">Interactive Labs</h2>
-      <div id="header-nav">
-        <ul class="horizontal">
-          <li id="work-nav" class="selected"><a href="#">WORK</a></li>
-          <li id="services-nav"><a href="#">SERVICES</a></li>
-          <li id="process-nav"><a href="#">PROCESS</a></li>
-          <li id="contact-nav"><a href="#">CONTACT</a></li>
-        </ul>
-      </div>
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>iLabs</title>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:100,400,300,500,700,900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/jquery.hoverdir.js"></script>
+    <script src="js/jquery.stellar.js"></script>
+
+    <script src="bower_components/foundation/js/foundation.min.js"></script>
+    <script src="bower_components/jquery.validate.min.js"></script>
+
+    <script src="bower_components/modernizr/modernizr.js"></script>
+
+<body>
+
+    <div class="off-canvas-wrap" data-offcanvas>
+        <a role="button" href="#" class="menu-button left-off-canvas-toggle"><span class="icon icon-menu"></span></a>
+        <div class="fixed off-canvas-fixed">
+            <a class="exit-off-canvas"></a>
+               
+            <!-- Off Canvas Menu -->
+            <aside class="left-off-canvas-menu">
+                <div class="in">
+                    <a class="exit-off-canvas"><span class="icon icon-menu"></span></a>
+                    <ul>
+                        <li class="active"><a href="index.html"><i class="icon icon-menu-home"></i> Home</a>
+                        </li>
+                        <li><a href="index.html#ourwork"><i class="icon icon-menu-work"></i> Our Work</a>
+                        </li>
+                        <li><a href="services.html"><i class="icon icon-menu-service"></i> Services / Process</a>
+                        </li>
+                        <li><a href="index.html#ourclients"><i class="icon icon-menu-careers"></i> Our Clients</a>
+                        </li>
+                        <li><a href="aboutus.html"><i class="icon icon-menu-about"></i> About iLabs</a>
+                        </li>
+                        <li><a href="index.html#getintouch"><i class="icon icon-menu-getin"></i> Get in Touch</a>
+                        </li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+        <div class="inner-wrap">
+            <section class="section-mount">
+                <div class="parallax" data-stellar-ratio="0.1" data-stellar-vertical-offset="0" data-stellar-offset-parent="true"></div>
+                <div class="parallax-shape" data-stellar-ratio="0.5" data-stellar-vertical-offset="0" data-stellar-offset-parent="true"></div>
+                <div class="text-center">
+                    <div class="row">
+                        <div class="large-12 columns">
+                            <a href="#" class="icon icon-logo"></a>
+                            <h1 class="text-gray">Work with a <a href="#" class="text-medium text-primary">world class team</a> that has delivered <a href="#" class="text-medium text-primary">multiple apps</a> featured in the App Store and Google Play.</h1>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--<section class="section-dark text-center text-uppercase text-white">
+                <div class="row">
+                    <div class="large-2 columns">
+                        <a href="#" class="button t-20">NEWS <i class="icon icon-arrow-right"></i></a>
+                    </div>
+                    <div class="large-8 columns">
+                        <p class="t-18">Threadflip featured on the App Store for 2 weeks straight.</p>
+                    </div>
+                    <div class="large-2 columns">
+                        <p class="t-18"><a class="text-underline" href="#">LEARN MORE</a>
+                        </p>
+                    </div>
+                </div>
+            </section>-->
+
+            <section class="section-polygon text-white text-center">
+                <div class="row">
+                    <div class="large-12 columns">
+                        <h1>We deliver exceptional mobile experiences through our end-to-end services</h1>
+                        <p>&nbsp;</p>
+                        <div class="icons-line">
+                            <div class="text-uppercase t-20">
+                                <div class="large-1 columns">&nbsp;</div>
+                                <div class="large-3 columns">
+                                    <p><i class="icon icon-o-horse"></i>
+                                    </p>
+                                    Plan &amp; Strategy
+                                </div>
+                                <div class="large-1 columns">&nbsp;</div>
+                                <div class="large-3 columns">
+                                    <p><i class="icon icon-o-dev"></i>
+                                    </p>
+                                    Product Design
+                                </div>
+                                <div class="large-1 columns">&nbsp;</div>
+                                <div class="large-3 columns">
+                                    <p><i class="icon icon-o-prod"></i>
+                                    </p>
+                                    Development
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-gradient text-white">
+                <ul class="large-block-grid-2 first">
+                    <li class="box-one">
+                        <div class="large-6 small-centered columns">
+                            <h1>80+ IOS &amp;<br> ANDROID APP</h1>
+                            <p class="t-18">Work with an experienced team that delivers at startup speed, yet has an unwavering focus on user experience, app performance and quality.</p>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                        </div>
+                    </li>
+                    <li class="box-two">
+                        <div class="large-6 small-centered columns">
+                            <h1>TOGETHER, <br> WE’LL SOLVE <br> TOUGH INNOVATION PROBLEMS</h1>
+                            <p class="t-18">It's exactly what we're built to do</p>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="large-block-grid-2 second">
+                    <li class="box-three">
+                        <div class="large-6 small-centered columns">
+                            <h1>JUMPSTART <br> YOUR GROWTH INITIATIVES</h1>
+                            <p class="t-18"><em>"Android was a critical part of our growth initiatives. Interactive Labs launched our Android app in under 2 months - that was huge."</em></p>
+                            <p class="t-18">Anand Iyer / CPO - ThreadFlip</p>
+                            <br>
+                        </div>
+                    </li>
+                    <li class="box-four">
+                        <div class="large-6 small-centered columns">
+                            <h1>DO MORE <br> WITH LESS</h1>
+                            <p class="t-18"><em>"We had an idea, but didn’t have the bandwidth to build. Interactive Labs launched our app in 1 month as they originally estimated. This was the most hands-off experience I have ever had with an external engineering team."</em></p>
+                            <p class="t-18">Brian Leung / CTO - Blue Shell Games</p>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+            <section class="slider-wrap text-center text-white" id="ourwork">
+                <h1>OUR WORK</h1>
+                <ul class="example-orbit-content" data-orbit>
+                    <li data-orbit-slide="headline-1">
+                        <section class="section-top text-white text-center">
+                            <img src="images/bg-img_01.png" alt="">
+                            <img src="images/img_04.png" alt="" class="mockups">
+                        </section>
+                        <section class="section-white text-center">
+                            <div class="columns large-8 large-centered">
+                                <h1 class="text-graylight text-uppercase">Threadflip</h1>
+                                <p class="t-20 text-graylight">Threadflip is pioneering a new social shopping experience by offering women a simple way to convert their closets into a dynamic boutique-like experience, connecting buyers with sellers, and capturing the collaborative energy of shopping with friends. Threadflip has been featured in the iOS app store on multiple occasions.</p>
+                                <span class="list-services">
+                                  <a class="icon icon-o-apple" target="_blank" href="https://itunes.apple.com/us/app/threadflip-buy-sell-fashion/id531527909?mt=8"></a>
+                                  <a class="icon icon-o-android" target="_blank" href="https://play.google.com/store/apps/details?id=com.threadflip.android&hl=en"></a>
+                                </span>
+                            </div>
+                        </section>
+                    </li>
+                    <li data-orbit-slide="headline-2">
+                        <section class="section-top text-white text-center">
+                            <img src="images/bg-01.jpg" alt="">
+                            <img src="images/img_01_FlaresWork.png" alt="" class="mockups">
+                        </section>
+                        <section class="section-white text-center">
+                            <div class="columns large-8 large-centered">
+                                <h1 class="text-graylight text-uppercase">Flares</h1>
+                                <p class="t-20 text-graylight">Flares is a new mobile messaging service that enables you to shoot visual signals to your friends and family to let them know exactly where you are - when it matters to them the most. Use Flares to indicate a meeting spot, let everyone know you’re running late, coordinate drop-off and pick-up locations.</p>
+                                <span class="list-services">
+                                  <a class="icon icon-o-apple" target="_blank" href="https://itunes.apple.com/us/app/flares-visual-messaging/id880438400?mt=8"></a>
+                                  <!-- <a class="icon icon-o-comment" href="#"></a> -->
+                                  <a class="icon icon-o-android comingsoon" href="#"></a>
+                                  <!-- <a class="icon icon-o-horse-sm" href="#"></a> -->
+                                </span>
+                            </div>
+                        </section>
+                    </li>
+                    <li data-orbit-slide="headline-3">
+                        <section class="section-top text-white text-center">
+                            <img src="images/bg-img_07.png" alt="">
+                            <img src="images/img_02_Tidepool.png" alt="" class="mockups">
+                        </section>
+                        <section class="section-white text-center">
+                            <div class="columns large-8 large-centered">
+                                <h1 class="text-graylight text-uppercase">Tidepool</h1>
+                                <p class="t-20 text-graylight">Tidepool helps you keep your mind sharp with a daily training program. Play scientifically designed games for training and insights, track your performance, and challenge your friends.</p>
+                                <span class="list-services">
+                                  <a class="icon icon-o-apple" target="_blank" href="https://itunes.apple.com/us/app/tidepool-be-sharp.-be-fit./id872808619?mt=8"></a>
+                                  <!-- <a class="icon icon-o-comment" href="#"></a> -->
+                                  <!-- <a class="icon icon-o-android" href="#"></a> -->
+                                  <!-- <a class="icon icon-o-horse-sm" href="#"></a> -->
+                                </span>
+                            </div>
+                        </section>
+                    </li>
+                    <li data-orbit-slide="headline-4">
+                        <section class="section-top text-white text-center">
+                            <img src="images/bg-girl.jpg" alt="">
+                            <img src="images/img_03_GemShare.png" alt="" class="mockups">
+                        </section>
+                        <section class="section-white text-center">
+                            <div class="columns large-8 large-centered">
+                                <h1 class="text-graylight text-uppercase">Gemshare</h1>
+                                <p class="t-20 text-graylight">GemShare is a network for personal recommendations for the local services we all need to keep life running smoothly. Get real recommendations from people you know and trust: friends, friends of friends, and groups you create and join.</p>
+                                <span class="list-services">
+                                  <a class="icon icon-o-apple" target="_blank" href="https://itunes.apple.com/us/app/gemshare-best-local-services/id835630899?mt=8"></a>
+                                  <!-- <a class="icon icon-o-comment" href="#"></a> -->
+                                  <!-- <a class="icon icon-o-android" href="#"></a> -->
+                                  <!-- <a class="icon icon-o-horse-sm" href="#"></a> -->
+                                </span>
+                            </div>
+                        </section>
+                    </li>
+                </ul>           
+            </section>
+
+            <section class="section-hand-phone text-white text-center" id="ourclients">
+                <div class="row fullwidth">
+                    <div class="column large-9 large-centered">
+                        <div class="row">
+                            <div class="large-12 columns">
+                                <h1>OUR CLIENTS</h1>
+                                <p class="t-20">We are only successful because of our clients, here are a few.
+                                    <br> We’re just getting started.</p><br><br><br><br>
+                            </div>
+                           <ul class="clients-list da-thumbs" id="da-thumbs">
+                                <li>
+                                    <p><img src="images/clients/client-1.png" alt=""></p>
+                                    <!--<div class="more-info">
+                                        <p class="t-12">“Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh”</p><br>
+                                        <p>Lorem ipsum <br> dolor sit amet</p>
+                                    </div>-->
+                                </li>
+                                <li>
+                                    <p><img src="images/clients/client-2.png" alt=""></p>
+                                    <!--<div class="more-info">
+                                        <p class="t-12">“Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh”</p><br>
+                                        <p>Lorem ipsum <br> dolor sit amet</p>
+                                    </div>-->
+                                </li>
+                                <li>
+                                    <p><img src="images/clients/logo_Sidebar.png" alt=""></p>
+                                    <!--<div class="more-info">
+                                        <p class="t-12">“Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh”</p><br>
+                                        <p>Lorem ipsum <br> dolor sit amet</p>
+                                    </div>-->
+                                </li>
+                                <li>
+                                    <p><img src="images/clients/client-4.png" alt=""></p>
+                                    <!--<div class="more-info">
+                                        <p class="t-12">“Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh”</p><br>
+                                        <p>Lorem ipsum <br> dolor sit amet</p>
+                                    </div>-->
+                                </li>
+                                <li>
+                                    <p><img src="images/clients/client-5.png" alt=""></p>
+                                    <!--<div class="more-info">
+                                        <p class="t-12">“Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh”</p><br>
+                                        <p>Lorem ipsum <br> dolor sit amet</p>
+                                    </div>-->
+                                </li>
+                                <li>
+                                    <p><img src="images/clients/logo_piqora.png" alt=""></p>
+                                    <!--<div class="more-info">
+                                        <p class="t-12">“Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh”</p><br>
+                                        <p>Lorem ipsum <br> dolor sit amet</p>
+                                    </div>-->
+                                </li>
+                                <li>
+                                    <p><img src="images/clients/logo_OrderIn.png" alt=""></p>
+                                    <!--<div class="more-info">
+                                        <p class="t-12">“Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh”</p><br>
+                                        <p>Lorem ipsum <br> dolor sit amet</p>
+                                    </div>-->
+                                </li>
+                                <li>
+                                    <p><img src="images/clients/logo_payrollhero.png" alt=""></p>
+                                    <!--<div class="more-info">
+                                        <p class="t-12">“Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh”</p><br>
+                                        <p>Lorem ipsum <br> dolor sit amet</p>
+                                    </div>-->
+                                </li>
+                                <li>
+                                    <p><img src="images/clients/client-7.png" alt=""></p>
+                                    <!--<div class="more-info">
+                                        <p class="t-12">“Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh”</p><br>
+                                        <p>Lorem ipsum <br> dolor sit amet</p>
+                                    </div>-->
+                                </li>
+                                <li>
+                                    <p><img src="images/clients/client-6.png" alt=""></p>
+                                    <!--<div class="more-info">
+                                        <p class="t-12">“Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh”</p><br>
+                                        <p>Lorem ipsum <br> dolor sit amet</p>
+                                    </div>-->
+                                </li>
+                                <li>
+                                    <p><img src="images/clients/client-8.png" alt=""></p>
+                                    <!--<div class="more-info">
+                                        <p class="t-12">“Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh”</p><br>
+                                        <p>Lorem ipsum <br> dolor sit amet</p>
+                                    </div>-->
+                                </li><li>
+                                    <p><img src="images/clients/client-9.png" alt=""></p>
+                                    <!--<div class="more-info">
+                                        <p class="t-12">“Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh”</p><br>
+                                        <p>Lorem ipsum <br> dolor sit amet</p>
+                                    </div>-->
+                                </li><!--<li>
+                                    <p><img src="images/clients/client-10.png" alt=""></p>
+                                    <!--<div class="more-info">
+                                        <p class="t-12">“Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh”</p><br>
+                                        <p>Lorem ipsum <br> dolor sit amet</p>
+                                    </div>-->
+                                <!--</li>-->
+                             
+                              
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-contact last text-gray" id="getintouch">
+                <div class="parallax" data-stellar-ratio="0.1" data-stellar-vertical-offset="0" data-stellar-offset-parent="true"></div>
+                <div class="parallax-shape" data-stellar-ratio="0.5" data-stellar-vertical-offset="-300" data-stellar-offset-parent="true"></div>
+                <div class="row fullwidth">
+                    <div class="column large-7 large-centered">
+                        <div class="row">
+                            <div class="large-6 columns text-right">
+                                <h1 class="t-85 text-gray text-uppercase">
+                            Let’s <br>
+                            <span class="text-primary text-medium">build it</span><br>
+                            together</h1>
+                                <p class="t-20">Want to learn more about
+                                <br> Interactive Labs and how we can work
+                                <br/>together? Connect with us.</p>
+                                <p class="t-16">564 Market St<br/>Suite 616<br/>San Francisco CA<br/> 94105</p>
+                                <p class="t-16"><a href="mailto:hello@interactivelabs.co">hello@interactivelabs.co</a><br/>415 758-1237</p>
+                            </div>
+
+                            <div class="large-6 columns text-left">
+                                <br>
+                                <form id="sendEmailForm" action="/send_email.php">
+                                    <div class="row">
+                                        <div class="large-12 columns">
+                                            <input id="fullname" name="fullname" type="text" placeholder="Full name" />
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="large-12 columns">
+                                            <input id="email" name="email" type="text" placeholder="Email" />
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="large-12 columns">
+                                            <input id="phone" name="phone" type="text" placeholder="Phone number" />
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="large-12 columns" rows="28">
+                                            <textarea id="message" name="message" placeholder="Tell us more about your project..."></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="large-12 columns buttons-row" rows="28">
+                                            <input type="submit" name="submit" value="CONNECT" class="button t-20"/>
+                                            <p class="t-14 error" style="display: none">Please fill fequired fields above.</p>
+                                            <p class="email-send_response t-14 text-primary"></p>
+                                        </div>
+                                    </div>
+                                </form>
+
+                                <script>
+                                    $("#sendEmailForm").validate({
+                                        rules: {
+                                            email: {
+                                                required: true,
+                                                email: true
+                                            },
+                                            fullname: "required",
+                                            phone: "required",
+                                            message: "required"
+                                        },
+                                        errorPlacement: function(error, element) {},
+                                        invalidHandler: function(event, validator) {
+                                            $('.t-14.error').show();
+                                        },
+                                        submitHandler: function(form) {
+                                            $.ajax({
+                                                type: "POST",
+                                                dataType: "json",
+                                                url: $(form).attr('action'),
+                                                data: $(form).serialize(),
+                                                success: function(response)
+                                                {
+                                                    if ( response.status != 'error' ) {
+                                                       $('#sendEmailForm').find("input[type=text], textarea").val("");
+                                                    }
+
+                                                    $('.email-send_response').show();
+                                                    $('.email-send_response').html( response.message );
+                                                    $('.email-send_response').removeClass( 'ok error' );
+                                                    $('.email-send_response').addClass( response.status );
+
+                                                    setInterval(function () {$('.email-send_response').hide()}, 5000);
+                                                }
+                                            });
+                                            $('.t-14.error').hide();
+                                        }
+                                    });
+                                </script>
+                                <br>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- close the off-canvas menu -->
+            <a class="exit-off-canvas"></a>
+
+        </div>
     </div>
-    <div id="content">
-      <div id="showcase" class="section" style="text-align:center;">
-        <div class="fullscreen-img"></div>
-        <ul class="staggered">
-          <li class="normal">We</li>
-          <li class="normal">Build</li>
-          <li class="normal">Interactive Mobile Apps</li>
-        </ul>
-      </div>
-      <div id="work" class="section" style="text-align:center;">
-        <p class="section-title">What we have built</p> 
-        <!-- Threadflip -->
-        <div class="slides-container">
-              <a href="https://itunes.apple.com/us/app/threadflip-buy-sell-fashion/id531527909?mt=8" target="_blank"><img src="images/ThreadFlip.png"/></a>
-        </div>
-        <div class="section-work-descrip">
-          <p class="section-work-descrip-title"><a href="http://www.threadflip.com/shop/" target="_blank"><img src="images/Threadflip-logo.jpg"/></a></p>
-          <p class="section-work-descrip-line"><div class="red-square"> </div>Threadflip is a fun and easy way to shop and sell fashion with people who share your style</p>
-          <p class="section-work-descrip-line"><div class="red-square"> </div>Owned development of iOS and Android app</p>
-          <p class="section-work-descrip-line"><div class="red-square"> </div>iOS app was featured by Apple multiple times</p>
-          <p class="section-work-descrip-badge"><a href="https://itunes.apple.com/us/app/threadflip-buy-sell-fashion/id531527909?mt=8" target="_blank"><img src="images/apple_store_icon.png"/></a>
-          <a href="https://play.google.com/store/apps/details?id=com.threadflip.android" target="_blank"><img src="images/android.png"/></a>
-          </p>
-        </div>
-        <!-- Gemshare -->
-        <div class="slides-container">
-              <a href="https://itunes.apple.com/us/app/gemshare/id835630899?mt=8" target="_blank"><img src="images/gemshare.png"/></a>
-        </div>
-        <div class="section-work-descrip">
-          <p class="section-work-descrip-title"> <a href="https://www.gemshare.com/" target="_blank"><img src="images/gemshare_logo.png"/></a></p>
-          <p class="section-work-descrip-line"><div class="red-square"> </div>Personalized recommendations for products and services</p>
-          <p class="section-work-descrip-line"><div class="red-square"> </div>Worked closely with customer&rsquo;s backend and product team in an iterative fashion</p>
-          <p class="section-work-descrip-line"><div class="red-square"> </div>Proactively influenced design and functionality to guide customer through the development cycle </p>
-          <p class="section-work-descrip-line"><div class="red-square"> </div>App was featured by Apple</p>
-          <p class="section-work-descrip-badge"><a href="https://itunes.apple.com/us/app/gemshare/id835630899?mt=8" target="_blank"><img src="images/apple_store_icon.png"/></a>
-          </p>
-        </div>
 
-        <!-- Tidepool -->
-        <div class="slides-container">
-              <a href="https://itunes.apple.com/us/app/tidepool-v1/id872808619?mt=8" target="_blank"><img src="images/TidePool.png"/></a>
-        </div>
-        <div class="section-work-descrip">
-          <p class="section-work-descrip-title"> <a href="https://www.tidepool.co/" target="_blank"><img src="images/tidepool_logo.png"/></a></p>
-          <p class="section-work-descrip-line"><div class="red-square"> </div>Tidepool helps you train your mind and body every day and improves your daily performance </p>
-          <p class="section-work-descrip-line"><div class="red-square"> </div>Using state-of-the-art scientific techniques and patented technology, Tidepool give you deep insight into what makes you unique</p>
-          <p class="section-work-descrip-badge"><a href="https://itunes.apple.com/us/app/tidepool-v1/id872808619?mt=8" target="_blank"><img src="images/apple_store_icon.png"/></a>
-          </p>
-        </div>
-
-        <!-- Sidebar -->
-        <div class="slides-container">
-              <a href="https://play.google.com/store/apps/details?id=com.hzsoft.sidebar&hl=en" target="_blank"><img src="images/Sidebar.png"/></a>
-        </div>
-        <div class="section-work-descrip">
-          <p class="section-work-descrip-title"> <a href="http://sidebar.com/" target="_blank">Sidebar</a></p>
-          <p class="section-work-descrip-line"><div class="red-square"> </div>Safe and easy text messaging for service businesses</p>
-          <p class="section-work-descrip-line"><div class="red-square"> </div>Getting the word out to your staff is hard when they don’t have corporate email, Sidebar solves that</p>
-          <p class="section-work-descrip-line"><div class="red-square"> </div>Built iOS (Enterprise) and Android app</p>
-          <p class="section-work-descrip-badge"><a href="https://play.google.com/store/apps/details?id=com.hzsoft.sidebar&hl=en" target="_blank"><img src="images/android.png"/></a>
-          </p>
-        </div>
-
-        <!-- Flares -->
-        <div class="slides-container">
-              <a href="https://itunes.apple.com/ca/app/flares-by-flareworks/id880438400?mt=8" target="_blank"><img src="images/Flare.png"/></a>
-        </div>
-        <div class="section-work-descrip">
-          <p class="section-work-descrip-title"> <a href="http://www.flareworks.com/" target="_blank"><img src="images/flares_logo.png"/></a></p>
-          <p class="section-work-descrip-line"><div class="red-square"> </div>Flares is a new mobile messaging service that let’s you shoot flares to your friends to let them know exactly where you are</p>
-          <p class="section-work-descrip-line"><div class="red-square"> </div>Flares are viewable for 40 seconds, like real flares, before expiring from your friend’s phone</p>
-          <p class="section-work-descrip-line"><div class="red-square"> </div>Built iOS and Android (coming soon) app</p>
-          <p class="section-work-descrip-badge"><a href="https://itunes.apple.com/ca/app/flares-by-flareworks/id880438400?mt=8" target="_blank"><img src="images/apple_store_icon.png"/></a>
-          </p>
-        </div>
-
-        <!-- BSG -->
-        <div class="slides-container">
-              <a href="https://itunes.apple.com/us/app/game-secrets-answer-provocative/id873348034?mt=8" target="_blank"><img src="images/GameOfSecret.png"/></a>
-        </div>
-        <div class="section-work-descrip">
-          <p class="section-work-descrip-title">Rocketeer Inc</p>
-          <p class="section-work-descrip-line"><div class="red-square"> </div>Game of Secrets is a fun way to find out what people really think about you</p>
-          <p class="section-work-descrip-line"><div class="red-square"> </div>Built the app end-to-end, from the client to the back end</p>
-          <p class="section-work-descrip-badge"><a href="https://itunes.apple.com/us/app/game-secrets-answer-provocative/id873348034?mt=8" target="_blank"><img src="images/apple_store_icon.png"/></a>
-          </p>
-        </div>
-
-      </div>
-      <div id="whatwedo" class="section">
-        <p class="section-title">What we do</p>
-        <ul id="platforms" class="horizontal">
-          <li class="ios first">iOS</li> 
-          <li class="android">Android</li> 
-          <li class="service last">Service</li> 
-        </ul> 
-        <p class="detail">
-          Our services cover from developing iOS and Android apps, to building the backend services that power them.
-          We pride ourselves on our expertise to deliver dynamic and responsive interaction between your users and your product.
-        </p>
-      </div>
-      <div id="services" class="section">
-        <p class="section-title">How we do it</p> 
-        <ul id="steps" class="horizontal">
-          <li class="discover first">Discover</li> 
-          <li class="development">Develop</li> 
-          <li class="delivery last">Deliver</li> 
-        </ul> 
-        <ul id="steps-text" class="horizontal">
-          <li class="first">
-            Understand your vision + determine scope + technical breakdown + establish timeline           
-          </li> 
-          <li>
-            Best practices in development methodology + best and latest practices in code crafting  
-          </li> 
-          <li class="last">
-            Automated and manual testing + service deployment + app submission + app insight 
-          </li> 
-        </ul> 
-      </div>
-      <div id="who" class="section last">
-        <p class="section-title">Contact</p>
-        <div id="contact-info-container">
-          <div id="contact-info" class="horizontal">
-            <div class="contact-section">
-              <h3 class="office">Office</h3>
-              <div>
-              San Francisco, CA
-              </div>
-            </div>
-            <div class="contact-section">
-              <h3 class="email">Email</h3>
-              <div>
-              hello@interactivelabs.co
-              </div>
-            </div>
-            <div class="contact-section">
-              <h3 class="phone">Phone</h3>
-              <div>(310) 897-6648</div>
-            </div>
-            <div style="clear:both;"></div>
-        </div>
-      </div>
-    </div>
+    <script src="js/app.js"></script>
     <script>
-      $(function(){
-        $("#slides").slidesjs({
-          width: 900,
-          height: 563,
-          callback: {
-            complete: function(number) {
-              setWorkTitle(number);
-            }
-          }
+        $(window).load(function(){
+
+            $(' #da-thumbs > li ').each( function() { $(this).hoverdir(); } );
+
+            $.stellar({
+                    horizontalScrolling: false,
+                    positionProperty: 'transform'
+                });
+
+            $(window).scroll(function(){
+                $('.exit-off-canvas').click();
+            });
         });
-        $('a.slidesjs-next').after(
-          '<a id="work-title"></a>'
-        );
-        setWorkTitle(1);
-      });
-      
-      function setWorkTitle(number) {
-        switch(number) {
-          case 1:
-            $("#work-title").attr('href', 'https://itunes.apple.com/us/app/threadflip-buy-sell-fashion/id531527909?mt=8').html("Threadflip");
-            break;
-          case 2:
-            $("#work-title").attr('href', 'https://itunes.apple.com/us/app/songbooth/id579884644?mt=8').html("Songbooth");
-          break;
-          case 3:
-            $("#work-title").attr('href', 'https://itunes.apple.com/us/app/revinate-mobile/id656927496?mt=8').html("Revinate");
-          break;
-        };
-      };
-    </script>
-    <script>
-      $(function(){
-        $('#header-nav ul li').click(function() {
-          $('#header-nav ul li').removeClass('selected');
-          $(this).addClass('selected');
-          var destSection;
-          switch ($(this).attr("id")) {
-            case "work-nav":
-              destSection = "work";
-              break;
-            case "services-nav":
-              destSection = "whatwedo";
-              break;
-            case "process-nav":
-              destSection = "services";
-              break;
-            case "contact-nav":
-              destSection = "who";
-              break;
-          };
-          var el = document.getElementById(destSection);
-          window.scrollTo(el.offsetLeft, el.offsetTop - 75);
-          return false;
-        });
-      });
-    </script>
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-      ga('create', 'UA-53642410-1', 'auto');
-      ga('send', 'pageview');
 
     </script>
-  </body>
+
+</body>
+
 </html>

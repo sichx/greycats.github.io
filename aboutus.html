@@ -1,0 +1,186 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>iLabs</title>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:100,400,300,500,700,900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/jquery.hoverdir.js"></script>
+    <script src="js/jquery.stellar.js"></script>
+    
+    <script src="bower_components/foundation/js/foundation.min.js"></script>
+    
+    <script src="bower_components/modernizr/modernizr.js"></script>
+
+    <script src="js/jquery.rwdImageMaps.min.js"></script>
+
+    <script>
+        $(document).ready(function(e) {
+            $('img[image]').rwdImageMaps();
+
+            $('.person area').hover(
+                    function(){
+                        var person = $(this).closest('.person')
+                        person.find('img').hide();
+                        person.find('img.onhover').show();
+                    },
+                    function(){
+                        var person = $(this).closest('.person')
+                        person.find('img').hide();
+                        person.find('img').not('.onhover').show();
+                    }
+            );
+        });
+
+        $( window ).load(function(e) {
+            $(window).resize(function() {
+                $.each($('.person'), function() {
+                    var pattern     = $(this).find('area').data('pattern');
+
+                    if (typeof pattern !== typeof undefined && pattern !== false) {
+                        var width       = $(this).width() - 1;
+                        var newCoords   = [];
+
+                        $.each(pattern.split(','), function(i , coord){
+                            newCoords.push( Math.round(eval(coord.replace('width', width))) );
+                        });
+                        $(this).find('area').attr('coords', newCoords.join(","));
+                    }
+                });
+            }).trigger('resize');
+        });
+    </script>
+
+<body class="career-page">
+
+    <div class="off-canvas-wrap" data-offcanvas>
+        <a role="button" href="#" class="menu-button left-off-canvas-toggle"><span class="icon icon-menu"></span></a>
+        <div class="fixed off-canvas-fixed">
+            <a class="exit-off-canvas"></a>
+               
+            <!-- Off Canvas Menu -->
+            <aside class="left-off-canvas-menu">
+                <div class="in">
+                    <a class="exit-off-canvas"><span class="icon icon-menu"></span></a>
+                    <ul>
+                        <li><a href="index.html"><i class="icon icon-menu-home"></i> Home</a>
+                        </li>
+                        <li><a href="index.html#ourwork"><i class="icon icon-menu-work"></i> Our Work</a>
+                        </li>
+                        <li><a href="services.html"><i class="icon icon-menu-service"></i> Services / Process</a>
+                        </li>
+                        <li><a href="index.html#ourclients"><i class="icon icon-menu-careers"></i> Our Clients</a>
+                        </li>
+                        <li class="active"><a href="aboutus.html"><i class="icon icon-menu-about"></i> About iLabs</a>
+                        </li>
+                        <li><a href="index.html#getintouch"><i class="icon icon-menu-getin"></i> Get in Touch</a>
+                        </li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+        <div class="inner-wrap">
+            <section class="section-mount">
+                <div class="parallax" data-stellar-ratio="0.1" data-stellar-vertical-offset="0" data-stellar-offset-parent="true"></div>
+                <div class="parallax-shape" data-stellar-ratio="0.5" data-stellar-vertical-offset="0" data-stellar-offset-parent="true"></div>
+                <div class="text-center">
+                    <div class="row">
+                        <div class="large-12 columns">
+                            <h1 class="text-white text-uppercase">the <span>team</span></h1>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <secton class="section-white text-center">
+                <div class="row">
+                    <div class="large-12 columns">
+                        <h1 class="text-gray">WHO ARE WE?</h1>
+                        <p>We are a team of startup veterans obsessed with mobile technologies and the ecosystems around them. We are a collection of technologists, artists, designers and product managers - but the thing that brings us together is our collective passion for mobile. Our success is a direct reflection of our passion and our entrepreneurial spirit.</p>
+                    </div>
+                </div>
+                        <div class="person-container">
+                            <div class="person">
+                                <span class="img">                                
+                                    <img src="images/photo_01_hover.png" alt=""  usemap="#image" class="onhover">
+                                    <img src="images/photo_01_normal.png" alt=""  usemap="#image">
+                                    <map id="image" name="image">
+                                        <area shape="poly" data-pattern="0, 0.86*width, width, 0.86*width, 0.5*width, 0" coords="0,379,436,376,217,0" href="#" alt="info">
+                                    </map>
+                                </span>
+                                <a href="#" class="info">
+                                    <span class="name text-uppercase">Rohan<br/>Sardesai</span>
+                                    <span class="position">CEO</span>
+                                </a>
+                                <ul class="soc">
+                                    <li>
+                                        <a href="https://www.linkedin.com/profile/view?id=618357" target="_blank" class="icon icon-in-state"></a>
+                                    </li>
+                                    <!--<li>
+                                        <a href="#" class="icon icon-twit-state"></a>
+                                    </li>-->
+                                </ul>
+                            </div>
+                            <div class="person">
+                                <span class="img">       
+                                    <img src="images/photo_02_hover.png" alt=""  usemap="#image3"  class="onhover">         
+                                    <img src="images/photo_02_normal.png" alt=""  usemap="#image3">
+                                    <map id="image3" name="image3">
+                                        <area shape="poly" data-pattern="0, 0, width, 0, 0.5*width, 0.86*width" coords="0,0,437,0,217,378" href="#" alt="info">
+                                    </map>
+                                </span>
+                                <a href="#" class="info">
+                                    <span class="name text-uppercase">Steve<br/>Xu</span>
+                                    <span class="position">CTO</span>
+                                </a>
+                                <ul class="soc">
+                                    <li>
+                                        <a href="https://www.linkedin.com/profile/view?id=2466670" target="_blank" class="icon icon-in-state"></a>
+                                    </li>
+                                    <!--<li>
+                                        <a href="#" class="icon icon-twit-state"></a>
+                                    </li>-->
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+            </secton>
+            <!--<section class="section-polygon text-center">
+                <a href="#" class="triangle text-uppercase">
+                    <span class="state">You</span>
+                    <span class="hover">Our<br/>next<br/><span>great<br/>hire<br/></span><i class="icon icon-arrow-bottom"></i></span>
+                </a>
+            </section>-->
+
+
+            <!-- close the off-canvas menu -->
+            <a class="exit-off-canvas"></a>
+
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+    <script>
+        
+        
+        $(' #da-thumbs > li ').each( function() { $(this).hoverdir(); } );
+
+        $.stellar({
+                horizontalScrolling: false,
+                positionProperty: 'transform'
+            });
+
+        $(window).scroll(function(){ 
+            $('.exit-off-canvas').click();
+        });
+
+   
+    </script>
+
+</body>
+
+</html>

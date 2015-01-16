@@ -1,0 +1,7 @@
+{
+    "name": "ilabs/ilabs",
+    "require": {
+        "php": ">=5.3.3",
+        "phpmailer/phpmailer": "*"
+    }
+}

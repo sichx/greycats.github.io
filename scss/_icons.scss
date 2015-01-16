@@ -1,0 +1,155 @@
+@import "compass/css3/background-size";
+
+/* ====== Icons ====== */
+.icon {
+    display: inline-block; 
+    vertical-align: middle;  }
+
+//* Path to sprites
+//  ========================================================================== */
+$sprites: sprite-map("icon/*.png");
+$sprites-retina: sprite-map("icon-retina/*.png");
+
+@mixin sprite-background($name)  {
+    background-image: sprite-url($sprites);
+    background-position: sprite-position($sprites, $name);
+    background-repeat: no-repeat;
+    //display: block;
+    height: image-height(sprite-file($sprites, $name));
+    width: image-width(sprite-file($sprites, $name));
+    
+    @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3/2), (min-device-pixel-ratio: 2) {
+        // Workaround for https://gist.github.com/2140082
+        @if (sprite-position($sprites, $name) !=sprite-position($sprites-retina, $name)) {
+            $ypos: round(nth(sprite-position($sprites-retina, $name), 2) / 2);
+            background-position: 0 $ypos;
+        }
+        // Grab size of non-retina sprite image.
+        @include background-size(image-width(sprite-path($sprites)) image-height(sprite-path($sprites)));
+        background-image:sprite-url($sprites-retina);
+    }
+}
+
+
+.icon-logo {
+   @include sprite-background(logo); }
+
+.icon-arrow-right {
+   @include sprite-background(arrow-right); }
+
+.icon-arrow-dark {
+   @include sprite-background(arrow-dark); }
+
+.icon-arrow-bottom {
+   @include sprite-background(arrow-bottom); }
+
+.icon-o-horse {
+   @include sprite-background(o-horse); }
+
+.icon-o-prod {
+   @include sprite-background(o-prod); }
+
+.icon-o-dev {
+   @include sprite-background(o-dev); }
+
+.icon-arrow-right-slide {
+   @include sprite-background(arrow-right-slide); }
+
+.icon-arrow-left-slide {
+   @include sprite-background(arrow-left-slide); }
+
+.icon-o-horse-sm {
+   @include sprite-background(o-horse-sm); }
+
+.icon-o-comment {
+   @include sprite-background(o-comment); }
+
+.icon-o-apple {
+   @include sprite-background(o-apple); }
+
+.icon-o-android {
+   @include sprite-background(o-android); }
+
+.icon-menu-work {
+   @include sprite-background(menu-work); }
+
+.icon-menu-service {
+   @include sprite-background(menu-service); }
+
+.icon-menu-about {
+   @include sprite-background(menu-about); }
+
+.icon-menu-getin {
+   @include sprite-background(menu-getin); }
+
+.icon-menu-careers {
+   @include sprite-background(menu-careers); }
+
+.icon-menu-home {
+   @include sprite-background(menu-home); }
+
+.icon-menu-work-hover {
+   @include sprite-background(menu-work-hover); }
+
+.icon-menu-service-hover {
+   @include sprite-background(menu-service-hover); }
+
+.icon-menu-about-hover {
+   @include sprite-background(menu-about-hover); }
+
+.icon-menu-getin-hover {
+   @include sprite-background(menu-getin-hover); }
+
+.icon-menu-careers-hover {
+   @include sprite-background(menu-careers-hover); } 
+
+.icon-menu-home-hover {
+   @include sprite-background(menu-home-hover); }
+
+.icon-menu {
+   @include sprite-background(menu); }
+
+.icon-icon-build {
+   @include sprite-background(icon-build); }
+
+.icon-icon-design {
+   @include sprite-background(icon-design); }
+
+.icon-icon-strategy {
+   @include sprite-background(icon-strategy); }
+
+.icon-o-define {
+   @include sprite-background(o-define); } 
+
+.icon-o-ideate {
+   @include sprite-background(o-ideate); }
+
+.icon-o-prototype {
+   @include sprite-background(o-prototype); }
+
+.icon-o-build {
+   @include sprite-background(o-build); }
+
+.icon-o-analyze {
+   @include sprite-background(o-analyze); } 
+
+.icon-o-define-small {
+   @include sprite-background(o-define-small); }
+
+.icon-o-ideate-small {
+   @include sprite-background(o-ideate-small); }
+
+.icon-o-build-small {
+   @include sprite-background(o-build-small); }
+
+.icon-in-state {
+   @include sprite-background(in-state); } 
+
+.icon-in-hover {
+   @include sprite-background(in-hover); }
+
+.icon-twit-state {
+   @include sprite-background(twit-state); }
+
+.icon-twit-hover {
+   @include sprite-background(twit-hover); }

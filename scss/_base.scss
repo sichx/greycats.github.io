@@ -1,0 +1,74 @@
+h1, .h1 {
+	font-size: 2.5rem;
+}
+.row.fullwidth {
+	margin-left: auto;
+   	margin-right: auto;
+	max-width: inherit;
+}
+.text-gray {
+	color: $gray;
+}
+.text-graylight {
+	color: #686868;
+}
+.text-white {
+	color: $white;
+}
+.text-primary {
+	color: $primary-color;
+}
+.text-dark-blue {
+	color: #1585b8;
+}
+.text-medium {
+	font-weight: 400;
+}
+.text-uppercase {
+	text-transform: uppercase;
+}
+.text-underline {
+	text-decoration: underline;
+}
+.m0 {
+	margin: 0!important;
+}
+.t-90 {
+	font-size: rem-calc(90);
+}
+.t-85 {
+	font-size: rem-calc(85);
+}
+.t-95 {
+	font-size: rem-calc(95);
+}
+.t-24 {
+	font-size: rem-calc(24);
+}
+.t-22 {
+	font-size: rem-calc(22);
+}
+.t-20 {
+	font-size: rem-calc(20);
+}
+.t-21 {
+	font-size: rem-calc(21);
+}
+.t-18 {
+	font-size: rem-calc(18);
+}
+.t-16 {
+	font-size: rem-calc(16);
+}
+.t-15 {
+	font-size: rem-calc(15);
+}
+.t-14 {
+	font-size: rem-calc(14);
+}
+.t-12 {
+	font-size: rem-calc(12);
+}
+.pb0 {
+	padding-bottom: 0!important;
+}
