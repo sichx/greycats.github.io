@@ -247,7 +247,7 @@
 			margin: auto;
 			max-width: 50%;
 			
-			@media #{$xlarge-up} {
+			@media (min-width:1800px) {
 				max-width: 100%;
 			}
 			@media #{$large-only} {
