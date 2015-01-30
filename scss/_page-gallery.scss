@@ -47,11 +47,18 @@
 					top:0;
 					left: 0;
 					padding-top: rem-calc(30);
+
+					@media #{$small-up}  {
+						display:none !important;
+					}
 				}
 
-				&:hover .hover-block {
-					display: block;
+				@media #{$large-up} {
+					&:hover .hover-block {
+						display: block !important;
+					}
 				}
+
 			}
 			h2 {
 				color:#000;
@@ -62,6 +69,15 @@
 			p.t-20 {
 				color: #838383;
 			}
+
+			.button.show-for-small-up.hide-for-large-up {
+				@media #{$small-up} {				 
+					display:inline-block !important;
+				}
+				@media #{$large-up} {				 
+					display:none !important;
+				}
+			}		
 			
 		}
 	}
