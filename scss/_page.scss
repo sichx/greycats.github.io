@@ -26,7 +26,7 @@
 		position: absolute;
 		width: 100%;
 		height: 100%;
-		z-index: 1;
+		z-index: 1; 
 		top: 0;
 	}
 	@media #{$xxlarge-only} {
@@ -247,7 +247,7 @@
 			margin: auto;
 			max-width: 50%;
 			
-			@media #{$xlarge-up} {
+			@media (min-width:1800px) {
 				max-width: 100%;
 			}
 			@media #{$large-only} {

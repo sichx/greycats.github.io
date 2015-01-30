@@ -24635,7 +24635,7 @@ h1, .h1 {
   margin: auto;
   max-width: 50%;
 }
-@media only screen and (min-width: 90.063em) {
+@media (min-width: 1800px) {
   /* line 242, ../scss/_page.scss */
   .orbit-container .orbit-slides-container img.mockups {
     max-width: 100%;
