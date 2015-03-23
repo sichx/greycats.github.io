@@ -10573,7 +10573,7 @@ h1, .h1 {
 @media only screen and (min-width: 90.063em) {
   /* line 506, ../scss/_page.scss */
   .section-contact .t-85 {
-    font-size: 5.3125rem;
+    font-size: 4.3125rem;
   }
 }
 /* line 514, ../scss/_page.scss */
@@ -10596,7 +10596,7 @@ h1, .h1 {
 @media only screen and (min-width: 90.063em) {
   /* line 514, ../scss/_page.scss */
   .section-contact h1.text-gray {
-    line-height: 5.9375rem;
+    line-height: 5rem;
   }
 }
 /* line 528, ../scss/_page.scss */
