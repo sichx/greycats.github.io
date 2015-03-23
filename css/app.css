@@ -10239,7 +10239,7 @@ h1, .h1 {
 @media only screen and (min-width: 90.063em) and (max-width: 120em) {
   /* line 197, ../scss/_page.scss */
   .section-gradient .large-6 {
-    width: 40%;
+    width: 50%;
   }
 }
 
