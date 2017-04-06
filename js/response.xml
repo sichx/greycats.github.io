@@ -1,0 +1,1685 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Listings xmlns="http://www.nwmls.com/Schemas/Standard/StandardXML1_5.xsd">
+   <BusinessOpportunity>
+      <LN>1059761</LN>
+      <PTYP>BUSO</PTYP>
+      <LAG>94835</LAG>
+      <ST>P</ST>
+      <LP>128888.00</LP>
+      <SP>0.00</SP>
+      <OLP>128888.00</OLP>
+      <HSN>4336</HSN>
+      <DRP />
+      <STR>Roosevelt</STR>
+      <SSUF>Wy</SSUF>
+      <DRS>NE</DRS>
+      <UNT>F</UNT>
+      <CIT>Seattle</CIT>
+      <STA>WA</STA>
+      <ZIP>98105</ZIP>
+      <PL4 />
+      <LSF>9700</LSF>
+      <UD>2017-01-05 19:40:56</UD>
+      <AR>710</AR>
+      <DSRNUM>2650</DSRNUM>
+      <LDR>2016-12-13 01:35:49</LDR>
+      <LD>2016-12-13 00:00:00</LD>
+      <CLO>1800-01-01 00:00:00</CLO>
+      <YBT>0</YBT>
+      <LO>3100</LO>
+      <TAX>1142000630</TAX>
+      <MAP />
+      <GRDX />
+      <GRDY />
+      <SAG>0</SAG>
+      <SO>0</SO>
+      <NIA>Y</NIA>
+      <MR>LOCATION!!! Don't miss out on this amazing opportunity to own a thriving donut business. Heavy traffic flow outside. Surrounded by commercial, offices, UW and residential neighborhood. Profitable turn-key donut shop in U-District. Plenty of regular customers. Seller is retiring but will stay to train until new owner is ready. Friendly leases with lots of potential for other concepts.</MR>
+      <LONG>-122.317375</LONG>
+      <LAT>47.661057</LAT>
+      <PDR>2017-01-05 00:00:00</PDR>
+      <CLA>105365</CLA>
+      <SHOADR>Y</SHOADR>
+      <DD>Take I-5 exit 169 towards NE 45th St. Turn right onto NE 45th St. Turn right onto Roosevelt way Ne. Store will be on the right.</DD>
+      <AVDT>1800-01-01 00:00:00</AVDT>
+      <INDT>1800-01-01 00:00:00</INDT>
+      <COU>King</COU>
+      <CDOM>23</CDOM>
+      <CTDT>1800-01-01 00:00:00</CTDT>
+      <SCA>0</SCA>
+      <SCO>0</SCO>
+      <VIRT />
+      <SDT>2017-01-05 19:40:56</SDT>
+      <FIN />
+      <MAPBOOK />
+      <DSR>University District</DSR>
+      <HSNA />
+      <AUCTION>N</AUCTION>
+      <COLO>3100</COLO>
+      <PIC>4</PIC>
+      <BDC>D</BDC>
+      <BLK />
+      <EMP>1</EMP>
+      <EQU>0</EQU>
+      <EQV>0</EQV>
+      <F17>C</F17>
+      <FRN>N</FRN>
+      <GRS>240000</GRS>
+      <GW>0</GW>
+      <HOD>0</HOD>
+      <HRS>24 Hours</HRS>
+      <INV>0</INV>
+      <LNM>N</LNM>
+      <LSI>Y</LSI>
+      <LT />
+      <NA />
+      <NP>70000</NP>
+      <PKC>0</PKC>
+      <PKU>12</PKU>
+      <PTO>Y</PTO>
+      <RES>0</RES>
+      <RNT>62733</RNT>
+      <SIN>Y</SIN>
+      <SML>Y</SML>
+      <TEXP>170000</TEXP>
+      <TOB>Restaurant</TOB>
+      <YRE>2005</YRE>
+      <YRS>11</YRS>
+      <LES>B</LES>
+      <LIC>D</LIC>
+      <LOC>E</LOC>
+      <MTB>A</MTB>
+      <POS>A|B</POS>
+      <RP>A</RP>
+      <TRM>B|C</TRM>
+      <ProhibitBLOG>Y</ProhibitBLOG>
+      <AllowAVM>Y</AllowAVM>
+      <PARQ>A</PARQ>
+      <BREO>N</BREO>
+      <LotSizeSource>Realist</LotSizeSource>
+      <OFF>RECEIPT</OFF>
+      <SaleType>MLS</SaleType>
+   </BusinessOpportunity>
+   <BusinessOpportunity>
+      <LN>963795</LN>
+      <PTYP>BUSO</PTYP>
+      <LAG>40748</LAG>
+      <ST>S</ST>
+      <LP>175000.00</LP>
+      <SP>140000.00</SP>
+      <OLP>187500.00</OLP>
+      <HSN>0</HSN>
+      <DRP />
+      <STR>Pine St</STR>
+      <SSUF />
+      <DRS />
+      <UNT />
+      <CIT>Seattle</CIT>
+      <STA>WA</STA>
+      <ZIP>98101</ZIP>
+      <PL4 />
+      <LSF>0</LSF>
+      <UD>2017-01-05 10:51:33</UD>
+      <AR>390</AR>
+      <DSRNUM>1793</DSRNUM>
+      <LDR>2016-06-20 13:35:25</LDR>
+      <LD>2016-06-20 00:00:00</LD>
+      <CLO>2017-01-03 00:00:00</CLO>
+      <YBT>0</YBT>
+      <LO>3510</LO>
+      <TAX>000000000</TAX>
+      <MAP />
+      <GRDX />
+      <GRDY />
+      <SAG>96082</SAG>
+      <SO>5049</SO>
+      <NIA>Y</NIA>
+      <MR>Location! Location! Location! Right off exit 166 on I-5.  This sandwich/ Deli shop has everything you are looking for such as walking cooler, restaurant type hood, gas range, convection oven, oven, dishwasher, sandwich cooler, under counter cooler, ice maker, lots of storage, about 300 sq ft of office area upstairs.  Easy operation with about 1/2 of the sale comes form internet orders that gives you plenty of time to prepare in advance.  Take this opportunity and operate as is or add on.</MR>
+      <LONG>-122.328515</LONG>
+      <LAT>47.614889</LAT>
+      <PDR>2016-11-25 00:00:00</PDR>
+      <CLA>107515</CLA>
+      <SHOADR>Y</SHOADR>
+      <DD>I-5 N, take exit 166, turn right onto Melose Ave, Turn right onto Pine St, It will be on the left.</DD>
+      <AVDT>1800-01-01 00:00:00</AVDT>
+      <INDT>1800-01-01 00:00:00</INDT>
+      <COU>King</COU>
+      <CDOM>160</CDOM>
+      <CTDT>1800-01-01 00:00:00</CTDT>
+      <SCA>0</SCA>
+      <SCO>0</SCO>
+      <VIRT />
+      <SDT>2017-01-05 10:51:33</SDT>
+      <FIN>Cash</FIN>
+      <MAPBOOK />
+      <DSR>North Capitol Hill</DSR>
+      <HSNA />
+      <AUCTION>N</AUCTION>
+      <COLO>3510</COLO>
+      <PIC>2</PIC>
+      <BDC>D</BDC>
+      <BLK />
+      <EMP>2</EMP>
+      <EQU>0</EQU>
+      <EQV>0</EQV>
+      <F17>B</F17>
+      <FRN>N</FRN>
+      <GRS>31250</GRS>
+      <GW>0</GW>
+      <HOD>0</HOD>
+      <HRS>11 - 8</HRS>
+      <INV>0</INV>
+      <LNM>N</LNM>
+      <LSI>Y</LSI>
+      <LT />
+      <NA>Undisclosed</NA>
+      <NP>0</NP>
+      <PKC>0</PKC>
+      <PKU>0</PKU>
+      <PTO>N</PTO>
+      <RES>0</RES>
+      <RNT>30000</RNT>
+      <SIN>Y</SIN>
+      <SML>Y</SML>
+      <TEXP>0</TEXP>
+      <TOB>Food &amp; Beverage</TOB>
+      <YRE>2004</YRE>
+      <YRS>6</YRS>
+      <LES>G</LES>
+      <LIC>A</LIC>
+      <LOC>F</LOC>
+      <MTB>A</MTB>
+      <POS>A</POS>
+      <RP>A</RP>
+      <TRM>B|C|I</TRM>
+      <ProhibitBLOG>Y</ProhibitBLOG>
+      <AllowAVM>Y</AllowAVM>
+      <PARQ>A</PARQ>
+      <BREO>N</BREO>
+      <SaleType>MLS</SaleType>
+   </BusinessOpportunity>
+   <BusinessOpportunity>
+      <LN>979279</LN>
+      <PTYP>BUSO</PTYP>
+      <LAG>49164</LAG>
+      <ST>A</ST>
+      <LP>2500000.00</LP>
+      <SP>0.00</SP>
+      <OLP>2500000.00</OLP>
+      <HSN>34217</HSN>
+      <DRP />
+      <STR>25th</STR>
+      <SSUF>Av Ct</SSUF>
+      <DRS>S</DRS>
+      <UNT />
+      <CIT>Roy</CIT>
+      <STA>WA</STA>
+      <ZIP>98580</ZIP>
+      <PL4 />
+      <LSF>524462</LSF>
+      <UD>2017-01-03 13:57:14</UD>
+      <AR>119</AR>
+      <DSRNUM>2176</DSRNUM>
+      <LDR>2016-07-18 13:14:59</LDR>
+      <LD>2016-07-18 00:00:00</LD>
+      <CLO>1800-01-01 00:00:00</CLO>
+      <YBT>0</YBT>
+      <LO>4253</LO>
+      <TAX>0317191010</TAX>
+      <MAP />
+      <GRDX />
+      <GRDY />
+      <SAG>0</SAG>
+      <SO>0</SO>
+      <NIA>Y</NIA>
+      <MR>Great Income . opportunity! A beautiful well cared for manufactured home park located in the country between Roy and Spanaway,Great View of Mt Rainer and 3 stocked fishing ponds for the residents to relax and fish, there are 36 active lots, 30 have parked owned homes that are rented on a month to month contract, the other 6 just pay space rent take out the old homes and replace with new, or build stick built,.ready .. each space is large enough for a triple wide, or double wide with a garage.</MR>
+      <LONG>-122.467110</LONG>
+      <LAT>46.946301</LAT>
+      <PDR>1800-01-01 00:00:00</PDR>
+      <CLA>0</CLA>
+      <SHOADR>Y</SHOADR>
+      <DD>right on 304th St E, left on 80th Ave S, RIght on 336th st S, left on 25th Ave Ct S (owners/managers home)</DD>
+      <AVDT>1800-01-01 00:00:00</AVDT>
+      <INDT>1800-01-01 00:00:00</INDT>
+      <COU>Pierce</COU>
+      <CDOM>169</CDOM>
+      <CTDT>1800-01-01 00:00:00</CTDT>
+      <SCA>0</SCA>
+      <SCO>0</SCO>
+      <VIRT />
+      <SDT>2016-07-18 13:14:59</SDT>
+      <FIN />
+      <MAPBOOK />
+      <DSR>Roy</DSR>
+      <HSNA />
+      <AUCTION>N</AUCTION>
+      <COLO>0</COLO>
+      <PIC>3</PIC>
+      <BDC>D</BDC>
+      <BLK />
+      <EMP>2</EMP>
+      <EQU>0</EQU>
+      <EQV>0</EQV>
+      <F17>C</F17>
+      <FRN>N</FRN>
+      <GRS>291600</GRS>
+      <GW>0</GW>
+      <HOD>0</HOD>
+      <HRS />
+      <INV>0</INV>
+      <LNM>Y</LNM>
+      <LSI>N</LSI>
+      <LT />
+      <NA />
+      <NP>272565</NP>
+      <PKC>0</PKC>
+      <PKU>64</PKU>
+      <PTO>Y</PTO>
+      <RES>20000</RES>
+      <RNT>0</RNT>
+      <SIN>Y</SIN>
+      <SML>Y</SML>
+      <TEXP>2500</TEXP>
+      <TOB>Manufactured home park</TOB>
+      <YRE>1984</YRE>
+      <YRS>32</YRS>
+      <LES>A</LES>
+      <LIC>D</LIC>
+      <LOC>C</LOC>
+      <MTB>I</MTB>
+      <POS>A</POS>
+      <RP />
+      <TRM>B|C</TRM>
+      <ProhibitBLOG>Y</ProhibitBLOG>
+      <AllowAVM>Y</AllowAVM>
+      <PARQ>A</PARQ>
+      <BREO>N</BREO>
+      <LotSizeSource>Tax Records</LotSizeSource>
+      <SaleType>MLS</SaleType>
+   </BusinessOpportunity>
+   <BusinessOpportunity>
+      <LN>1019058</LN>
+      <PTYP>BUSO</PTYP>
+      <LAG>99280</LAG>
+      <ST>A</ST>
+      <LP>49950.00</LP>
+      <SP>0.00</SP>
+      <OLP>180000.00</OLP>
+      <HSN>7820</HSN>
+      <DRP />
+      <STR>Rainier</STR>
+      <SSUF>Ave</SSUF>
+      <DRS>S</DRS>
+      <UNT />
+      <CIT>Seattle</CIT>
+      <STA>WA</STA>
+      <ZIP>98118</ZIP>
+      <PL4 />
+      <LSF>0</LSF>
+      <UD>2017-01-06 14:00:09</UD>
+      <AR>380</AR>
+      <DSRNUM>2253</DSRNUM>
+      <LDR>2016-08-23 13:59:35</LDR>
+      <LD>2016-08-23 00:00:00</LD>
+      <CLO>1800-01-01 00:00:00</CLO>
+      <YBT>0</YBT>
+      <LO>3647</LO>
+      <TAX>9412400046</TAX>
+      <MAP />
+      <GRDX />
+      <GRDY />
+      <SAG>0</SAG>
+      <SO>0</SO>
+      <NIA>Y</NIA>
+      <MR>Rainier Store &amp; Grocery:   Lots of room for growth and new business: 1) add signage, 2) expand store hours, 3) add State Lottery, 4) add Western Union, and 5) add Phone Cards, Friendly Landlord offering new 5 year Lease with a 5-Year Option. Plenty of room to grow business in new retail center at  intersection with ample parking and easy ingress and egress.</MR>
+      <LONG>-122.269577</LONG>
+      <LAT>47.532032</LAT>
+      <PDR>1800-01-01 00:00:00</PDR>
+      <CLA>0</CLA>
+      <SHOADR>Y</SHOADR>
+      <DD>1-5 Albro Place EXIT161, toward Swift Ave. Keep left toward SWIFT AVE S/VA MED CNTR. left S Albro Pl  right onto Swift Ave S. becomes S Myrtle St. becomes S Myrtle Pl. Turn right at Rainier Ave S.</DD>
+      <AVDT>1800-01-01 00:00:00</AVDT>
+      <INDT>1800-01-01 00:00:00</INDT>
+      <COU>King</COU>
+      <CDOM>131</CDOM>
+      <CTDT>1800-01-01 00:00:00</CTDT>
+      <SCA>0</SCA>
+      <SCO>0</SCO>
+      <VIRT />
+      <SDT>2017-01-06 13:59:49</SDT>
+      <FIN />
+      <MAPBOOK />
+      <DSR>Seattle</DSR>
+      <HSNA />
+      <AUCTION>N</AUCTION>
+      <COLO>0</COLO>
+      <PIC>16</PIC>
+      <BDC />
+      <BLK>6  Plat block</BLK>
+      <EMP>1</EMP>
+      <EQU>0</EQU>
+      <EQV>0</EQV>
+      <F17 />
+      <FRN>N</FRN>
+      <GRS>0</GRS>
+      <GW>121000</GW>
+      <HOD>0</HOD>
+      <HRS>9:00 AM to 9:00 PM</HRS>
+      <INV>7000</INV>
+      <LNM />
+      <LSI />
+      <LT>5-6</LT>
+      <NA>Rainier Store &amp; Grocery</NA>
+      <NP>0</NP>
+      <PKC>0</PKC>
+      <PKU>25</PKU>
+      <PTO>Y</PTO>
+      <RES>0</RES>
+      <RNT>0</RNT>
+      <SIN />
+      <SML>Y</SML>
+      <TEXP>0</TEXP>
+      <TOB>Rainier Store &amp; Grocery</TOB>
+      <YRE>0</YRE>
+      <YRS>0</YRS>
+      <LES />
+      <LIC>A</LIC>
+      <LOC>E</LOC>
+      <MTB>A|C|F</MTB>
+      <POS>B</POS>
+      <RP>D</RP>
+      <TRM>B|C</TRM>
+      <ProhibitBLOG>Y</ProhibitBLOG>
+      <AllowAVM>Y</AllowAVM>
+      <PARQ>A</PARQ>
+      <BREO>N</BREO>
+      <SaleType>MLS</SaleType>
+   </BusinessOpportunity>
+   <BusinessOpportunity>
+      <LN>1065054</LN>
+      <PTYP>BUSO</PTYP>
+      <LAG>50903</LAG>
+      <ST>A</ST>
+      <LP>200000.00</LP>
+      <SP>0.00</SP>
+      <OLP>200000.00</OLP>
+      <HSN>31840</HSN>
+      <DRP />
+      <STR>Pacific</STR>
+      <SSUF>Hwy</SSUF>
+      <DRS>S</DRS>
+      <UNT />
+      <CIT>Federal Way</CIT>
+      <STA>WA</STA>
+      <ZIP>98003</ZIP>
+      <PL4 />
+      <LSF>0</LSF>
+      <UD>2017-01-08 11:37:20</UD>
+      <AR>110</AR>
+      <DSRNUM>875</DSRNUM>
+      <LDR>2017-01-08 11:34:50</LDR>
+      <LD>2017-01-07 00:00:00</LD>
+      <CLO>1800-01-01 00:00:00</CLO>
+      <YBT>0</YBT>
+      <LO>3918</LO>
+      <TAX>AAA1234</TAX>
+      <MAP>745</MAP>
+      <GRDX>B</GRDX>
+      <GRDY>4</GRDY>
+      <SAG>0</SAG>
+      <SO>0</SO>
+      <NIA>Y</NIA>
+      <MR>Very well run busy Japanese Restaurant this location 30 years and (20 years this owner)   Good location corner shopping mall easy to access from 320th and Pacific Hwy.  Lunch and diner Tuesday to Saturday</MR>
+      <LONG>-122.313304</LONG>
+      <LAT>47.316483</LAT>
+      <PDR>1800-01-01 00:00:00</PDR>
+      <CLA>0</CLA>
+      <SHOADR>Y</SHOADR>
+      <DD>I5 Exit 320th #143 West on 320th Right on Pacific Hwy The Restaurant on your side.</DD>
+      <AVDT>1800-01-01 00:00:00</AVDT>
+      <INDT>1800-01-01 00:00:00</INDT>
+      <COU>King</COU>
+      <CDOM>0</CDOM>
+      <CTDT>1800-01-01 00:00:00</CTDT>
+      <SCA>0</SCA>
+      <SCO>0</SCO>
+      <VIRT />
+      <SDT>2017-01-08 11:34:50</SDT>
+      <FIN />
+      <MAPBOOK>Thom</MAPBOOK>
+      <DSR>Federal Way</DSR>
+      <HSNA />
+      <AUCTION>N</AUCTION>
+      <COLO>0</COLO>
+      <PIC>0</PIC>
+      <BDC>D</BDC>
+      <BLK />
+      <EMP>8</EMP>
+      <EQU>0</EQU>
+      <EQV>0</EQV>
+      <F17 />
+      <FRN>N</FRN>
+      <GRS>1</GRS>
+      <GW>0</GW>
+      <HOD>0</HOD>
+      <HRS>Tu-Sa 11-2 5-9</HRS>
+      <INV>0</INV>
+      <LNM>N</LNM>
+      <LSI>Y</LSI>
+      <LT />
+      <NA>Koharu Japanese Restaurant</NA>
+      <NP>1</NP>
+      <PKC>0</PKC>
+      <PKU>50</PKU>
+      <PTO>N</PTO>
+      <RES>0</RES>
+      <RNT>61800</RNT>
+      <SIN>Y</SIN>
+      <SML>Y</SML>
+      <TEXP>1</TEXP>
+      <TOB>Restaurant</TOB>
+      <YRE>2009</YRE>
+      <YRS>20</YRS>
+      <LES>E</LES>
+      <LIC>A</LIC>
+      <LOC>E</LOC>
+      <MTB>A</MTB>
+      <POS>A</POS>
+      <RP>A</RP>
+      <TRM>B</TRM>
+      <ProhibitBLOG>Y</ProhibitBLOG>
+      <AllowAVM>Y</AllowAVM>
+      <PARQ>A</PARQ>
+      <BREO>N</BREO>
+      <OFF>RECEIPT</OFF>
+      <SaleType>MLS</SaleType>
+   </BusinessOpportunity>
+   <BusinessOpportunity>
+      <LN>1065389</LN>
+      <PTYP>BUSO</PTYP>
+      <LAG>109802</LAG>
+      <ST>A</ST>
+      <LP>99000.00</LP>
+      <SP>0.00</SP>
+      <OLP>99000.00</OLP>
+      <HSN>2506</HSN>
+      <DRP />
+      <STR>Cornwall Ave</STR>
+      <SSUF />
+      <DRS />
+      <UNT />
+      <CIT>Bellingham</CIT>
+      <STA>WA</STA>
+      <ZIP>98225</ZIP>
+      <PL4 />
+      <LSF>0</LSF>
+      <UD>2017-01-09 15:35:19</UD>
+      <AR>860</AR>
+      <DSRNUM>667</DSRNUM>
+      <LDR>2017-01-09 15:35:19</LDR>
+      <LD>2017-01-09 00:00:00</LD>
+      <CLO>1800-01-01 00:00:00</CLO>
+      <YBT>0</YBT>
+      <LO>3649</LO>
+      <TAX>3803193100950000</TAX>
+      <MAP>30</MAP>
+      <GRDX>E</GRDX>
+      <GRDY>4</GRDY>
+      <SAG>0</SAG>
+      <SO>0</SO>
+      <NIA>Y</NIA>
+      <MR />
+      <LONG>-122.475031</LONG>
+      <LAT>48.763315</LAT>
+      <PDR>1800-01-01 00:00:00</PDR>
+      <CLA>0</CLA>
+      <SHOADR>Y</SHOADR>
+      <DD>Located at Cornwall Ave and Alabama St.</DD>
+      <AVDT>1800-01-01 00:00:00</AVDT>
+      <INDT>1800-01-01 00:00:00</INDT>
+      <COU>Whatcom</COU>
+      <CDOM>0</CDOM>
+      <CTDT>1800-01-01 00:00:00</CTDT>
+      <SCA>0</SCA>
+      <SCO>0</SCO>
+      <VIRT />
+      <SDT>2017-01-09 15:35:19</SDT>
+      <FIN />
+      <MAPBOOK>Tote</MAPBOOK>
+      <DSR>Downtown</DSR>
+      <HSNA />
+      <AUCTION>N</AUCTION>
+      <COLO>0</COLO>
+      <PIC>6</PIC>
+      <BDC />
+      <BLK />
+      <EMP>3</EMP>
+      <EQU>0</EQU>
+      <EQV>12590</EQV>
+      <F17>A</F17>
+      <FRN>N</FRN>
+      <GRS>118900</GRS>
+      <GW>74410</GW>
+      <HOD>0</HOD>
+      <HRS>8am - 5pm</HRS>
+      <INV>12000</INV>
+      <LNM>N</LNM>
+      <LSI>N</LSI>
+      <LT />
+      <NA>Bare Advanced Speed Waxing &amp; Skincare LL</NA>
+      <NP>32600</NP>
+      <PKC>0</PKC>
+      <PKU>0</PKU>
+      <PTO>N</PTO>
+      <RES>0</RES>
+      <RNT>14700</RNT>
+      <SIN>Y</SIN>
+      <SML>Y</SML>
+      <TEXP>86300</TEXP>
+      <TOB>Skincare Studio</TOB>
+      <YRE>2014</YRE>
+      <YRS>3</YRS>
+      <LES>B</LES>
+      <LIC />
+      <LOC>A</LOC>
+      <MTB>G</MTB>
+      <POS>B</POS>
+      <RP>A</RP>
+      <TRM>B|C|I</TRM>
+      <ProhibitBLOG>N</ProhibitBLOG>
+      <AllowAVM>Y</AllowAVM>
+      <PARQ>A</PARQ>
+      <BREO>N</BREO>
+      <OFF>RECEIPT</OFF>
+      <SaleType>MLS</SaleType>
+   </BusinessOpportunity>
+   <BusinessOpportunity>
+      <LN>423260</LN>
+      <PTYP>BUSO</PTYP>
+      <LAG>18060</LAG>
+      <ST>P</ST>
+      <LP>22500.00</LP>
+      <SP>0.00</SP>
+      <OLP>45000.00</OLP>
+      <HSN>44511</HSN>
+      <DRP />
+      <STR>Concrete Sauk Valley</STR>
+      <SSUF>Rd</SSUF>
+      <DRS />
+      <UNT />
+      <CIT>Concrete</CIT>
+      <STA>WA</STA>
+      <ZIP>98237</ZIP>
+      <PL4 />
+      <LSF>0</LSF>
+      <UD>2017-01-05 14:32:20</UD>
+      <AR>845</AR>
+      <DSRNUM>538</DSRNUM>
+      <LDR>2012-11-12 15:01:26</LDR>
+      <LD>2012-11-12 00:00:00</LD>
+      <CLO>1800-01-01 00:00:00</CLO>
+      <YBT>0</YBT>
+      <LO>8639</LO>
+      <TAX>biz1112</TAX>
+      <MAP>67</MAP>
+      <GRDX>E</GRDX>
+      <GRDY>4</GRDY>
+      <SAG>0</SAG>
+      <SO>0</SO>
+      <NIA>Y</NIA>
+      <MR>Real Estate Business for sale. Office in the same location for over 30 years. Located in the upper Skagit Valley, an area of great natural beauty. It is an ideal location with good North Cascade Highway visibility. Lots of walk in traffic and repeat business. This is a good opportunity. Very Easy Owner Financing.</MR>
+      <LONG>-121.765152</LONG>
+      <LAT>48.536507</LAT>
+      <PDR>2016-12-27 00:00:00</PDR>
+      <CLA>0</CLA>
+      <SHOADR>Y</SHOADR>
+      <DD>Hwy 20 to Concrete.</DD>
+      <AVDT>1800-01-01 00:00:00</AVDT>
+      <INDT>1800-01-01 00:00:00</INDT>
+      <COU>Skagit</COU>
+      <CDOM>1491</CDOM>
+      <CTDT>1800-01-01 00:00:00</CTDT>
+      <SCA>0</SCA>
+      <SCO>0</SCO>
+      <VIRT />
+      <SDT>2017-01-05 14:32:20</SDT>
+      <FIN />
+      <MAPBOOK>Tote</MAPBOOK>
+      <DSR>Concrete</DSR>
+      <HSNA />
+      <AUCTION>N</AUCTION>
+      <COLO>0</COLO>
+      <PIC>9</PIC>
+      <BDC />
+      <BLK />
+      <EMP>0</EMP>
+      <EQU>0</EQU>
+      <EQV>0</EQV>
+      <F17>B</F17>
+      <FRN>N</FRN>
+      <GRS>0</GRS>
+      <GW>0</GW>
+      <HOD>0</HOD>
+      <HRS />
+      <INV>0</INV>
+      <LNM>N</LNM>
+      <LSI />
+      <LT />
+      <NA />
+      <NP>0</NP>
+      <PKC>0</PKC>
+      <PKU>0</PKU>
+      <PTO>N</PTO>
+      <RES>0</RES>
+      <RNT>9600</RNT>
+      <SIN>Y</SIN>
+      <SML>Y</SML>
+      <TEXP>0</TEXP>
+      <TOB>Real Estate</TOB>
+      <YRE>1974</YRE>
+      <YRS>17</YRS>
+      <LES />
+      <LIC>C</LIC>
+      <LOC>C</LOC>
+      <MTB>I</MTB>
+      <POS>B</POS>
+      <RP />
+      <TRM>B|G</TRM>
+      <ProhibitBLOG>Y</ProhibitBLOG>
+      <AllowAVM>Y</AllowAVM>
+      <PARQ>A</PARQ>
+      <BREO>N</BREO>
+      <SaleType>MLS</SaleType>
+   </BusinessOpportunity>
+   <BusinessOpportunity>
+      <LN>636460</LN>
+      <PTYP>BUSO</PTYP>
+      <LAG>9641</LAG>
+      <ST>A</ST>
+      <LP>124950.00</LP>
+      <SP>0.00</SP>
+      <OLP>168000.00</OLP>
+      <HSN>520</HSN>
+      <DRP />
+      <STR>15th</STR>
+      <SSUF>Ave</SSUF>
+      <DRS>E</DRS>
+      <UNT />
+      <CIT>Seattle</CIT>
+      <STA>WA</STA>
+      <ZIP>98112</ZIP>
+      <PL4 />
+      <LSF>0</LSF>
+      <UD>2017-01-09 11:00:35</UD>
+      <AR>390</AR>
+      <DSRNUM>372</DSRNUM>
+      <LDR>2014-06-11 09:38:53</LDR>
+      <LD>2014-05-15 00:00:00</LD>
+      <CLO>1800-01-01 00:00:00</CLO>
+      <YBT>0</YBT>
+      <LO>7184</LO>
+      <TAX>bus111313</TAX>
+      <MAP>473</MAP>
+      <GRDX>F</GRDX>
+      <GRDY>2</GRDY>
+      <SAG>0</SAG>
+      <SO>0</SO>
+      <NIA>Y</NIA>
+      <MR>Owner Financing Available for this Alteration and Dry Cleaning drop off business established in same location since 1986.  Extremely stable and loyal clientele and great visibility in this Capital Hill High traffic location.  Alterations, Cleaning, Wedding Dresses, Wholesale for Retailers Contracts and permits.  Staff would stay on making this a truly turn key business.</MR>
+      <LONG>-122.312557</LONG>
+      <LAT>47.623828</LAT>
+      <PDR>1800-01-01 00:00:00</PDR>
+      <CLA>0</CLA>
+      <SHOADR>Y</SHOADR>
+      <DD>15th Ave NE... shop is on the main drag</DD>
+      <AVDT>1800-01-01 00:00:00</AVDT>
+      <INDT>1800-01-01 00:00:00</INDT>
+      <COU>King</COU>
+      <CDOM>1139</CDOM>
+      <CTDT>1800-01-01 00:00:00</CTDT>
+      <SCA>0</SCA>
+      <SCO>0</SCO>
+      <VIRT>http://listings.realbird.com/VirtualTour.aspx?rb-brand=0&amp;fid=301846&amp;id=A6E4B9B9</VIRT>
+      <SDT>2014-06-11 09:38:53</SDT>
+      <FIN />
+      <MAPBOOK>Thom</MAPBOOK>
+      <DSR>Capitol Hill</DSR>
+      <HSNA />
+      <AUCTION>N</AUCTION>
+      <COLO>0</COLO>
+      <PIC>11</PIC>
+      <BDC>A</BDC>
+      <BLK />
+      <EMP>3</EMP>
+      <EQU>0</EQU>
+      <EQV>0</EQV>
+      <F17>A</F17>
+      <FRN>N</FRN>
+      <GRS>150000</GRS>
+      <GW>0</GW>
+      <HOD>0</HOD>
+      <HRS>8-7 M-S</HRS>
+      <INV>0</INV>
+      <LNM>N</LNM>
+      <LSI>N</LSI>
+      <LT />
+      <NA>Alterations Plus</NA>
+      <NP>57107</NP>
+      <PKC>0</PKC>
+      <PKU>2</PKU>
+      <PTO>N</PTO>
+      <RES>0</RES>
+      <RNT>19512</RNT>
+      <SIN>Y</SIN>
+      <SML>Y</SML>
+      <TEXP>73812</TEXP>
+      <TOB>Service Taylor</TOB>
+      <YRE>1986</YRE>
+      <YRS>5</YRS>
+      <LES>G</LES>
+      <LIC>C</LIC>
+      <LOC>F</LOC>
+      <MTB>G|I</MTB>
+      <POS>A</POS>
+      <RP>A</RP>
+      <TRM>B|G|I|J</TRM>
+      <ProhibitBLOG>Y</ProhibitBLOG>
+      <AllowAVM>N</AllowAVM>
+      <PARQ>A</PARQ>
+      <BREO>N</BREO>
+      <SaleType>MLS</SaleType>
+   </BusinessOpportunity>
+   <BusinessOpportunity>
+      <LN>944111</LN>
+      <PTYP>BUSO</PTYP>
+      <LAG>72861</LAG>
+      <ST>S</ST>
+      <LP>290000.00</LP>
+      <SP>260000.00</SP>
+      <OLP>290000.00</OLP>
+      <HSN>21919</HSN>
+      <DRP />
+      <STR>66th</STR>
+      <SSUF>Ave</SSUF>
+      <DRS>W</DRS>
+      <UNT />
+      <CIT>Mountlake Terrace</CIT>
+      <STA>WA</STA>
+      <ZIP>98043</ZIP>
+      <PL4 />
+      <LSF>0</LSF>
+      <UD>2017-01-09 23:38:33</UD>
+      <AR>730</AR>
+      <DSRNUM>1717</DSRNUM>
+      <LDR>2016-05-16 18:57:08</LDR>
+      <LD>2016-05-16 00:00:00</LD>
+      <CLO>2016-12-30 00:00:00</CLO>
+      <YBT>0</YBT>
+      <LO>4355</LO>
+      <TAX>000000</TAX>
+      <MAP />
+      <GRDX />
+      <GRDY />
+      <SAG>72861</SAG>
+      <SO>4355</SO>
+      <NIA>Y</NIA>
+      <MR>Well established grocery at a good location with plenty of parking space. There is excellent foot traffic, lots of potential, and a regular customer base. Average monthly sales is over 68,000 per month with a 35% margin. Great cash flow, fully equipped, turnkey &amp; profitable grocery store. 6 years by the current owner. Lottery, EBT Accept, ATM machine, cigarettes and beer/wine.</MR>
+      <LONG>-122.321266</LONG>
+      <LAT>47.799999</LAT>
+      <PDR>2016-11-02 00:00:00</PDR>
+      <CLA>0</CLA>
+      <SHOADR>Y</SHOADR>
+      <DD>I-5 N, exit 179 , Turn left  onto220th St SW, destination on the right side.</DD>
+      <AVDT>1800-01-01 00:00:00</AVDT>
+      <INDT>1800-01-01 00:00:00</INDT>
+      <COU>Snohomish</COU>
+      <CDOM>170</CDOM>
+      <CTDT>1800-01-01 00:00:00</CTDT>
+      <SCA>0</SCA>
+      <SCO>0</SCO>
+      <VIRT />
+      <SDT>2017-01-09 23:38:33</SDT>
+      <FIN>Conv</FIN>
+      <MAPBOOK />
+      <DSR>Mountlake Terrace</DSR>
+      <HSNA />
+      <AUCTION>N</AUCTION>
+      <COLO>0</COLO>
+      <PIC>2</PIC>
+      <BDC />
+      <BLK />
+      <EMP>2</EMP>
+      <EQU>0</EQU>
+      <EQV>0</EQV>
+      <F17>B</F17>
+      <FRN>N</FRN>
+      <GRS>816000</GRS>
+      <GW>0</GW>
+      <HOD>0</HOD>
+      <HRS>6:00 Am to 10:00 PM</HRS>
+      <INV>0</INV>
+      <LNM />
+      <LSI />
+      <LT />
+      <NA>EZ Deli mart</NA>
+      <NP>0</NP>
+      <PKC>0</PKC>
+      <PKU>40</PKU>
+      <PTO>N</PTO>
+      <RES>0</RES>
+      <RNT>57060</RNT>
+      <SIN>Y</SIN>
+      <SML>Y</SML>
+      <TEXP>0</TEXP>
+      <TOB>Convinience store</TOB>
+      <YRE>0</YRE>
+      <YRS>6</YRS>
+      <LES>G</LES>
+      <LIC>A</LIC>
+      <LOC>E</LOC>
+      <MTB>C</MTB>
+      <POS>A</POS>
+      <RP>A</RP>
+      <TRM>B|C|I</TRM>
+      <ProhibitBLOG>Y</ProhibitBLOG>
+      <AllowAVM>Y</AllowAVM>
+      <PARQ>A</PARQ>
+      <BREO>N</BREO>
+      <SaleType>MLS</SaleType>
+   </BusinessOpportunity>
+   <BusinessOpportunity>
+      <LN>1017545</LN>
+      <PTYP>BUSO</PTYP>
+      <LAG>97427</LAG>
+      <ST>A</ST>
+      <LP>150000.00</LP>
+      <SP>0.00</SP>
+      <OLP>200000.00</OLP>
+      <HSN>0</HSN>
+      <DRP />
+      <STR>Undisclosed</STR>
+      <SSUF />
+      <DRS />
+      <UNT />
+      <CIT>Seattle</CIT>
+      <STA>WA</STA>
+      <ZIP>98144</ZIP>
+      <PL4 />
+      <LSF>0</LSF>
+      <UD>2017-01-09 17:22:13</UD>
+      <AR>385</AR>
+      <DSRNUM>2253</DSRNUM>
+      <LDR>2016-08-19 10:58:14</LDR>
+      <LD>2016-08-19 00:00:00</LD>
+      <CLO>1800-01-01 00:00:00</CLO>
+      <YBT>0</YBT>
+      <LO>5353</LO>
+      <TAX>BO81916</TAX>
+      <MAP />
+      <GRDX />
+      <GRDY />
+      <SAG>0</SAG>
+      <SO>0</SO>
+      <NIA>Y</NIA>
+      <MR>The kitchen equipment are almost brand new - 1 year old - including but not limited to 12 feet hood and walk in cooler. The leaseable space is 2000 SF, and there is a 2000 SF basement. Rent $3700 NNN included. 9 year lease plus 5 option. Corner location ensure maximum visibility. 1 mile south of International district near North Beacon Hill.</MR>
+      <LONG>-122.319371</LONG>
+      <LAT>47.580811</LAT>
+      <PDR>1800-01-01 00:00:00</PDR>
+      <CLA>97426</CLA>
+      <SHOADR>N</SHOADR>
+      <DD>Undisclosed.</DD>
+      <AVDT>1800-01-01 00:00:00</AVDT>
+      <INDT>1800-01-01 00:00:00</INDT>
+      <COU>King</COU>
+      <CDOM>143</CDOM>
+      <CTDT>1800-01-01 00:00:00</CTDT>
+      <SCA>0</SCA>
+      <SCO>0</SCO>
+      <VIRT />
+      <SDT>2016-08-19 10:58:14</SDT>
+      <FIN />
+      <MAPBOOK />
+      <DSR>Seattle</DSR>
+      <HSNA>BO819</HSNA>
+      <AUCTION>N</AUCTION>
+      <COLO>5353</COLO>
+      <PIC>1</PIC>
+      <BDC />
+      <BLK />
+      <EMP>0</EMP>
+      <EQU>0</EQU>
+      <EQV>0</EQV>
+      <F17>B</F17>
+      <FRN>N</FRN>
+      <GRS>0</GRS>
+      <GW>0</GW>
+      <HOD>0</HOD>
+      <HRS>9-9</HRS>
+      <INV>0</INV>
+      <LNM>N</LNM>
+      <LSI>N</LSI>
+      <LT />
+      <NA>Undisclosed</NA>
+      <NP>0</NP>
+      <PKC>0</PKC>
+      <PKU>30</PKU>
+      <PTO>N</PTO>
+      <RES>0</RES>
+      <RNT>44400</RNT>
+      <SIN>Y</SIN>
+      <SML>N</SML>
+      <TEXP>0</TEXP>
+      <TOB>Restaurant</TOB>
+      <YRE>2015</YRE>
+      <YRS>1</YRS>
+      <LES />
+      <LIC>A</LIC>
+      <LOC>C</LOC>
+      <MTB>A</MTB>
+      <POS>A</POS>
+      <RP>A</RP>
+      <TRM>B</TRM>
+      <ProhibitBLOG>Y</ProhibitBLOG>
+      <AllowAVM>Y</AllowAVM>
+      <PARQ>A</PARQ>
+      <BREO>N</BREO>
+      <SaleType>MLS</SaleType>
+   </BusinessOpportunity>
+   <BusinessOpportunity>
+      <LN>1034991</LN>
+      <PTYP>BUSO</PTYP>
+      <LAG>62587</LAG>
+      <ST>A</ST>
+      <LP>3495000.00</LP>
+      <SP>0.00</SP>
+      <OLP>3495000.00</OLP>
+      <HSN>9128</HSN>
+      <DRP>NE</DRP>
+      <STR>152nd</STR>
+      <SSUF>Place</SSUF>
+      <DRS />
+      <UNT />
+      <CIT>Kenmore</CIT>
+      <STA>WA</STA>
+      <ZIP>98028</ZIP>
+      <PL4 />
+      <LSF>37169</LSF>
+      <UD>2017-01-07 18:39:15</UD>
+      <AR>600</AR>
+      <DSRNUM>1214</DSRNUM>
+      <LDR>2016-09-28 18:54:32</LDR>
+      <LD>2016-09-27 00:00:00</LD>
+      <CLO>1800-01-01 00:00:00</CLO>
+      <YBT>0</YBT>
+      <LO>5625</LO>
+      <TAX>3578700005</TAX>
+      <MAP />
+      <GRDX />
+      <GRDY />
+      <SAG>0</SAG>
+      <SO>0</SO>
+      <NIA>Y</NIA>
+      <MR>Well established highly profitable Senior Care Business in Kenmore WA with 10 guests on 2 adjoining properties plus the owners private luxury residence.  The Senior home in the back is 1924 and 3880+ sq./ft. w/7beds and 6 baths and the private residence 1928 is 6800+ sq./ft. of uncompromised quality and amenities plus housing for (4) additional Senior Care guests with private rooms and baths, a full kitchen w/private entrance adjoining both properties.  Shown by Appointment Only.</MR>
+      <LONG>-122.219116</LONG>
+      <LAT>47.738838</LAT>
+      <PDR>1800-01-01 00:00:00</PDR>
+      <CLA>85264</CLA>
+      <SHOADR>Y</SHOADR>
+      <DD>Simonds Rd. to NE 152 Place turn east properties on your left.</DD>
+      <AVDT>1800-01-01 00:00:00</AVDT>
+      <INDT>1800-01-01 00:00:00</INDT>
+      <COU>King</COU>
+      <CDOM>102</CDOM>
+      <CTDT>1800-01-01 00:00:00</CTDT>
+      <SCA>0</SCA>
+      <SCO>0</SCO>
+      <VIRT>http://www.listingserver.com/mlslisting.aspx?oid=1868891&amp;ot=213</VIRT>
+      <SDT>2016-09-28 18:54:32</SDT>
+      <FIN />
+      <MAPBOOK />
+      <DSR>Inglewood/Inglemoor</DSR>
+      <HSNA />
+      <AUCTION>N</AUCTION>
+      <COLO>5625</COLO>
+      <PIC>6</PIC>
+      <BDC>H</BDC>
+      <BLK />
+      <EMP>10</EMP>
+      <EQU>0</EQU>
+      <EQV>0</EQV>
+      <F17>C</F17>
+      <FRN>N</FRN>
+      <GRS>600000</GRS>
+      <GW>0</GW>
+      <HOD>0</HOD>
+      <HRS>24/7</HRS>
+      <INV>0</INV>
+      <LNM>Y</LNM>
+      <LSI>N</LSI>
+      <LT />
+      <NA>Serenity Park</NA>
+      <NP>0</NP>
+      <PKC>0</PKC>
+      <PKU>10</PKU>
+      <PTO>Y</PTO>
+      <RES>3495000</RES>
+      <RNT>0</RNT>
+      <SIN>Y</SIN>
+      <SML>Y</SML>
+      <TEXP>0</TEXP>
+      <TOB>Adult Family Care</TOB>
+      <YRE>2004</YRE>
+      <YRS>12</YRS>
+      <LES />
+      <LIC>C</LIC>
+      <LOC>F</LOC>
+      <MTB>G</MTB>
+      <POS>B</POS>
+      <RP />
+      <TRM>B|C</TRM>
+      <ProhibitBLOG>Y</ProhibitBLOG>
+      <AllowAVM>Y</AllowAVM>
+      <PARQ>A</PARQ>
+      <BREO>N</BREO>
+      <LotSizeSource>KC records</LotSizeSource>
+      <OFF>RECEIPT</OFF>
+      <SaleType>MLS</SaleType>
+   </BusinessOpportunity>
+   <BusinessOpportunity>
+      <LN>1039938</LN>
+      <PTYP>BUSO</PTYP>
+      <LAG>97427</LAG>
+      <ST>PF</ST>
+      <LP>100000.00</LP>
+      <SP>0.00</SP>
+      <OLP>140000.00</OLP>
+      <HSN>0</HSN>
+      <DRP />
+      <STR>Undisclosed</STR>
+      <SSUF />
+      <DRS />
+      <UNT />
+      <CIT>Seattle</CIT>
+      <STA>WA</STA>
+      <ZIP>98115</ZIP>
+      <PL4 />
+      <LSF>0</LSF>
+      <UD>2017-01-08 14:40:29</UD>
+      <AR>710</AR>
+      <DSRNUM>2253</DSRNUM>
+      <LDR>2016-10-07 14:19:12</LDR>
+      <LD>2016-10-07 00:00:00</LD>
+      <CLO>1800-01-01 00:00:00</CLO>
+      <YBT>0</YBT>
+      <LO>5353</LO>
+      <TAX>BO100716</TAX>
+      <MAP />
+      <GRDX />
+      <GRDY />
+      <SAG>0</SAG>
+      <SO>0</SO>
+      <NIA>Y</NIA>
+      <MR>Just renovated Asian restaurant in the popular Wedgwood neighborhood of Seattle. 1800 SF of space is divided into 2 distinct dining area. One of the area can be segregated into a bar area, making a bar and grill concept feasible. Base rent of $4000 and a NNN of $1800 includes wate. Lease has 4.5 years left with a 5-year option.</MR>
+      <LONG>-122.290240</LONG>
+      <LAT>47.682953</LAT>
+      <PDR>2017-01-06 00:00:00</PDR>
+      <CLA>97426</CLA>
+      <SHOADR>N</SHOADR>
+      <DD>Undisclosed</DD>
+      <AVDT>1800-01-01 00:00:00</AVDT>
+      <INDT>1800-01-01 00:00:00</INDT>
+      <COU>King</COU>
+      <CDOM>93</CDOM>
+      <CTDT>1800-01-01 00:00:00</CTDT>
+      <SCA>0</SCA>
+      <SCO>0</SCO>
+      <VIRT />
+      <SDT>2017-01-08 14:40:29</SDT>
+      <FIN />
+      <MAPBOOK />
+      <DSR>Seattle</DSR>
+      <HSNA>BO100716</HSNA>
+      <AUCTION>N</AUCTION>
+      <COLO>5353</COLO>
+      <PIC>1</PIC>
+      <BDC />
+      <BLK />
+      <EMP>4</EMP>
+      <EQU>0</EQU>
+      <EQV>0</EQV>
+      <F17>B</F17>
+      <FRN>N</FRN>
+      <GRS>0</GRS>
+      <GW>0</GW>
+      <HOD>0</HOD>
+      <HRS />
+      <INV>0</INV>
+      <LNM>N</LNM>
+      <LSI>N</LSI>
+      <LT />
+      <NA>Undisclosed</NA>
+      <NP>0</NP>
+      <PKC>0</PKC>
+      <PKU>20</PKU>
+      <PTO>N</PTO>
+      <RES>0</RES>
+      <RNT>0</RNT>
+      <SIN>Y</SIN>
+      <SML>N</SML>
+      <TEXP>0</TEXP>
+      <TOB>Restaurant</TOB>
+      <YRE>2008</YRE>
+      <YRS>1</YRS>
+      <LES>F</LES>
+      <LIC>A</LIC>
+      <LOC>B</LOC>
+      <MTB>A</MTB>
+      <POS>A</POS>
+      <RP>A</RP>
+      <TRM>B</TRM>
+      <ProhibitBLOG>Y</ProhibitBLOG>
+      <AllowAVM>Y</AllowAVM>
+      <PARQ>A</PARQ>
+      <BREO>N</BREO>
+      <OFF>RECEIPT</OFF>
+      <SaleType>MLS</SaleType>
+   </BusinessOpportunity>
+   <BusinessOpportunity>
+      <LN>1060521</LN>
+      <PTYP>BUSO</PTYP>
+      <LAG>12974</LAG>
+      <ST>A</ST>
+      <LP>350000.00</LP>
+      <SP>0.00</SP>
+      <OLP>350000.00</OLP>
+      <HSN>2801</HSN>
+      <DRP />
+      <STR>Alaskan</STR>
+      <SSUF>Wy</SSUF>
+      <DRS />
+      <UNT>103</UNT>
+      <CIT>Seattle</CIT>
+      <STA>WA</STA>
+      <ZIP>98121</ZIP>
+      <PL4 />
+      <LSF>0</LSF>
+      <UD>2017-01-03 09:45:46</UD>
+      <AR>701</AR>
+      <DSRNUM>667</DSRNUM>
+      <LDR>2017-01-03 09:35:45</LDR>
+      <LD>2017-01-03 00:00:00</LD>
+      <CLO>1800-01-01 00:00:00</CLO>
+      <YBT>0</YBT>
+      <LO>5274</LO>
+      <TAX>7666202270</TAX>
+      <MAP />
+      <GRDX />
+      <GRDY />
+      <SAG>0</SAG>
+      <SO>0</SO>
+      <NIA>Y</NIA>
+      <MR>Located right in front of Aqua - El Gaucho's newest restaurant on Pier 70 -  160 seats inside &amp; an expansive patio that seats 84 during the summer.  Fully equipped with 2 kitchens it has 3 fryers, 3 ovens, 4' flattop, 4' griddle, 16 burners, 8 reach-in coolers, 8'x16' walk-in cooler, pizza oven, 5 HD flat screen TVs, 4 leased POS stations, 18 seat bar top with 18 taps, custom sound system, fireplace &amp; air conditioning. A perfect turn-key restaurant in a high traffic area.</MR>
+      <LONG>-122.353651</LONG>
+      <LAT>47.614512</LAT>
+      <PDR>1800-01-01 00:00:00</PDR>
+      <CLA>107773</CLA>
+      <SHOADR>Y</SHOADR>
+      <DD>Located on Alaskan Way on Pier 70 on Seattle's waterfront, just doors down from the Edgewater Inn and across from the Old Spaghetti Factory.</DD>
+      <AVDT>1800-01-01 00:00:00</AVDT>
+      <INDT>1800-01-01 00:00:00</INDT>
+      <COU>King</COU>
+      <CDOM>0</CDOM>
+      <CTDT>1800-01-01 00:00:00</CTDT>
+      <SCA>0</SCA>
+      <SCO>0</SCO>
+      <VIRT />
+      <SDT>2017-01-03 09:35:45</SDT>
+      <FIN />
+      <MAPBOOK />
+      <DSR>Downtown</DSR>
+      <HSNA />
+      <AUCTION>N</AUCTION>
+      <COLO>3260</COLO>
+      <PIC>25</PIC>
+      <BDC>H</BDC>
+      <BLK />
+      <EMP>15</EMP>
+      <EQU>0</EQU>
+      <EQV>300000</EQV>
+      <F17>A</F17>
+      <FRN>N</FRN>
+      <GRS>1450000</GRS>
+      <GW>0</GW>
+      <HOD>0</HOD>
+      <HRS>11am-2am</HRS>
+      <INV>25000</INV>
+      <LNM>N</LNM>
+      <LSI>Y</LSI>
+      <LT />
+      <NA>Paddy Coyne's Pier 70 LLC</NA>
+      <NP>100000</NP>
+      <PKC>2</PKC>
+      <PKU>0</PKU>
+      <PTO>N</PTO>
+      <RES>0</RES>
+      <RNT>76320</RNT>
+      <SIN />
+      <SML>Y</SML>
+      <TEXP>1350000</TEXP>
+      <TOB>restaurant/bar</TOB>
+      <YRE>2010</YRE>
+      <YRS>20</YRS>
+      <LES>B|G</LES>
+      <LIC>A</LIC>
+      <LOC>F</LOC>
+      <MTB>A</MTB>
+      <POS>C</POS>
+      <RP>A</RP>
+      <TRM>B</TRM>
+      <ProhibitBLOG>Y</ProhibitBLOG>
+      <AllowAVM>Y</AllowAVM>
+      <PARQ>A</PARQ>
+      <BREO>N</BREO>
+      <OFF>RECEIPT</OFF>
+      <SaleType>MLS</SaleType>
+   </BusinessOpportunity>
+   <BusinessOpportunity>
+      <LN>1063485</LN>
+      <PTYP>BUSO</PTYP>
+      <LAG>85232</LAG>
+      <ST>A</ST>
+      <LP>135000.00</LP>
+      <SP>0.00</SP>
+      <OLP>135000.00</OLP>
+      <HSN>0</HSN>
+      <DRP />
+      <STR>Undisclosed</STR>
+      <SSUF />
+      <DRS />
+      <UNT />
+      <CIT>Covington</CIT>
+      <STA>WA</STA>
+      <ZIP>98042</ZIP>
+      <PL4 />
+      <LSF>0</LSF>
+      <UD>2017-01-03 17:45:51</UD>
+      <AR>330</AR>
+      <DSRNUM>565</DSRNUM>
+      <LDR>2017-01-03 11:07:14</LDR>
+      <LD>2016-12-31 00:00:00</LD>
+      <CLO>1800-01-01 00:00:00</CLO>
+      <YBT>0</YBT>
+      <LO>7178</LO>
+      <TAX>B10317</TAX>
+      <MAP />
+      <GRDX />
+      <GRDY />
+      <SAG>0</SAG>
+      <SO>0</SO>
+      <NIA>Y</NIA>
+      <MR>Mexican restaurant (non-franchise) and bar at major shopping center at high traffic visible from SE 272nd street with large anchor store and national franchise restaurants. 50 seats in dining room, 16 in bar. 10' class 1 Hood with walk in cooler. Kitchen dishwasher is owned. Bar dishwasher is leased. Center has grease interceptor. 1,785sf, $5,488.31 + NNN/month.</MR>
+      <LONG>-122.121453</LONG>
+      <LAT>47.358110</LAT>
+      <PDR>1800-01-01 00:00:00</PDR>
+      <CLA>0</CLA>
+      <SHOADR>N</SHOADR>
+      <DD>Undisclosed.</DD>
+      <AVDT>1800-01-01 00:00:00</AVDT>
+      <INDT>1800-01-01 00:00:00</INDT>
+      <COU>King</COU>
+      <CDOM>0</CDOM>
+      <CTDT>1800-01-01 00:00:00</CTDT>
+      <SCA>0</SCA>
+      <SCO>0</SCO>
+      <VIRT />
+      <SDT>2017-01-03 17:45:51</SDT>
+      <FIN />
+      <MAPBOOK />
+      <DSR>Covington</DSR>
+      <HSNA>B10317</HSNA>
+      <AUCTION>N</AUCTION>
+      <COLO>0</COLO>
+      <PIC>11</PIC>
+      <BDC>H</BDC>
+      <BLK />
+      <EMP>0</EMP>
+      <EQU>0</EQU>
+      <EQV>0</EQV>
+      <F17>A</F17>
+      <FRN>N</FRN>
+      <GRS>467000</GRS>
+      <GW>0</GW>
+      <HOD>0</HOD>
+      <HRS>11-9</HRS>
+      <INV>0</INV>
+      <LNM />
+      <LSI>Y</LSI>
+      <LT />
+      <NA />
+      <NP>0</NP>
+      <PKC>0</PKC>
+      <PKU>500</PKU>
+      <PTO>N</PTO>
+      <RES>0</RES>
+      <RNT>0</RNT>
+      <SIN>Y</SIN>
+      <SML>N</SML>
+      <TEXP>0</TEXP>
+      <TOB />
+      <YRE>2014</YRE>
+      <YRS>2</YRS>
+      <LES />
+      <LIC>A</LIC>
+      <LOC>E</LOC>
+      <MTB>A</MTB>
+      <POS>A</POS>
+      <RP>A</RP>
+      <TRM>B</TRM>
+      <ProhibitBLOG>Y</ProhibitBLOG>
+      <AllowAVM>N</AllowAVM>
+      <PARQ>A</PARQ>
+      <BREO>N</BREO>
+      <OFF>RECEIPT</OFF>
+      <SaleType>MLS</SaleType>
+   </BusinessOpportunity>
+   <BusinessOpportunity>
+      <LN>976072</LN>
+      <PTYP>BUSO</PTYP>
+      <LAG>52387</LAG>
+      <ST>A</ST>
+      <LP>97000.00</LP>
+      <SP>0.00</SP>
+      <OLP>100000.00</OLP>
+      <HSN>414</HSN>
+      <DRP>W</DRP>
+      <STR>Bakerview</STR>
+      <SSUF>Rd</SSUF>
+      <DRS />
+      <UNT>112</UNT>
+      <CIT>Bellingham</CIT>
+      <STA>WA</STA>
+      <ZIP>98226</ZIP>
+      <PL4 />
+      <LSF>0</LSF>
+      <UD>2017-01-05 08:42:49</UD>
+      <AR>860</AR>
+      <DSRNUM>153</DSRNUM>
+      <LDR>2016-07-14 08:04:27</LDR>
+      <LD>2016-07-14 00:00:00</LD>
+      <CLO>1800-01-01 00:00:00</CLO>
+      <YBT>0</YBT>
+      <LO>9978</LO>
+      <TAX>0</TAX>
+      <MAP />
+      <GRDX />
+      <GRDY />
+      <SAG>0</SAG>
+      <SO>0</SO>
+      <NIA>Y</NIA>
+      <MR>Here is the opportunity you have been waiting for!  All necessary equipment to open and run a successful restaurant. Kitchen equipment includes an awesome Woodstone pizza oven. Just add your inventory and bring your recipes! Great 1500+ sq ft space in busy shopping center. End unit with high visibility from Bakerview Road. Please view with discretion.</MR>
+      <LONG>-122.494584</LONG>
+      <LAT>48.789745</LAT>
+      <PDR>1800-01-01 00:00:00</PDR>
+      <CLA>80687</CLA>
+      <SHOADR>Y</SHOADR>
+      <DD>Bakerview Rd to Bakerview Square on corner of Bakerview &amp; Eliza Ave. Equipment located in end unit #112</DD>
+      <AVDT>1800-01-01 00:00:00</AVDT>
+      <INDT>1800-01-01 00:00:00</INDT>
+      <COU>Whatcom</COU>
+      <CDOM>175</CDOM>
+      <CTDT>1800-01-01 00:00:00</CTDT>
+      <SCA>0</SCA>
+      <SCO>0</SCO>
+      <VIRT>http://www.tourfactory.com/idxr1616077</VIRT>
+      <SDT>2016-07-14 08:04:27</SDT>
+      <FIN />
+      <MAPBOOK />
+      <DSR>Bakerview</DSR>
+      <HSNA />
+      <AUCTION>N</AUCTION>
+      <COLO>9978</COLO>
+      <PIC>10</PIC>
+      <BDC />
+      <BLK />
+      <EMP>0</EMP>
+      <EQU>0</EQU>
+      <EQV>168000</EQV>
+      <F17>C</F17>
+      <FRN>N</FRN>
+      <GRS>0</GRS>
+      <GW>0</GW>
+      <HOD>0</HOD>
+      <HRS />
+      <INV>0</INV>
+      <LNM>N</LNM>
+      <LSI />
+      <LT />
+      <NA />
+      <NP>0</NP>
+      <PKC>0</PKC>
+      <PKU>0</PKU>
+      <PTO>N</PTO>
+      <RES>0</RES>
+      <RNT>0</RNT>
+      <SIN>N</SIN>
+      <SML>Y</SML>
+      <TEXP>0</TEXP>
+      <TOB>Restaurant(Assets Only)</TOB>
+      <YRE>0</YRE>
+      <YRS>0</YRS>
+      <LES>B</LES>
+      <LIC />
+      <LOC />
+      <MTB>A|I</MTB>
+      <POS>A</POS>
+      <RP>A</RP>
+      <TRM>B</TRM>
+      <ProhibitBLOG>Y</ProhibitBLOG>
+      <AllowAVM>Y</AllowAVM>
+      <PARQ>A</PARQ>
+      <BREO>N</BREO>
+      <SaleType>MLS</SaleType>
+   </BusinessOpportunity>
+   <BusinessOpportunity>
+      <LN>1061283</LN>
+      <PTYP>BUSO</PTYP>
+      <LAG>45907</LAG>
+      <ST>A</ST>
+      <LP>200000.00</LP>
+      <SP>0.00</SP>
+      <OLP>200000.00</OLP>
+      <HSN>380</HSN>
+      <DRP />
+      <STR>Argyle</STR>
+      <SSUF>Ave</SSUF>
+      <DRS />
+      <UNT />
+      <CIT>Friday Harbor</CIT>
+      <STA>WA</STA>
+      <ZIP>98250</ZIP>
+      <PL4 />
+      <LSF>3794</LSF>
+      <UD>2017-01-03 10:42:53</UD>
+      <AR>900</AR>
+      <DSRNUM>2592</DSRNUM>
+      <LDR>2016-12-30 14:12:04</LDR>
+      <LD>2016-12-30 00:00:00</LD>
+      <CLO>1800-01-01 00:00:00</CLO>
+      <YBT>0</YBT>
+      <LO>9277</LO>
+      <TAX>351358021000</TAX>
+      <MAP />
+      <GRDX />
+      <GRDY />
+      <SAG>0</SAG>
+      <SO>0</SO>
+      <NIA>Y</NIA>
+      <MR>Incredible Business opportunity established 30+ Years ago in Friday Harbor. Be Your Own boss while enjoying a passion for Bicycling &amp; "Saving Vacations" by renting, repairing &amp; selling Bicycles, equipment, clothing, etc. Business Opportunity priced at $200,000 includes fixtures, furniture, equipment,web sites. Inventory for Resale to be purchased separately @ seller's cost estimated @ $90,000(determined @ time of sale). Building &amp; Property MLS 1062939 sold separately.</MR>
+      <LONG>-123.017265</LONG>
+      <LAT>48.533004</LAT>
+      <PDR>1800-01-01 00:00:00</PDR>
+      <CLA>0</CLA>
+      <SHOADR>Y</SHOADR>
+      <DD>Spring Street to Argyle, left on Argyle, next to ACE Hardware.</DD>
+      <AVDT>1800-01-01 00:00:00</AVDT>
+      <INDT>1800-01-01 00:00:00</INDT>
+      <COU>San Juan</COU>
+      <CDOM>4</CDOM>
+      <CTDT>1800-01-01 00:00:00</CTDT>
+      <SCA>0</SCA>
+      <SCO>0</SCO>
+      <VIRT />
+      <SDT>2016-12-30 14:12:04</SDT>
+      <FIN />
+      <MAPBOOK />
+      <DSR>Town</DSR>
+      <HSNA />
+      <AUCTION>N</AUCTION>
+      <COLO>0</COLO>
+      <PIC>24</PIC>
+      <BDC>D</BDC>
+      <BLK />
+      <EMP>1</EMP>
+      <EQU>0</EQU>
+      <EQV>0</EQV>
+      <F17>B</F17>
+      <FRN>N</FRN>
+      <GRS>246000</GRS>
+      <GW>0</GW>
+      <HOD>0</HOD>
+      <HRS>10:00 AM - 5:00 PM</HRS>
+      <INV>90000</INV>
+      <LNM>N</LNM>
+      <LSI>N</LSI>
+      <LT>21</LT>
+      <NA>Island Bicycles</NA>
+      <NP>100000</NP>
+      <PKC>0</PKC>
+      <PKU>0</PKU>
+      <PTO>N</PTO>
+      <RES>450000</RES>
+      <RNT>24000</RNT>
+      <SIN>Y</SIN>
+      <SML>Y</SML>
+      <TEXP>122000</TEXP>
+      <TOB>Recreational</TOB>
+      <YRE>1986</YRE>
+      <YRS>30</YRS>
+      <LES>G</LES>
+      <LIC>D</LIC>
+      <LOC>B|C</LOC>
+      <MTB>F|G|I</MTB>
+      <POS>A|B|C</POS>
+      <RP>B|C|D</RP>
+      <TRM>B|F|G</TRM>
+      <ProhibitBLOG>Y</ProhibitBLOG>
+      <AllowAVM>Y</AllowAVM>
+      <PARQ>A</PARQ>
+      <BREO>N</BREO>
+      <LotSizeSource>County Assessor</LotSizeSource>
+      <OFF>BEFORE</OFF>
+      <OFFRD>2017-01-21</OFFRD>
+      <SaleType>MLS</SaleType>
+   </BusinessOpportunity>
+   <BusinessOpportunity>
+      <LN>1063028</LN>
+      <PTYP>BUSO</PTYP>
+      <LAG>45907</LAG>
+      <ST>A</ST>
+      <LP>1399000.00</LP>
+      <SP>0.00</SP>
+      <OLP>1399000.00</OLP>
+      <HSN>365</HSN>
+      <DRP />
+      <STR>Carter</STR>
+      <SSUF />
+      <DRS />
+      <UNT />
+      <CIT>Friday Harbor</CIT>
+      <STA>WA</STA>
+      <ZIP>98250</ZIP>
+      <PL4>8055</PL4>
+      <LSF>40764</LSF>
+      <UD>2017-01-05 14:21:20</UD>
+      <AR>900</AR>
+      <DSRNUM>943</DSRNUM>
+      <LDR>2017-01-02 09:25:28</LDR>
+      <LD>2017-01-01 00:00:00</LD>
+      <CLO>1800-01-01 00:00:00</CLO>
+      <YBT>0</YBT>
+      <LO>9277</LO>
+      <TAX>351151038000</TAX>
+      <MAP>A</MAP>
+      <GRDX>1</GRDX>
+      <GRDY>1</GRDY>
+      <SAG>0</SAG>
+      <SO>0</SO>
+      <NIA>Y</NIA>
+      <MR>Successful 7 Room Bed &amp; Breakfast. 1st time offered since 2002. Price includes Fully furninshed, Turn Key Bed &amp; Breakfast, plus two additional Manufactured Year-Round Rental Homes on .9 acre in town property, zoned commercial allowing expansion for addl dwellings or Tiny Homes added if desired. New exterior decks &amp; new kitchen counters. Current owners since 2002 built a successful Bed &amp; Breakfast with B&amp;B grossing $200,000,plus extra rental income from 2 separate commercial buildings. Call Now !</MR>
+      <LONG>-123.029060</LONG>
+      <LAT>48.537670</LAT>
+      <PDR>1800-01-01 00:00:00</PDR>
+      <CLA>0</CLA>
+      <SHOADR>Y</SHOADR>
+      <DD>Spring Street to Blair Ave, right on Blair Avenue to Guard, Left on Guard to Carter Avenue. Right on Carter. Hillside B&amp;B on left. 365 Carter Avenue.</DD>
+      <AVDT>1800-01-01 00:00:00</AVDT>
+      <INDT>1800-01-01 00:00:00</INDT>
+      <COU>San Juan</COU>
+      <CDOM>4</CDOM>
+      <CTDT>1800-01-01 00:00:00</CTDT>
+      <SCA>0</SCA>
+      <SCO>0</SCO>
+      <VIRT />
+      <SDT>2017-01-02 09:25:28</SDT>
+      <FIN />
+      <MAPBOOK>Tote</MAPBOOK>
+      <DSR>Friday Harbor</DSR>
+      <HSNA />
+      <AUCTION>N</AUCTION>
+      <COLO>0</COLO>
+      <PIC>25</PIC>
+      <BDC>H</BDC>
+      <BLK />
+      <EMP>2</EMP>
+      <EQU>0</EQU>
+      <EQV>0</EQV>
+      <F17>C</F17>
+      <FRN>N</FRN>
+      <GRS>200000</GRS>
+      <GW>0</GW>
+      <HOD>0</HOD>
+      <HRS>8:00 AM to 6:00 PM</HRS>
+      <INV>0</INV>
+      <LNM>Y</LNM>
+      <LSI />
+      <LT>1 &amp; 2</LT>
+      <NA>Hillside House Bed &amp; Breakfast</NA>
+      <NP>100000</NP>
+      <PKC>0</PKC>
+      <PKU>8</PKU>
+      <PTO>N</PTO>
+      <RES>1200000</RES>
+      <RNT>65000</RNT>
+      <SIN>Y</SIN>
+      <SML>Y</SML>
+      <TEXP>35000</TEXP>
+      <TOB>Bed &amp; Breakfast</TOB>
+      <YRE>1996</YRE>
+      <YRS>14</YRS>
+      <LES>A</LES>
+      <LIC>D</LIC>
+      <LOC>C|F</LOC>
+      <MTB>D</MTB>
+      <POS>A|B|C</POS>
+      <RP>D</RP>
+      <TRM>B</TRM>
+      <ProhibitBLOG>Y</ProhibitBLOG>
+      <AllowAVM>Y</AllowAVM>
+      <PARQ>A</PARQ>
+      <BREO>N</BREO>
+      <LotSizeSource>Assessor</LotSizeSource>
+      <OFF>BEFORE</OFF>
+      <OFFRD>2017-01-23</OFFRD>
+      <SaleType>MLS</SaleType>
+   </BusinessOpportunity>
+</Listings>

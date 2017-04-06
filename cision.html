@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ilab</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script>
+      window['_fs_debug'] = false;
+      window['_fs_host'] = 'www.fullstory.com';
+      window['_fs_org'] = '3QN7H';
+      window['_fs_namespace'] = 'FS';
+      (function(m,n,e,t,l,o,g,y){
+          if (e in m && m.console && m.console.log) { m.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].'); return;}
+          g=m[e]=function(a,b){g.q?g.q.push([a,b]):g._api(a,b);};g.q=[];
+          o=n.createElement(t);o.async=1;o.src='https://'+_fs_host+'/s/fs.js';
+          y=n.getElementsByTagName(t)[0];y.parentNode.insertBefore(o,y);
+          g.identify=function(i,v){g(l,{uid:i});if(v)g(l,v)};g.setUserVars=function(v){g(l,v)};
+          g.identifyAccount=function(i,v){o='account';v=v||{};v.acctId=i;g(o,v)};
+          g.clearUserCookie=function(c,d,i){if(!c || document.cookie.match('fs_uid=[`;`]*`[`;`]*`[`;`]*`')){
+          d=n.domain;while(1){n.cookie='fs_uid=;domain='+d+
+          ';path=/;expires='+new Date(0).toUTCString();i=d.indexOf('.');if(i<0)break;d=d.slice(i+1)}}};
+      })(window,document,window['_fs_namespace'],'script','user');
+    </script>
+  </head>
+  <body class="case-study-cision">
+    <div class="wrapper" id="wrapper" v-bind:class="{'menu-on': menuState}">
+      <header>
+        <div id="logo"><a href="index.html">
+            <svg v-bind:class="{'white': menuState}" width="85px" height="20px" viewBox="25 25 85 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(25.000000, 25.000000)">
+                <polygon id="Fill-17" points="12.6339143 19.5745366 12.6339143 0.550146341 14.9930286 0.550146341 14.9930286 17.4028293 22.3880286 17.4028293 22.3880286 19.5745366"></polygon>
+                <path d="M58.76662,17.3407317 C61.6017343,17.3407317 62.4327914,15.9660976 62.4327914,13.8060976 C62.4327914,11.4002439 61.0397629,10.59 58.8399629,10.59 L55.5152486,10.59 L55.5152486,17.3407317 L58.76662,17.3407317 Z M55.4666771,2.73439024 L55.4666771,8.35585366 L57.6421914,8.35585366 C59.8905629,8.35585366 60.6244771,6.83439024 60.6244771,5.45926829 C60.6244771,3.61829268 59.4509914,2.73439024 57.8865057,2.73439024 L55.4666771,2.73439024 Z M53.1449629,0.55 L57.8865057,0.55 C61.2355057,0.55 62.9947629,2.53829268 62.9947629,5.45926829 C62.9947629,7.0304878 62.5551914,8.08658537 61.6507914,9.01878049 C63.70342,9.65731707 64.8040486,11.3509756 64.8040486,13.7812195 C64.8040486,17.8070732 62.5551914,19.5743902 58.7170771,19.5743902 L53.1449629,19.5743902 L53.1449629,0.55 Z" id="Fill-18"></path>
+                <polygon id="Fill-19" points="37.4494943 0.370243902 31.21778 19.3946341 33.6560657 19.3946341 37.4494943 7.09609756 41.2429229 19.3946341 43.6812086 19.3946341"></polygon>
+                <polygon id="Fill-20" points="0.114142857 19.5746341 2.50045714 19.5746341 2.50045714 0.550243902 0.114142857 0.550243902"></polygon>
+                <path d="M80.2358714,8.61678049 C77.8889,8.37385366 75.6390714,8.3977561 75.6390714,5.7982439 C75.6390714,3.9275122 76.1466429,2.73678049 78.7359857,2.73678049 C81.0538143,2.73678049 81.5881,3.82653659 81.7105,5.35287805 L84.0477571,4.72312195 C83.7101857,2.03970732 82.1729,0.54995122 78.7359857,0.54995122 C74.8162714,0.54995122 73.2440143,2.3484878 73.2440143,5.82263415 C73.2440143,9.39434146 75.7357286,10.4636098 77.9131857,10.6338537 C80.2358714,10.8275122 82.2438143,10.8762927 82.2438143,13.9377561 C82.2438143,16.1245854 81.7352714,17.3148293 79.2192714,17.3148293 L78.7597857,17.3148293 C76.3647286,17.3148293 75.6633571,16.1001951 75.5419286,14.5211707 L75.5341571,14.5211707 L73.1119,15.1733659 C73.4781286,17.9567805 75.2315571,19.5743415 78.7840714,19.5743415 L79.2435571,19.5743415 C83.0904143,19.5743415 84.6145857,17.8499512 84.6145857,13.8162927 C84.6145857,9.90458537 82.3890429,8.83580488 80.2358714,8.61678049" id="Fill-21"></path>
+              </g>
+            </svg></a></div>
+        <div class="nav" v-on:click="toggleMenu"><span class="text">Menu </span><span class="icon" v-bind:class="{'active': menuState}"><span class="top"></span><span class="middle"></span><span class="bottom"></span></span></div>
+      </header>
+      <div class="page page-case-study">
+        <section class="landing">
+          <div class="case-study-intro">
+            <div class="project">cision</div>
+            <div class="slogan">Power your story</div>
+          </div>
+          <div class="landing-main"><img class="landing-image" src="img/cision-landing-image.png" srcset="img/cision-landing-image@2x.png 2x"></div>
+        </section>
+        <section class="the-story">
+          <div class="content-wrapper">
+            <h2 class="title">The Story</h2>
+            <p>For more than 120 years, Cision has been committed to helping communicators tell their stories. Rebranded as Cision 2014, it merged with Vocus, Gorkana Group, Visible Technologies, PRWeb, Help a Reporter Out (HARO) and iContact to create the largest PR software comany. Today, with more than 100,000 customers and offices in nine countries, Cision is the leading provider of public relations and social software.</p>
+            <div class="stats">
+              <div class="stat-col">
+                <div class="num">100K</div>
+                <div class="desc">customers</div>
+              </div>
+              <div class="stat-col">
+                <div class="num">40</div>
+                <div class="desc">language worldwide</div>
+              </div>
+              <div class="stat-col">
+                <div class="num">170</div>
+                <div class="desc">countries</div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="the-challenges">
+          <div class="content-wrapper">
+            <h2 class="title">The Challenges</h2>
+            <p>Cision approached us with the challeging task of creating a unified design language for their entire suite of products. With rapid expanision through acquisitions came several different products, user experiences and development teams. Our goal was to create a unified user experience across their suite of products and enable several geographically distributed engineering teams to deliver consistent user experiences in short order to hit the rebrand timeframe.</p>
+          </div>
+          <div class="container challenge-quotes">
+            <div class="row">
+              <div class="col-sm-4">
+                <div class="quote quote-1">
+                  <div class="quote-inner">
+                    <div>
+                      <h3 class="title">OVERALL INTERFACE</h3>
+                      <p>The user interface is not aesthetically pleasing</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="quote quote-2">
+                  <div class="quote-inner">
+                    <div>
+                      <h3 class="title">NAVIGATION</h3>
+                      <p>Clunky and over complicated menu tabs</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="quote quote-3">
+                  <div class="quote-inner">
+                    <div>
+                      <h3 class="title">list building</h3>
+                      <p>Complicated list building function</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="group-photo text-center"><img src="img/cision-group-quote.png" srcset="img/cision-group-quote@2x.png 2x"></div>
+          </div>
+        </section>
+        <section class="gray the-solution solution-1">
+          <div class="content-wrapper">
+            <h2 class="title">Solutions</h2>
+            <p>Our design team integrated deeply into the Cision Product and Development team. We led design sprints in way that we were always several weeks ahead of their engineering team in order to fine tune user experience, before it was delivered to the engineering team. This ensured high velocity development with very little back and forth.</p>
+          </div>
+          <div class="container">
+            <div class="solution-step-icons">
+              <div class="solution-step solution-research"><img class="sol-icon" src="img/cision-icon-research.svg">
+                <div class="step-name">Research</div>
+              </div>
+              <div class="solution-step solution-research"><img class="sol-icon" src="img/cision-icon-wireframing.svg">
+                <div class="step-name">Wireframing</div>
+              </div>
+              <div class="solution-step solution-research"><img class="sol-icon" src="img/cision-icon-prototype.svg">
+                <div class="step-name">Rapid Prototyping</div>
+              </div>
+              <div class="solution-step solution-research"><img class="sol-icon" src="img/cision-icon-testing.svg">
+                <div class="step-name">User Testing</div>
+              </div>
+              <div class="solution-step solution-research"><img class="sol-icon" src="img/cision-icon-library.svg">
+                <div class="step-name">Components Library</div>
+              </div>
+            </div>
+          </div>
+          <div class="solution-following text-center"><img src="img/cision-solution-arrow.svg"></div>
+          <div class="exploration">
+            <div class="background-lines">
+              <div class="container">
+                <div class="row">
+                  <div class="col-xs-3">
+                    <div></div>
+                  </div>
+                  <div class="col-xs-3">
+                    <div></div>
+                  </div>
+                  <div class="col-xs-3">
+                    <div></div>
+                  </div>
+                  <div class="col-xs-3">
+                    <div></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="background-bottom"></div>
+            <div class="content-wrapper">
+              <h2 class="title">Exploration &amp; Extras</h2>
+              <p>Our design team integrated deeply into the Cision Product and Development team. We led design sprints in way that we were always several weeks ahead of their engineering team in order to fine tune user experience, before it was delivered to the engineering team. This ensured high velocity development with very little back and forth.</p>
+            </div>
+            <div class="container">
+              <div class="thumbnail-content-block explore-search">
+                <div class="row">
+                  <div class="thumbnail"><img src="img/cision-explore-thumb-1.png" srcset="img/cision-explore-thumb-1@2x.png 2x"></div>
+                  <div class="col-md-4 content">
+                    <div class="heading">Influencers Search</div>
+                    <div class="description">
+                      <p>Influencer search needed a usability upgrade to modernize it and improve the user experience. We conducted internal &amp; external user interviews and research. A thorough round of testing identified core quadrants that required immediate attention. The new and improved Influencer Search helped reposition Cision to be the best in it's class.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="thumbnail-content-block explore-profile">
+                <div class="row">
+                  <div class="thumbnail"><img src="img/cision-explore-thumb-2.png" srcset="img/cision-explore-thumb-2@2x.png 2x"></div>
+                  <div class="col-md-4 col-md-push-8 content">
+                    <div class="heading">Influencers Profile</div>
+                    <div class="description">
+                      <p>Profiles were overhauled to meet modern usability standards. Content was carefully prioritzed to meet core use cases and user stories. Data presentation got a fresh new look and proper visual hierarchy was introduced to help users evaluate an Influencer's fit pertaining to the launch of a successful campaign.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="thumbnail-content-block explore-analytics">
+                <div class="row">
+                  <div class="thumbnail"><img src="img/cision-explore-thumb-3.png" srcset="img/cision-explore-thumb-3@2x.png 2x"></div>
+                  <div class="col-md-4 content">
+                    <div class="heading">Analytics</div>
+                    <div class="description">
+                      <p>We tested several data visualization concepts to allow users to easily identify the best partners at a glance.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="thumbnail-content-block explore-landing-page">
+                <div class="row">
+                  <div class="thumbnail hidden-xs hidden-sm"><img src="img/cision-explore-thumb-4.png" srcset="img/cision-explore-thumb-4@2x.png 2x"></div>
+                  <div class="col-md-4 col-md-push-8 content">
+                    <div class="heading">Landing Page</div>
+                    <div class="description">
+                      <p>Conversion focused landing pages helped build awareness and increased converions. We chased the most important metrics while fully respecting visual design fidelity to ensure a high level of consistency and conversions.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="gray the-solution">
+          <div class="exploration">
+            <div class="container">
+              <div class="thumbnail-content-block explore-theme">
+                <div class="row">
+                  <div class="col-md-4 content">
+                    <div class="heading">Theme Exploration</div>
+                    <div class="description">
+                      <p>Apart from improving Desktop features, a responsive design was always in the back of our minds. Themes helped facilitate the speed up our design &amp; development process.</p>
+                    </div>
+                  </div>
+                  <div class="thumbnail"><img src="img/cision-explore-thumb-5.png" srcset="img/cision-explore-thumb-5@2x.png 2x"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="the-mobile-exploration">
+          <div class="container">
+            <div class="thumbnail-content-block explore-animation">
+              <div class="row">
+                <div class="col-md-4 content">
+                  <div class="heading">Mobile App Exploration</div>
+                  <div class="description">
+                    <p>A compelling mobile experience allowed our users to track their campaigns in real time, allowing them to capitalize on untapped opportunities.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="gray the-testimonials">
+          <div class="content-wrapper">
+            <h2 class="title">Tesimonials</h2>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-5">
+                <div class="testimonial-card stand">
+                  <div class="test-content">&ldquo;I like the cleaner look. Compare to what we have now, it's quantum leap&rdquo;</div>
+                  <div class="test-author">
+                    <div class="thumb"><img src="img/avatar.jpg"></div>
+                    <div class="name">Beth Roed</div>
+                    <div class="position">Business Development Director, Cision</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-7">
+                <div class="testimonial-card">
+                  <div class="test-content">&ldquo;All of these are way greater than what we have got now. None of it is bad. That for sure.&rdquo;</div>
+                  <div class="test-author">
+                    <div class="thumb"><img src="img/cision-testimonial-avatar-2.jpg"></div>
+                    <div class="name">Beth Roed</div>
+                    <div class="position">Business Development Director, Cision</div>
+                  </div>
+                </div>
+                <div class="testimonial-card">
+                  <div class="test-content">&ldquo;Interesting! I'm happy with either one. I can't wait to see what you'll come up with.&rdquo;</div>
+                  <div class="test-author">
+                    <div class="thumb"><img src="img/cision-testimonial-avatar-3.jpg"></div>
+                    <div class="name">Beth Roed</div>
+                    <div class="position">Business Development Director, Cision</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="cision-logo"><img src="img/cision-logo.png" srcset="img/cision-logo@2x.png 2x"></div>
+            <div class="row cision-examples">
+              <div class="col-md-6"><img class="example" src="img/cision-example-1.jpg" srcset="img/cision-example-1@2x.jpg 2x"><img class="example" src="img/cision-example-2.jpg" srcset="img/cision-example-2@2x.jpg 2x"></div>
+              <div class="col-md-6"><img class="example" src="img/cision-example-3.jpg" srcset="img/cision-example-3@2x.jpg 2x"><img class="example" src="img/cision-example-4.jpg" srcset="img/cision-example-4@2x.jpg 2x"></div>
+            </div>
+          </div>
+        </section>
+        <div class="page-navigation"><a class="left" href="dcom.html">
+            <div class="arrow"><span class="icon-arrow-left"></span></div>
+            <div class="title">DCOM</div>
+            <div class="sub-title">The dictionary app</div></a><a class="right" href="great-schools.html">
+            <div class="arrow"><span class="icon-arrow-right"></span></div>
+            <div class="title">Great Schools</div>
+            <div class="sub-title">Great Schools website</div></a></div>
+      </div>
+      <footer>
+        <div class="container">
+          <p class="section-subheading">CONTACT</p>
+          <h3 class="section-heading">We would love to<br/>work with you</h3>
+          <div class="contact-content">
+            <p>Have a great idea? Reach us at</p>
+            <p class="cta"><a href="mailto:hello@interactivelabs.co">hello@interactivelabs.co</a></p>
+          </div>
+          <p class="text-center"><img src="img/graphic-logo.svg"></p>
+          <p class="info-line"><span class="label-text">Phone:&nbsp;<b><a href="tel:4158698842">415 869-8842</a></b></span></p>
+          <p class="copy-line">Copyright &copy; 2015 interactivelabs.co</p>
+        </div>
+      </footer>
+      <div class="page-menu">
+        <div class="overlay"></div>
+        <div class="menu-content">
+          <div class="menu-wrapper">
+            <ul>
+              <li v-bind:class="{active: currentPage == 1 }"><a href="index.html#introduction" v-on:click="closeMenu">Home</a></li>
+              <li v-bind:class="{active: currentPage == 2 }"><a href="index.html#services" v-on:click="closeMenu">Services</a></li>
+              <li v-bind:class="{active: currentPage == 3 }"><a href="index.html#case-studies" v-on:click="closeMenu">Case Studies</a>
+                <ul class="sub-menu">
+                  <li><a href="great-schools.html">Greatschools</a></li>
+                  <li><a href="cision.html">Cision</a></li>
+                  <li><a href="dcom.html">Dictionary.com</a></li>
+                </ul>
+              </li>
+              <li v-bind:class="{active: currentPage == 4 }"><a href="index.html#process" v-on:click="closeMenu">Process</a></li>
+              <li v-bind:class="{active: currentPage == 5 }"><a href="index.html#customers" v-on:click="closeMenu">Customers</a></li>
+              <li v-bind:class="{active: currentPage == 6 }"><a href="index.html#contact" v-on:click="closeMenu">Contact</a></li>
+            </ul>
+          </div>
+          <div class="logo"><img src="img/ilabs-logo-bubbles.svg"></div>
+        </div>
+      </div>
+    </div>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-96911906-1', 'auto');
+      ga('send', 'pageview');
+      
+    </script>
+    <script src="js/vendor.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
