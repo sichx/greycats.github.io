@@ -5759,6 +5759,8 @@ body.fp-responsive .fp-section {
     @media (max-width: 991px) {
       .homepage .section-home .heading {
         margin-top: 80px !important; } }
+  .homepage .section-contact .fp-tableCell {
+    vertical-align: middle; }
   .homepage .section-contact .heading {
     position: relative;
     top: auto;
@@ -5772,9 +5774,8 @@ body.fp-responsive .fp-section {
         top: 0;
         left: 50%;
         transform: translateX(-50%); } }
-  @media (min-height: 980px) and (min-width: 992px) {
-    .homepage .section-contact .container.container-centerized {
-      position: static; } }
+  .homepage .section-contact .container.container-centerized {
+    position: static; }
   .homepage .section-contact .sec-desc {
     margin-top: 15px;
     color: #8D8B8B;
