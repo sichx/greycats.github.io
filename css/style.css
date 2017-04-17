@@ -3850,6 +3850,9 @@ textarea:focus:-ms-input-placeholder {
     border-bottom: 2px solid #2866DC;
     box-shadow: none; }
 
+#wrapper.menu-on header {
+  background-color: transparent; }
+
 header {
   padding: 15px 0;
   height: 60px;
@@ -4245,7 +4248,7 @@ footer {
             margin-left: 0;
             left: 0; } }
     .stats .stat-col .desc {
-      font-weight: 600;
+      font-weight: 400;
       letter-spacing: 0.5px;
       font-size: 12px;
       text-align: center; }
@@ -5495,6 +5498,51 @@ footer {
     position: absolute;
     bottom: 13%;
     right: 24%; }
+
+.case-study-portal .the-story {
+  background-image: url("../img/portal-about-bg.png"); }
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .case-study-portal .the-story {
+      background-image: url("../img/portal-about-bg@2x.png"); } }
+
+.case-study-portal .how-it-work {
+  padding: 50px 0; }
+  .case-study-portal .how-it-work h3 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 26px; }
+  @media (min-width: 768px) {
+    .case-study-portal .how-it-work .how-steps {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: justify;
+      justify-content: space-between; } }
+  .case-study-portal .how-it-work .how-steps .step {
+    text-align: center; }
+    .case-study-portal .how-it-work .how-steps .step .thumb {
+      margin-bottom: 20px; }
+    .case-study-portal .how-it-work .how-steps .step .name {
+      font-weight: 600;
+      font-size: 18px;
+      color: #231F20;
+      letter-spacing: 1px; }
+  .case-study-portal .how-it-work .how-steps .arrow {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    transform: rotate(90deg); }
+    @media (min-width: 768px) {
+      .case-study-portal .how-it-work .how-steps .arrow {
+        margin-top: 50px;
+        margin-bottom: 0;
+        transform: rotate(0deg); } }
+
+.case-study-portal section.the-challenge {
+  padding-bottom: 0;
+  text-align: center; }
+  .case-study-portal section.the-challenge .bottom-image {
+    margin-top: 50px;
+    text-align: center; }
 
 body.fp-responsive .fp-section {
   height: auto !important; }
