@@ -158,18 +158,60 @@
                 <div class="sec-heading">We build winning<br/>products</div>
               </div>
               <div class="works-list" id="work-container">
-                <div v-for="(work, index) in filteredList" v-bind:key="index" v-bind:class="`case-study-${work.slug} card`">
+                <div class="case-study-dcom card">
                   <div class="thumb">
-                    <div class="pattern"></div><a class="logo" v-bind:href="work.url"><img v-bind:src="work.logo" v-bind:srcSet="`${work.logo_high_res} 2x`"></a>
+                    <div class="pattern"></div><a class="logo" href="dcom.html"><img src="img/client-dcom-white.png" src-set="img/client-dcom-white@2x.png 2x" alt="dcom"></a>
                   </div>
                   <div class="content">
-                    <div class="title">{{work.title}}</div>
-                    <div class="desc">
-                      <p>{{work.content}}</p>
-                    </div><a class="more" v-bind:href="work.url">View Case Study</a>
+                    <div class="content-container">
+                      <div class="title">Dictionary.com</div>
+                      <div class="desc">
+                        <p>See how we helped Dictionary.com increase visit frequency by 10%.</p>
+                      </div><a class="more" href="dcom.html">View Case Study</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="case-study-portal card">
+                  <div class="thumb">
+                    <div class="pattern"></div><a class="logo" href="portal.html"><img src="img/client-portal-white.svg" alt="portal"></a>
+                  </div>
+                  <div class="content">
+                    <div class="content-container">
+                      <div class="title">Portal</div>
+                      <div class="desc">
+                        <p>Enjoy more with faster Wifi</p>
+                      </div><a class="more" href="portal.html">View Case Study</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="case-study-cision card cs-more">
+                  <div class="thumb">
+                    <div class="pattern"></div><a class="logo" href="cision.html"><img src="img/client-cision-white.png" src-set="img/client-cision-white@2x.png 2x" alt="cision"></a>
+                  </div>
+                  <div class="content">
+                    <div class="content-container">
+                      <div class="title">Cision</div>
+                      <div class="desc">
+                        <p>Learn how we helped Cision consolidate different product lines into a unified user experience to increase efficiency and reduce development time.</p>
+                      </div><a class="more" href="cision.html">View Case Study</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="case-study-greatschools card cs-more">
+                  <div class="thumb">
+                    <div class="pattern"></div><a class="logo" href="cision.html"><img src="img/client-gs-white.png" src-set="img/client-gs-white@2x.png 2x" alt="cision"></a>
+                  </div>
+                  <div class="content">
+                    <div class="content-container">
+                      <div class="title">Great Schools</div>
+                      <div class="desc">
+                        <p>See how we are helping millions of parents get a great education for their child.</p>
+                      </div><a class="more" href="cision.html">View Case Study</a>
+                    </div>
                   </div>
                 </div>
               </div>
+              <p class="text-center more-container"><a class="btn btn-arrow-down sm" @click="expandClient">Show more<span class="arr">...</span></a></p>
             </div>
           </section>
           <section class="section-how">

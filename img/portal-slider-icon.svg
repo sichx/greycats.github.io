@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="62px" height="62px" viewBox="0 0 62 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 21</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Visual-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="02_Case-Study-Portal" transform="translate(-1071.000000, -4608.000000)" stroke="#2866DC" stroke-width="2">
+            <g id="Group-20" transform="translate(54.000000, 3922.000000)">
+                <g id="1" transform="translate(0.000000, 287.000000)">
+                    <g transform="translate(96.000000, 129.000000)" id="mobile">
+                        <g transform="translate(506.000000, 0.000000)">
+                            <g id="Group-11" transform="translate(21.000000, 74.000000)">
+                                <g id="Group-21" transform="translate(395.000000, 197.000000)">
+                                    <circle id="Oval-3" cx="30" cy="30" r="30"></circle>
+                                    <path d="M20,30 L40,30" id="Stroke-366" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <polyline id="Stroke-367" stroke-linecap="round" stroke-linejoin="round" points="33 23 40 30 33 37"></polyline>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
