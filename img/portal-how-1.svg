@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="99px" height="111px" viewBox="0 0 99 111" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
     <title>portal-how-1</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
@@ -18,9 +18,7 @@
                             <path d="M26.7922,9.3658 C26.7922,8.9558 26.4612,8.6258 26.0522,8.6258 L18.9502,8.6258 C18.5422,8.6258 18.2092,8.9558 18.2092,9.3658 C18.2092,9.7758 18.5422,10.1058 18.9502,10.1058 L26.0522,10.1058 C26.4612,10.1058 26.7922,9.7758 26.7922,9.3658" id="Fill-10" fill="#2866DC"></path>
                         </g>
                         <circle id="Oval-2" stroke="#2866DC" stroke-width="2" fill="#FFFFFF" cx="49" cy="12" r="12"></circle>
-                        <text id="1" font-family="MaisonNeue-Demi, Maison Neue" font-size="18" font-weight="500" fill="#2866DC">
-                            <tspan x="45.288" y="18">1</tspan>
-                        </text>
+                        <polygon id="1" fill="#2866DC" points="49.086 18 49.086 7.776 46.368 9.486 46.368 7.2 49.266 5.4 51.102 5.4 51.102 18"></polygon>
                     </g>
                 </g>
             </g>
