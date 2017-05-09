@@ -5649,11 +5649,10 @@ img.lazyloaded {
   .case-study-portal section.the-solutions .solution-item .content img {
     margin-top: 30px; }
   .case-study-portal section.the-solutions .solution-item .name {
+    font-family: "Mainson Neue Mono";
     margin-top: 10px;
-    font-weight: 600;
-    font-size: 18px;
-    color: #231F20;
-    letter-spacing: 1px; }
+    font-size: 20px;
+    color: #231F20; }
 
 .case-study-portal section.solutions-detail {
   position: relative; }
@@ -6159,16 +6158,18 @@ body.fp-responsive .fp-section {
     position: relative; }
     .homepage .section-work .heading {
       margin-bottom: 50px; }
-      @media (max-height: 950px) {
-        .homepage .section-work .heading {
-          position: relative;
-          margin-left: auto;
-          margin-right: auto;
-          margin-top: 0 !important;
-          margin-bottom: 40px !important;
-          left: 0;
-          top: 0;
-          transform: none; } }
+    @media (max-height: 950px) {
+      .homepage .section-work .fp-tableCell {
+        vertical-align: top; }
+      .homepage .section-work .heading {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 80px !important;
+        margin-bottom: 40px !important;
+        left: 0;
+        top: 0;
+        transform: none; } }
     .homepage .section-work .works-list {
       margin-top: 40px;
       text-align: center; }
@@ -6188,7 +6189,7 @@ body.fp-responsive .fp-section {
       .homepage .section-work .works-list .card {
         display: block;
         width: 320px; }
-        @media (min-width: 992px) {
+        @media (min-width: 992px) and (max-width: 1099px) {
           .homepage .section-work .works-list .card {
             max-width: 240px;
             -ms-flex-wrap: nowrap;
@@ -6235,6 +6236,9 @@ body.fp-responsive .fp-section {
         background-position: center;
         background-repeat: no-repeat;
         transition: all 400ms; }
+        @media (max-height: 700px) {
+          .homepage .section-work .card .thumb {
+            padding-top: 50%; } }
         .homepage .section-work .card .thumb .pattern, .homepage .section-work .card .thumb .logo {
           position: absolute;
           top: 0;
@@ -6254,13 +6258,23 @@ body.fp-responsive .fp-section {
         transition: all 400ms;
         max-height: 500px; }
         .homepage .section-work .card .content .content-container {
-          height: 178px;
           padding: 20px;
           background-color: #fff;
           transition: all 400ms;
-          opacity: 1; }
-      .homepage .section-work .card.case-study-cision .content .content-container, .homepage .section-work .card.case-study-greatschools .content .content-container {
-        height: 208px; }
+          opacity: 1;
+          position: relative; }
+          @media (min-width: 992px) {
+            .homepage .section-work .card .content .content-container {
+              height: 168px; } }
+          @media (min-width: 1490px) and (min-height: 900px), (max-width: 991px) {
+            .homepage .section-work .card .content .content-container {
+              height: 198px; } }
+      @media (min-width: 992px) {
+        .homepage .section-work .card.case-study-cision .content .content-container, .homepage .section-work .card.case-study-greatschools .content .content-container {
+          height: 208px; } }
+      @media (min-width: 1490px) and (min-height: 900px), (max-width: 991px) {
+        .homepage .section-work .card.case-study-cision .content .content-container, .homepage .section-work .card.case-study-greatschools .content .content-container {
+          height: 248px; } }
       .homepage .section-work .card .title {
         font-size: 20px;
         font-weight: 600;
@@ -6274,12 +6288,18 @@ body.fp-responsive .fp-section {
       .homepage .section-work .card .more {
         font-size: 12px;
         color: #2866DC; }
-      .homepage .section-work .card.collapsed .thumb {
-        padding-top: 30%; }
-      .homepage .section-work .card.collapsed .content {
-        max-height: 0; }
-        .homepage .section-work .card.collapsed .content .content-contaienr {
-          opacity: 0; }
+        @media (min-width: 992px) {
+          .homepage .section-work .card .more {
+            position: absolute;
+            bottom: 20px;
+            left: 20px; } }
+      @media (min-width: 992px) {
+        .homepage .section-work .card.collapsed .thumb {
+          padding-top: 30%; }
+        .homepage .section-work .card.collapsed .content {
+          max-height: 0; }
+          .homepage .section-work .card.collapsed .content .content-contaienr {
+            opacity: 0; } }
       .homepage .section-work .card.cs-more {
         display: none; }
       @media (min-width: 1490px) and (min-height: 900px), (max-width: 991px) {
