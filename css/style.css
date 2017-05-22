@@ -6738,7 +6738,7 @@ body.fp-responsive .fp-section {
   @media (min-width: 992px) {
     .narrative-wrapper {
       bottom: 65px; } }
-  @media (max-height: 700px) {
+  @media (max-height: 800px) {
     .narrative-wrapper {
       bottom: 15px; } }
   .narrative-wrapper .narrative {
