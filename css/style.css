@@ -5860,6 +5860,9 @@ body.fp-responsive .fp-section {
       .homepage section {
         padding-top: 0;
         padding-bottom: 0; } }
+  @media (max-width: 1200px) {
+    .homepage .container {
+      width: 100%; } }
   .homepage .page-nav {
     display: none; }
     @media (min-width: 992px) {
@@ -5919,6 +5922,12 @@ body.fp-responsive .fp-section {
   @media (min-height: 800px) and (min-width: 992px) {
     .homepage .page-home section .container.container-centerized {
       position: static; } }
+  .homepage .page-home .heading .sub-subheading:before {
+    content: attr(data-text);
+    opacity: 0; }
+  .homepage .page-home .heading .sec-heading:before {
+    content: attr(data-text);
+    opacity: 0; }
   .homepage .page-home section {
     position: relative;
     background-color: #f8f8f8; }
@@ -5965,6 +5974,9 @@ body.fp-responsive .fp-section {
       @media (max-height: 800px) and (min-width: 992px) {
         .homepage .page-home section .sec-heading {
           font-size: 38px; } }
+      @media (max-height: 699px) {
+        .homepage .page-home section .sec-heading {
+          font-size: 32px; } }
     .homepage .page-home section .container {
       position: relative; }
     .homepage .page-home section .center-background {
@@ -6056,13 +6068,16 @@ body.fp-responsive .fp-section {
     .homepage .services-list .service-wrapper {
       text-align: center;
       display: inline-block;
-      width: 250px;
       margin-top: 30px;
-      margin-bottom: 30px; }
+      margin-bottom: 30px;
+      width: 200px; }
       @media (min-width: 992px) {
         .homepage .services-list .service-wrapper {
           margin-top: 0;
           margin-bottom: 0; } }
+      @media (min-width: 1200px) {
+        .homepage .services-list .service-wrapper {
+          width: 250px; } }
     .homepage .services-list .service-wrapper {
       opacity: 0;
       visibility: hidden;
@@ -6327,9 +6342,17 @@ body.fp-responsive .fp-section {
             font-size: 14px; } }
   .homepage .section-how {
     position: relative; }
-    @media (min-width: 992px) {
-      .homepage .section-how .heading {
-        width: 650px !important; } }
+    .homepage .section-how .heading {
+      margin-bottom: 20px !important; }
+      @media (min-width: 992px) {
+        .homepage .section-how .heading {
+          width: 650px !important; } }
+      @media (min-height: 800px) {
+        .homepage .section-how .heading {
+          margin-bottom: 50px !important; } }
+      @media (max-width: 991px) {
+        .homepage .section-how .heading {
+          margin-bottom: 80px !important; } }
     .homepage .section-how .background-overlay {
       position: absolute;
       top: 0;
@@ -6352,39 +6375,140 @@ body.fp-responsive .fp-section {
     @media (min-width: 992px) {
       .homepage .section-how .center-background {
         background-position: center 20% !important; } }
-    .homepage .section-how .process-content {
-      margin-top: 40px;
-      font-size: 14px; }
-      @media (min-width: 768px) {
-        .homepage .section-how .process-content {
-          font-size: 22px; } }
-      @media (min-width: 992px) {
-        .homepage .section-how .process-content {
-          font-size: 22px; }
-          .homepage .section-how .process-content .container {
-            max-width: 810px; } }
-      @media (max-height: 800px) and (min-width: 992px) {
-        .homepage .section-how .process-content {
-          font-size: 18px; } }
-      .homepage .section-how .process-content p {
-        margin-bottom: 1em; }
-      .homepage .section-how .process-content .content p span {
-        display: inline-block;
-        padding-left: 20px;
-        position: relative; }
-        .homepage .section-how .process-content .content p span:before {
-          content: "-";
+    @media (min-height: 800px) {
+      .homepage .section-how .process-content {
+        padding-top: 150px; } }
+    .homepage .section-how .process-content .process-blocks {
+      width: 300px;
+      height: 300px;
+      padding: 15px;
+      margin-left: auto;
+      margin-right: auto;
+      position: relative; }
+      @media (min-height: 699px) {
+        .homepage .section-how .process-content .process-blocks {
+          width: 370px;
+          height: 370px;
+          padding: 20px; } }
+      @media (min-height: 799px) {
+        .homepage .section-how .process-content .process-blocks {
+          padding: 30px;
+          width: 420px;
+          height: 420px; } }
+      .homepage .section-how .process-content .process-blocks .edge-top, .homepage .section-how .process-content .process-blocks .edge-bottom {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 0;
+        width: 100%;
+        height: 100%; }
+        .homepage .section-how .process-content .process-blocks .edge-top:before, .homepage .section-how .process-content .process-blocks .edge-top:after, .homepage .section-how .process-content .process-blocks .edge-bottom:before, .homepage .section-how .process-content .process-blocks .edge-bottom:after {
+          content: '';
           display: block;
           position: absolute;
-          left: 0px; }
-      .homepage .section-how .process-content button {
-        color: #231F20; }
-      .homepage .section-how .process-content .process-button {
-        margin-top: 60px;
-        opacity: 0;
-        transition: 1000ms opacity; }
-        .homepage .section-how .process-content .process-button.active {
+          height: 50px;
+          width: 50px; }
+      .homepage .section-how .process-content .process-blocks .edge-top:before {
+        top: 0;
+        left: 0;
+        border-top: 4px solid #DEDEDE;
+        border-left: 4px solid #DEDEDE; }
+      .homepage .section-how .process-content .process-blocks .edge-top:after {
+        top: 0;
+        right: 0;
+        border-top: 4px solid #DEDEDE;
+        border-right: 4px solid #DEDEDE; }
+      .homepage .section-how .process-content .process-blocks .edge-bottom:before {
+        bottom: 0;
+        left: 0;
+        border-bottom: 4px solid #DEDEDE;
+        border-left: 4px solid #DEDEDE; }
+      .homepage .section-how .process-content .process-blocks .edge-bottom:after {
+        bottom: 0;
+        right: 0;
+        border-bottom: 4px solid #DEDEDE;
+        border-right: 4px solid #DEDEDE; }
+      .homepage .section-how .process-content .process-blocks .blocks-container {
+        position: relative;
+        z-index: 1;
+        height: 100%;
+        width: 100%; }
+      .homepage .section-how .process-content .process-blocks .process-block {
+        width: 120px;
+        height: 120px;
+        font-size: 16px;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        background-color: #000;
+        color: #fff;
+        text-align: center;
+        position: relative;
+        position: absolute; }
+        @media (min-height: 699px) {
+          .homepage .section-how .process-content .process-blocks .process-block {
+            width: 145px;
+            height: 145px;
+            font-size: 20px; } }
+        .homepage .section-how .process-content .process-blocks .process-block:before, .homepage .section-how .process-content .process-blocks .process-block:after {
+          content: "";
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0;
+          z-index: 0;
+          transition: opacity 300ms; }
+        .homepage .section-how .process-content .process-blocks .process-block:before {
+          background-image: url("../img/pattern-1.png");
+          background-size: cover;
+          opacity: 0.15; }
+        .homepage .section-how .process-content .process-blocks .process-block:after {
+          background-image: url("../img/pattern-3.png");
+          background-size: cover;
+          opacity: 0; }
+        .homepage .section-how .process-content .process-blocks .process-block:hover:before {
+          opacity: 0; }
+        .homepage .section-how .process-content .process-blocks .process-block:hover:after {
           opacity: 1; }
+        .homepage .section-how .process-content .process-blocks .process-block.alt:before {
+          background-image: url("../img/pattern-2.png");
+          background-size: cover;
+          opacity: 0.15; }
+        .homepage .section-how .process-content .process-blocks .process-block.alt:after {
+          background-image: url("../img/pattern-4.png");
+          background-size: cover;
+          opacity: 0; }
+        .homepage .section-how .process-content .process-blocks .process-block.alt:hover:before {
+          opacity: 0; }
+        .homepage .section-how .process-content .process-blocks .process-block.alt:hover:after {
+          opacity: 1; }
+        .homepage .section-how .process-content .process-blocks .process-block p {
+          margin-bottom: 0;
+          position: relative;
+          z-index: 1; }
+        .homepage .section-how .process-content .process-blocks .process-block.top-left {
+          top: 0;
+          left: 0; }
+        .homepage .section-how .process-content .process-blocks .process-block.top-right {
+          top: 0;
+          right: 0; }
+        .homepage .section-how .process-content .process-blocks .process-block.bottom-left {
+          bottom: 0;
+          left: 0; }
+        .homepage .section-how .process-content .process-blocks .process-block.bottom-right {
+          bottom: 0;
+          right: 0; }
+    .homepage .section-how .process-content button {
+      color: #231F20; }
+    .homepage .section-how .process-content .process-button {
+      margin-top: 20px; }
+      @media (min-height: 800px) {
+        .homepage .section-how .process-content .process-button {
+          margin-top: 60px; } }
   @media (min-width: 992px) {
     .homepage .section-clients .heading {
       width: 900px !important; } }
@@ -6614,6 +6738,9 @@ body.fp-responsive .fp-section {
   @media (min-width: 992px) {
     .narrative-wrapper {
       bottom: 65px; } }
+  @media (max-height: 700px) {
+    .narrative-wrapper {
+      bottom: 15px; } }
   .narrative-wrapper .narrative {
     display: inline-block; }
     .narrative-wrapper .narrative .line {
