@@ -5852,7 +5852,8 @@ body.fp-responsive .fp-section {
     height: auto !important; }
 
 .homepage {
-  /** arrange content **/ }
+  /** arrange content **/
+  /** for section work **/ }
   .homepage section {
     padding-top: 40px;
     padding-bottom: 40px; }
@@ -6181,10 +6182,14 @@ body.fp-responsive .fp-section {
         margin-bottom: 10px; }
       .homepage .section-contact .address p b, .homepage .section-contact .address p strong {
         color: #231F20; }
+  .homepage .page-home section.section-work .heading {
+    margin-bottom: 20px; }
+    @media (min-height: 800px) {
+      .homepage .page-home section.section-work .heading {
+        margin-top: 80px;
+        margin-bottom: 40px; } }
   .homepage .section-work {
     position: relative; }
-    .homepage .section-work .heading {
-      margin-bottom: 50px; }
     @media (max-height: 950px) {
       .homepage .section-work .fp-tableCell {
         vertical-align: top; }
@@ -6192,15 +6197,16 @@ body.fp-responsive .fp-section {
         position: relative;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 80px !important;
-        margin-bottom: 40px !important;
         left: 0;
         top: 0;
         transform: none; } }
     .homepage .section-work .works-list {
-      margin-top: 40px;
+      margin-top: 20px;
       text-align: center; }
-      @media (min-width: 992px) {
+      @media (min-height: 800px) {
+        .homepage .section-work .works-list {
+          margin-top: 40px; } }
+      @media (min-width: 768px) {
         .homepage .section-work .works-list {
           display: -ms-flexbox;
           display: flex;
@@ -6210,18 +6216,21 @@ body.fp-responsive .fp-section {
           align-items: stretch;
           -ms-flex-wrap: wrap;
           flex-wrap: wrap;
-          width: 800px;
+          max-width: 800px;
           margin-left: auto;
           margin-right: auto; } }
       .homepage .section-work .works-list .card {
         display: block;
-        width: 320px; }
-        @media (min-width: 992px) and (max-width: 1099px) {
+        width: 100%; }
+        @media (min-width: 768px) {
+          .homepage .section-work .works-list .card {
+            width: 45%; } }
+        @media (min-width: 992px) {
           .homepage .section-work .works-list .card {
             max-width: 240px;
             -ms-flex-wrap: nowrap;
             flex-wrap: nowrap; } }
-        @media (min-width: 1100px) and (min-height: 700px), (max-width: 991px) {
+        @media (min-width: 1200px) {
           .homepage .section-work .works-list .card {
             max-width: 320px; } }
       .homepage .section-work .works-list .card {
@@ -6258,14 +6267,17 @@ body.fp-responsive .fp-section {
       transition: box-shadow 500ms; }
       .homepage .section-work .card .thumb {
         height: 0;
-        padding-top: 62.5%;
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        transition: all 400ms; }
-        @media (max-height: 700px) {
+        transition: all 400ms;
+        padding-top: 35%; }
+        @media (min-height: 800px) {
           .homepage .section-work .card .thumb {
             padding-top: 50%; } }
+        @media (min-height: 900px) {
+          .homepage .section-work .card .thumb {
+            padding-top: 62.5%; } }
         .homepage .section-work .card .thumb .pattern, .homepage .section-work .card .thumb .logo {
           position: absolute;
           top: 0;
