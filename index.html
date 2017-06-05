@@ -45,17 +45,19 @@
         <div class="nav" v-on:click="toggleMenu"><span class="text">Menu </span><span class="icon" v-bind:class="{'active': menuState}"><span class="top"></span><span class="middle"></span><span class="bottom"></span></span></div>
       </header>
       <div class="page page-home scroll-container">
+        <div class="background">
+          <div class="center-background-mv hidden-sm hidden-xs">
+            <video id="intro_vid" width="100%" height="100%">
+              <source src="img/intro-start.mp4" type="video/mp4">
+            </video>
+            <video class="loop-video" id="loop_vid" width="100%" height="100%" preload="auto" muted loop>
+              <source src="img/intro-loop.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="center-background visible-sm-block visible-xs-block" style="background-image: url(img/homepage-hub.svg)"></div>
+        </div>
         <div class="scroller">
           <section class="section-home">
-            <div class="center-background-mv hidden-sm hidden-xs">
-              <video id="intro_vid" width="100%" height="100%">
-                <source src="img/intro-start.mp4" type="video/mp4">
-              </video>
-              <video class="loop-video" id="loop_vid" width="100%" height="100%" preload="auto" muted loop>
-                <source src="img/intro-loop.mp4" type="video/mp4">
-              </video>
-            </div>
-            <div class="center-background visible-sm-block visible-xs-block" style="background-image: url(img/homepage-hub.svg)"></div>
             <div class="container container-centerized">
               <div class="heading">
                 <div class="sec-subheading" data-text="Hello there"> </div>
@@ -67,12 +69,6 @@
             </div>
           </section>
           <section class="section-services">
-            <div class="center-background-mv hidden-sm hidden-xs">
-              <video class="loop-video" width="100%" height="100%" id="service_vid" preload="auto" muted loop>
-                <source src="img/intro-loop.mp4" type="video/mp4">
-              </video>
-            </div>
-            <div class="center-background visible-sm-block visible-xs-block" style="background-image: url(img/homepage-hub.svg)"></div>
             <div class="container container-centerized">
               <div class="heading">
                 <div class="sec-subheading" data-text="What we offer"> </div>
@@ -215,12 +211,6 @@
             </div>
           </section>
           <section class="section-how">
-            <div class="center-background-mv hidden-sm hidden-xs">
-              <video class="loop-video" width="100%" height="100%" id="service_vid" preload="auto" muted loop>
-                <source src="img/intro-loop.mp4" type="video/mp4">
-              </video>
-            </div>
-            <div class="center-background visible-sm-block visible-xs-block" style="background-image: url(img/homepage-hub.svg)"></div>
             <div class="background-overlay"></div>
             <div class="container container-centerized">
               <div class="heading">
@@ -272,12 +262,6 @@
             </div>
           </section>
           <section class="section-contact">
-            <div class="center-background-mv hidden-sm hidden-xs">
-              <video class="loop-video" width="100%" height="100%" id="service_vid" preload="auto" muted loop>
-                <source src="img/intro-loop.mp4" type="video/mp4">
-              </video>
-            </div>
-            <div class="center-background visible-sm-block visible-xs-block" style="background-image: url(img/homepage-hub.svg)"></div>
             <div class="container container-centerized">
               <div class="heading">
                 <div class="sec-subheading" data-text="Contact"></div>
