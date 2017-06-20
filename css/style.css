@@ -6474,25 +6474,25 @@ body.fp-responsive .fp-section {
           background-size: cover;
           opacity: 0.15; }
         .homepage .section-how .process-content .process-blocks .process-block:after {
-          background-image: url("../img/pattern-3.png");
+          background-image: url("../img/pattern-1.gif");
           background-size: cover;
           opacity: 0; }
         .homepage .section-how .process-content .process-blocks .process-block:hover:before {
           opacity: 0; }
         .homepage .section-how .process-content .process-blocks .process-block:hover:after {
-          opacity: 1; }
+          opacity: 0.9; }
         .homepage .section-how .process-content .process-blocks .process-block.alt:before {
           background-image: url("../img/pattern-2.png");
           background-size: cover;
           opacity: 0.15; }
         .homepage .section-how .process-content .process-blocks .process-block.alt:after {
-          background-image: url("../img/pattern-4.png");
+          background-image: url("../img/pattern-2.gif");
           background-size: cover;
           opacity: 0; }
         .homepage .section-how .process-content .process-blocks .process-block.alt:hover:before {
           opacity: 0; }
         .homepage .section-how .process-content .process-blocks .process-block.alt:hover:after {
-          opacity: 1; }
+          opacity: 0.9; }
         .homepage .section-how .process-content .process-blocks .process-block p {
           margin-bottom: 0;
           position: relative;
