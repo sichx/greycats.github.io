@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Ilab</title>
+    <title>Interactive Labs</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
     <link rel="stylesheet" href="css/vendor.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -154,7 +155,7 @@
                 <div class="sec-heading" data-text="We build winning&lt;br/&gt;products"></div>
               </div>
               <div class="works-list" id="work-container">
-                <div class="case-study-dcom card">
+                <div class="case-study-dcom card reveal-item">
                   <div class="thumb">
                     <div class="pattern"></div><a class="logo" href="dcom.html"><img src="img/client-dcom-white.png" src-set="img/client-dcom-white@2x.png 2x" alt="dcom"></a>
                   </div>
@@ -167,7 +168,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="case-study-portal card">
+                <div class="case-study-portal card reveal-item">
                   <div class="thumb">
                     <div class="pattern"></div><a class="logo" href="portal.html"><img src="img/client-portal-white.svg" alt="portal"></a>
                   </div>
@@ -207,7 +208,7 @@
                   </div>
                 </div>
               </div>
-              <p class="text-center more-container"><a class="btn btn-arrow-down sm" @click="expandClient">Show more<span class="arr">...</span></a></p>
+              <p class="text-center more-container"><span class="reveal-item" style="display: inline-block" @click="expandClient"><a class="btn btn-arrow-down sm">Show more<span class="arr">...</span></a></span></p>
             </div>
           </section>
           <section class="section-how">
@@ -220,25 +221,31 @@
               <div class="process-content">
                 <div class="container">
                   <div class="process-blocks">
-                    <div class="edge-top"></div>
-                    <div class="edge-bottom"></div>
                     <div class="blocks-container">
-                      <div class="process-block top-left">
-                        <p>Collaborative</p>
+                      <div class="process-block top-left reveal-item">
+                        <div class="block-inner">
+                          <p>Collaborative</p>
+                        </div>
                       </div>
-                      <div class="process-block top-right alt">
-                        <p>Iterative</p>
+                      <div class="process-block top-right reveal-item">
+                        <div class="alt block-inner">
+                          <p>Iterative</p>
+                        </div>
                       </div>
-                      <div class="process-block bottom-left">
-                        <p>Flexible</p>
+                      <div class="process-block bottom-left reveal-item">
+                        <div class="block-inner">
+                          <p>Flexible</p>
+                        </div>
                       </div>
-                      <div class="process-block bottom-right alt">
-                        <p>Data Driven</p>
+                      <div class="process-block bottom-right reveal-item">
+                        <div class="alt block-inner">
+                          <p>Data Driven</p>
+                        </div>
                       </div>
                     </div>
                   </div>
                   <div class="process-button">
-                    <p class="text-center"><a class="btn btn-arrow-down sm" href="process.html">View process<span class="arr"> <span class="icon-arrow-right"></span></span></a></p>
+                    <p class="text-center"><span class="reveal-item" style="display: inline-block"><a class="btn btn-arrow-down sm" href="process.html">View process<span class="arr"> <span class="icon-arrow-right"></span></span></a></span></p>
                   </div>
                 </div>
               </div>
@@ -252,9 +259,11 @@
               </div>
               <div class="clients-list">
                 <div class="row">
-                  <div class="col-md-3 col-sm-6" v-for="client in clients">
-                    <div class="client-item">
-                      <div class="thumb"><img v-if="!client.imgSvg" v-bind:src="client.img" v-bind:srcset="client.imgHighRes"><img v-else v-bind:src="client.imgSvg"></div>
+                  <div class="col-md-3 col-sm-6" v-for="(client,index) in clients">
+                    <div class="client-item-container reveal-item">
+                      <div class="client-item" v-bind:id="'client-'+index">
+                        <div class="thumb"><img v-if="!client.imgSvg" v-bind:src="client.img" v-bind:srcset="client.imgHighRes"><img v-else v-bind:src="client.imgSvg"></div>
+                      </div>
                     </div>
                   </div>
                 </div>
