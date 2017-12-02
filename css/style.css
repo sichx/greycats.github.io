@@ -3243,6 +3243,76 @@ input[type="button"].btn-block {
   .hidden-print {
     display: none !important; } }
 
+/* Slider */
+.slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent; }
+
+.slick-list {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  margin: 0;
+  padding: 0; }
+  .slick-list:focus {
+    outline: none; }
+  .slick-list.dragging {
+    cursor: pointer;
+    cursor: hand; }
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+  transform: translate3d(0, 0, 0); }
+
+.slick-track {
+  position: relative;
+  left: 0;
+  top: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+  .slick-track:before, .slick-track:after {
+    content: "";
+    display: table; }
+  .slick-track:after {
+    clear: both; }
+  .slick-loading .slick-track {
+    visibility: hidden; }
+
+.slick-slide {
+  float: left;
+  height: 100%;
+  min-height: 1px;
+  display: none; }
+  [dir="rtl"] .slick-slide {
+    float: right; }
+  .slick-slide img {
+    display: block; }
+  .slick-slide.slick-loading img {
+    display: none; }
+  .slick-slide.dragging img {
+    pointer-events: none; }
+  .slick-initialized .slick-slide {
+    display: block; }
+  .slick-loading .slick-slide {
+    visibility: hidden; }
+  .slick-vertical .slick-slide {
+    display: block;
+    height: auto;
+    border: 1px solid transparent; }
+
+.slick-arrow.slick-hidden {
+  display: none; }
+
 @font-face {
   font-family: 'Maison Neue';
   src: url("../fonts/MaisonNeueLight.eot");
@@ -5888,6 +5958,269 @@ img.lazyloaded {
 
 .case-study-portal footer {
   background-color: #f8f8f8; }
+
+.page-about .landing {
+  background-image: url("../img/about-bg@2x.jpg");
+  background-size: cover;
+  background-position: top center;
+  position: relative; }
+  @media (min-width: 992px) {
+    .page-about .landing {
+      height: 100vh; } }
+
+.page-about .what-we-do {
+  background-color: #f8f8f8;
+  position: relative;
+  overflow: visible;
+  padding: 80px; }
+  @media (min-width: 768px) {
+    .page-about .what-we-do {
+      padding: 140px 0; } }
+  .page-about .what-we-do .mouse-scroll {
+    position: absolute;
+    left: 50%;
+    top: -60px;
+    transform: translateX(-50%);
+    z-index: 9; }
+  .page-about .what-we-do .slick-dots {
+    text-align: center; }
+  .page-about .what-we-do .work-slider-item {
+    text-align: center; }
+    .page-about .what-we-do .work-slider-item h3 {
+      font-weight: 700;
+      font-size: 50px;
+      color: #231F20;
+      letter-spacing: 1px; }
+    .page-about .what-we-do .work-slider-item p {
+      font-size: 22px; }
+
+.page-about .our-skills h3 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #231F20;
+  letter-spacing: 1px;
+  text-align: center; }
+
+.page-about .our-skills .services-list {
+  margin-top: 100px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.page-about .our-skills .service {
+  background-color: transparent; }
+  .page-about .our-skills .service:before, .page-about .our-skills .service:after {
+    background-color: transparent; }
+  .page-about .our-skills .service .content {
+    background-color: #fff; }
+    .page-about .our-skills .service .content img {
+      margin-top: 30px; }
+  .page-about .our-skills .service .lbl {
+    border: transparent;
+    background-color: transparent;
+    text-transform: uppercase;
+    width: auto;
+    text-overflow: none;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%); }
+
+.page-about .crews {
+  background-color: #f8f8f8; }
+  .page-about .crews h3 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #231F20;
+    letter-spacing: 1px; }
+  .page-about .crews .filter {
+    padding: 0;
+    position: absolute;
+    right: 15px;
+    list-style: none;
+    list-style-image: none;
+    list-style-position: outside;
+    margin-top: 30px; }
+    .page-about .crews .filter li {
+      display: inline-block;
+      padding: 0 10px; }
+    .page-about .crews .filter a {
+      text-transform: uppercase;
+      font-size: 18px;
+      font-weight: 500;
+      color: #B8B6B7;
+      letter-spacing: 1px;
+      cursor: pointer;
+      padding-bottom: 5px; }
+      .page-about .crews .filter a:hover, .page-about .crews .filter a.active {
+        color: #231F20;
+        border-bottom: 3px solid #2866DC; }
+  .page-about .crews .crew-container {
+    position: relative; }
+    .page-about .crews .crew-container .list-complete-item {
+      transition: all 300ms;
+      display: inline-block; }
+    .page-about .crews .crew-container .list-complete-enter, .page-about .crews .crew-container .list-complete-leave-to {
+      opacity: 0; }
+    .page-about .crews .crew-container .list-complete-leave-active {
+      position: absolute; }
+    .page-about .crews .crew-container .crews-list {
+      position: relative; }
+      .page-about .crews .crew-container .crews-list .crew-item {
+        width: 12.5%;
+        display: inline-block; }
+        .page-about .crews .crew-container .crews-list .crew-item img {
+          width: 100%; }
+  .page-about .crews .leaders-container {
+    font-size: 22px; }
+    .page-about .crews .leaders-container .leaders {
+      display: -ms-flexbox;
+      display: flex; }
+      .page-about .crews .leaders-container .leaders .leader-item {
+        -ms-flex: 1;
+        flex: 1; }
+        .page-about .crews .leaders-container .leaders .leader-item .photo {
+          display: block;
+          height: 360px;
+          position: relative;
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center; }
+          .page-about .crews .leaders-container .leaders .leader-item .photo:hover .overlay {
+            opacity: 1; }
+          .page-about .crews .leaders-container .leaders .leader-item .photo .overlay {
+            transition: opacity 300ms;
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            background-color: rgba(40, 102, 220, 0.6);
+            color: #fff;
+            padding: 20px;
+            font-size: 16px;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-align: center;
+            align-items: center; }
+        .page-about .crews .leaders-container .leaders .leader-item .name {
+          font-size: 20px;
+          font-weight: 500;
+          color: #231F20;
+          letter-spacing: 1px;
+          margin-top: 20px;
+          margin-bottom: 0;
+          margin-left: 20px;
+          margin-right: 20px; }
+        .page-about .crews .leaders-container .leaders .leader-item .role {
+          font-size: 18px;
+          font-weight: 600;
+          color: #8D8B8B;
+          letter-spacing: 0.9px;
+          margin-left: 20px;
+          margin-right: 20px; }
+
+.page-about .office {
+  background-color: #262b34;
+  background-image: url("../img/about-map-us.jpg");
+  background-size: contain;
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  height: 793px;
+  transition: background 300ms; }
+  .page-about .office.office-us {
+    background-image: url("../img/about-map-us.jpg"); }
+  .page-about .office.office-vn {
+    background-image: url("../img/about-map-vn.jpg"); }
+  .page-about .office.office-cn {
+    background-image: url("../img/about-map-cn.jpg"); }
+  .page-about .office h3 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    max-width: 700px;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto; }
+  .page-about .office p {
+    color: #fff;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto; }
+  .page-about .office .office-sliders {
+    margin-top: 80px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative; }
+    .page-about .office .office-sliders .office-item .thumbnail {
+      width: 100%;
+      height: 200px;
+      background-size: cover;
+      background-repeat: no-repeat; }
+    .page-about .office .office-sliders .office-item .content {
+      padding: 10px;
+      text-align: center;
+      background-color: #fff; }
+      .page-about .office .office-sliders .office-item .content h4 {
+        font-size: 18px;
+        font-weight: 500;
+        color: #231F20;
+        letter-spacing: 1px; }
+    .page-about .office .office-sliders .slick-arrow {
+      position: absolute;
+      bottom: 13px;
+      color: transparent;
+      border: 0;
+      background-color: transparent;
+      z-index: 9;
+      outline: none; }
+      .page-about .office .office-sliders .slick-arrow:before, .page-about .office .office-sliders .slick-arrow:after {
+        content: "";
+        font-family: 'iconfont';
+        display: inline-block;
+        color: #231F20; }
+    .page-about .office .office-sliders .slick-prev {
+      left: 10px; }
+      .page-about .office .office-sliders .slick-prev:before {
+        content: "\e902"; }
+    .page-about .office .office-sliders .slick-next {
+      right: 10px; }
+      .page-about .office .office-sliders .slick-next:after {
+        content: "\e903"; }
+
+.slick-dots {
+  padding-left: 0; }
+
+.slick-dots li {
+  display: inline-block; }
+  .slick-dots li.slick-active button:before {
+    background-color: #2866dc; }
+  .slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    padding: 5px;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+    display: inline-block;
+    position: relative;
+    text-align: center; }
+    .slick-dots li button:before {
+      content: "";
+      display: inline-block;
+      background-color: #e1e1e1;
+      width: 8px;
+      height: 8px;
+      border-radius: 4px; }
 
 body.fp-responsive .fp-section {
   height: auto !important; }
