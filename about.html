@@ -54,17 +54,18 @@
           </div>
         </section>
         <section class="what-we-do"><img class="mouse-scroll" src="img/about-scroll.svg">
+          <div class="container">
+            <h3>Who we are</h3>
+          </div>
           <div class="work-sliders">
             <div class="work-slider-item">
               <div class="container">
-                <h3>What we do everyday</h3>
-                <p>Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacus, vitae ullamcorper metus. Sed sollicitudin ipsum quis nunc sollicitudin ultrices. Donec euismod scelerisque ligula. </p>
+                <p>We are a group of designers, engineers, product managers and innovators with a proven track record of delivering high-quality products that delight users and exceed their needs. </p>
               </div>
             </div>
             <div class="work-slider-item">
               <div class="container">
-                <h3>What we do everyday</h3>
-                <p>Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacus, vitae ullamcorper metus. Sed sollicitudin ipsum quis nunc sollicitudin ultrices. Donec euismod scelerisque ligula. </p>
+                <p>Our goal is to help build great software companies by combining the Silicon Valley hustle with a business' core area of expertise to deliver quality product at break neck speed. </p>
               </div>
             </div>
           </div>
@@ -73,28 +74,72 @@
           <div class="container">
             <h3>Our skills</h3>
             <div class="services-list">
-              <div class="service">
-                <div class="content">
-                  <div class="thumb"><img src="../img/about-icon-product.svg"></div>
-                  <div class="lbl">Product Design</div>
+              <div class="row-1">
+                <div class="service-wrapper">
+                  <div class="service" v-on:mouseenter="mouseover(1)" v-on:mouseleave="mouseleave(1)" id="service_icon_1">
+                    <div class="content">
+                      <div class="thumb"></div>
+                      <div class="lbl">User Research</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="service-wrapper">
+                  <div class="service" v-on:mouseenter="mouseover(2)" v-on:mouseleave="mouseleave(2)" id="service_icon_2">
+                    <div class="content">
+                      <div class="thumb"></div>
+                      <div class="lbl">Ideation</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="service-wrapper">
+                  <div class="service" v-on:mouseenter="mouseover(3)" v-on:mouseleave="mouseleave(3)" id="service_icon_3">
+                    <div class="content">
+                      <div class="thumb"></div>
+                      <div class="lbl">Visual Design</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="service-wrapper">
+                  <div class="service" v-on:mouseenter="mouseover(4)" v-on:mouseleave="mouseleave(4)" id="service_icon_4">
+                    <div class="content">
+                      <div class="thumb"></div>
+                      <div class="lbl">Prototype</div>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div class="service">
-                <div class="content">
-                  <div class="thumb"><img src="../img/about-icon-ux.svg"></div>
-                  <div class="lbl">UX Magical</div>
+              <div class="row-2">
+                <div class="service-wrapper">
+                  <div class="service" v-on:mouseenter="mouseover(5)" v-on:mouseleave="mouseleave(5)" id="service_icon_5">
+                    <div class="content">
+                      <div class="thumb"></div>
+                      <div class="lbl">Backend development</div>
+                    </div>
+                  </div>
                 </div>
-              </div>
-              <div class="service">
-                <div class="content">
-                  <div class="thumb"><img src="../img/about-icon-dev.svg"></div>
-                  <div class="lbl">Development</div>
+                <div class="service-wrapper">
+                  <div class="service" v-on:mouseenter="mouseover(6)" v-on:mouseleave="mouseleave(6)" id="service_icon_6">
+                    <div class="content">
+                      <div class="thumb"></div>
+                      <div class="lbl">Mobile development</div>
+                    </div>
+                  </div>
                 </div>
-              </div>
-              <div class="service">
-                <div class="content">
-                  <div class="thumb"><img src="../img/about-icon-launch.svg"></div>
-                  <div class="lbl">Launching</div>
+                <div class="service-wrapper">
+                  <div class="service" v-on:mouseenter="mouseover(7)" v-on:mouseleave="mouseleave(7)" id="service_icon_7">
+                    <div class="content">
+                      <div class="thumb"></div>
+                      <div class="lbl">Web Development</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="service-wrapper">
+                  <div class="service" v-on:mouseenter="mouseover(8)" v-on:mouseleave="mouseleave(8)" id="service_icon_8">
+                    <div class="content">
+                      <div class="thumb"></div>
+                      <div class="lbl">Product Management</div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -102,51 +147,65 @@
         </section>
         <section class="crews">
           <div class="leaders-container container">
-            <h3>The leadership</h3>
-            <p>Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacus, vitae ullamcorper metus. Sed sollicitudin ipsum quis nunc sollicitudin ultrices. Donec euismod scelerisque ligula. </p>
+            <div class="section-intro">
+              <h3>Our leadership</h3>
+              <p>Ours is a hands-on leadership team. One or more of the folks you see below will be working on your product directly. We mean actually working, not overseeing. We mean designing, coding, tracking metrics, road mapping, writing specs and leading every project our company touches. We enjoy the grind, all there is, is the grind. </p>
+            </div>
             <div class="leaders">
               <div class="leader-item">
-                <div class="photo" style="background-image: url(img/crew/rohan.jpg)">
+                <div class="photo" style="background-image: url(img/crew/rohan@2x.jpg)">
                   <div class="overlay">
-                    <p>Sicheng (Steve) Xu is an seasoned technologist with experience leading both web and mobile projects. Steve has worked on several high usage mobile and web apps and drives the overall technical direction for our team. Steve has an engineering degree from the University of California in San Diego.</p>
+                    <p>Rohan is a detail-oriented and passionate self-starter. He is very organized and energetic and will both motivate and push everyone around him to be their best. Rohan leads product direction for several of our customers. He backs up his product intuition with strong metrics.</p>
+                  </div>
+                </div>
+                <p class="name">ROHAN SARDESAI</p>
+                <p class="role">CEO/Product</p>
+              </div>
+              <div class="leader-item">
+                <div class="photo" style="background-image: url(img/crew/steve@2x.jpg)">
+                  <div class="overlay">
+                    <p>Sicheng (Steve) Xu is an seasoned technologist with 12+ years of experience leading both web and mobile projects. Steve has worked on several high usage mobile and web apps and drives the overall technical direction for our team.</p>
                   </div>
                 </div>
                 <p class="name">ROHAN SARDESAI</p>
                 <p class="role">CEO</p>
               </div>
               <div class="leader-item">
-                <div class="photo" style="background-image: url(img/crew/rohan.jpg)">
+                <div class="photo" style="background-image: url(img/crew/loc@2x.jpg)">
                   <div class="overlay">
-                    <p>Sicheng (Steve) Xu is an seasoned technologist with experience leading both web and mobile projects. Steve has worked on several high usage mobile and web apps and drives the overall technical direction for our team. Steve has an engineering degree from the University of California in San Diego.</p>
+                    <p>Loc brings 14 years of directed web and mobile experience, crafting compelling product designs and user experiences across the mediums. He previously co-founded JobAlchemist, Inc., a Y-Combinator backed startup. With 100+ products under his belt, Loc ensures that your products are world class.</p>
                   </div>
                 </div>
                 <p class="name">ROHAN SARDESAI</p>
                 <p class="role">CEO</p>
               </div>
               <div class="leader-item">
-                <div class="photo" style="background-image: url(img/crew/rohan.jpg)">
+                <div class="photo" style="background-image: url(img/crew/ben@2x.jpg)">
                   <div class="overlay">
-                    <p>Sicheng (Steve) Xu is an seasoned technologist with experience leading both web and mobile projects. Steve has worked on several high usage mobile and web apps and drives the overall technical direction for our team. Steve has an engineering degree from the University of California in San Diego.</p>
+                    <p>Ben has 10+ years development experience leading large scale web and mobile projects. Previously cofounded Hivemapper and JobAlchemist, Ben has delivered critical mobile and web applications to thousands of customers, from startups to government agencies</p>
                   </div>
                 </div>
                 <p class="name">ROHAN SARDESAI</p>
                 <p class="role">CEO</p>
               </div>
-            </div>
-          </div>
-          <div class="crew-container">
-            <div class="container">
-              <ul class="filter">
-                <li class="all"><a @click="country = 'all'" :class="{active: country == 'all'}">All</a></li>
-                <li class="china"><a @click="country = 'cn'" :class="{active: country == 'cn'}">China</a></li>
-                <li class="vietnam"><a @click="country = 'vi'" :class="{active: country == 'vi'}">Vietnam</a></li>
-              </ul>
-              <h3>The crew</h3>
-            </div>
-            <div>
-              <transition-group class="crews-list" name="list-complete" tag="div">
-                <div class="crew-item list-complete-item" v-for="(crew, index) in filterCrews" :key="crew"><img :src="crew.avatar"></div>
-              </transition-group>
+              <div class="leader-item">
+                <div class="photo" style="background-image: url(img/crew/drew@2x.jpg)">
+                  <div class="overlay">
+                    <p>Drew is a highly motivated Product Designer with a zeal for curating human-centric experiences.  With a background in graphic design, Drew has over 10 years experience applying fundamental design concepts to technology driven products within the industries of enterprise, education, and gaming.</p>
+                  </div>
+                </div>
+                <p class="name">ROHAN SARDESAI</p>
+                <p class="role">CEO</p>
+              </div>
+              <div class="leader-item">
+                <div class="photo" style="background-image: url(img/crew/linh@2x.jpg)">
+                  <div class="overlay">
+                    <p>Linh is passionate, strategic thinker with a strong background in marketing, user research, branding and project management. Joining Interactive Labs since 2015, Linh has put tremendous effort into ensuring the success of every project she’s in.</p>
+                  </div>
+                </div>
+                <p class="name">ROHAN SARDESAI</p>
+                <p class="role">CEO</p>
+              </div>
             </div>
           </div>
         </section>
