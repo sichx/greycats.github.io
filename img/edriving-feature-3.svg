@@ -1,1 +1,26 @@
-<svg width="74" height="69" viewBox="0 0 74 69" xmlns="http://www.w3.org/2000/svg"><title>Group 10</title><g fill="none" fill-rule="evenodd"><path d="M31 21v27m24-28h6v48H1V20h6" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M31 21c-6.75-5.083-15.667-7-24-7v41c8.333 0 17.25 1.917 24 7 6.75-5.083 15.667-7 24-7V14c-8.333 0-17.25 1.917-24 7z" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><g transform="translate(37 1)"><circle stroke="#000" stroke-width="2" fill="#F8F8F8" cx="18" cy="18" r="18"/><path fill="#000" d="M15.6 18.4l-4-2.4-1.6 1.6 5.6 6.4L26 13.6 24.4 12z"/></g></g></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="74px" height="69px" viewBox="0 0 74 69" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 10</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Case-Study" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="02_Case-Study-Edriving" transform="translate(-1116.000000, -3228.000000)">
+            <g id="Group-29" transform="translate(-230.000000, 3229.000000)">
+                <g id="features" transform="translate(364.000000, 0.000000)">
+                    <g id="3" transform="translate(840.000000, 0.000000)">
+                        <g id="Group-10" transform="translate(143.000000, 0.000000)">
+                            <path d="M30,20 L30,47" id="Stroke-314" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <polyline id="Stroke-315" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="54 19 60 19 60 67 0 67 0 19 6 19"></polyline>
+                            <path d="M30,20 C23.25,14.917 14.333,13 6,13 L6,54 C14.333,54 23.25,55.917 30,61 C36.75,55.917 45.667,54 54,54 L54,13 C45.667,13 36.75,14.917 30,20 L30,20 Z" id="Stroke-316" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <g id="Group-11" transform="translate(36.000000, 0.000000)">
+                                <circle id="Oval" stroke="#000000" stroke-width="2" fill="#F8F8F8" cx="18" cy="18" r="18"></circle>
+                                <polygon id="Fill-83" fill="#000000" points="15.6 18.4 11.6 16 10 17.6 15.6 24 26 13.6 24.4 12"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,1 +1,35 @@
-<svg width="156" height="156" viewBox="0 0 156 156" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><title>gs-question-icon-plan</title><defs><path id="a" d="M23 23h110v110H23z"/><mask id="b" x="0" y="0" width="110" height="110" fill="#fff"><use xlink:href="#a"/></mask></defs><g fill="none" fill-rule="evenodd"><use stroke="#DEDEDE" mask="url(#b)" stroke-width="2" fill="#FFF" transform="rotate(45 78 78)" xlink:href="#a"/><path fill="#FFF" d="M18 18h120v120H18z"/><g stroke-width="2" stroke="#444"><path d="M84 101V89h12"/><path d="M84 101H60V57h36v32zM68 67h20M68 77h20M68 87h8"/></g></g></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="156px" height="156px" viewBox="0 0 156 156" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>gs-question-icon-plan</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="23" y="23" width="110" height="110"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="110" height="110" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Visual-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="02_Case-Study-GS-Compact" transform="translate(-224.000000, -5198.000000)">
+            <g id="Group-46-Copy" transform="translate(0.000000, 4603.000000)">
+                <g id="Group-47" transform="translate(170.000000, 413.000000)">
+                    <g id="Group-15" transform="translate(0.000000, 182.000000)">
+                        <g id="gs-question-icon-plan" transform="translate(54.000000, 0.000000)">
+                            <use id="Rectangle-5" stroke="#DEDEDE" mask="url(#mask-2)" stroke-width="2" fill="#FFFFFF" transform="translate(78.000000, 78.000000) rotate(45.000000) translate(-78.000000, -78.000000) " xlink:href="#path-1"></use>
+                            <rect id="Rectangle-3" fill="#FFFFFF" x="18" y="18" width="120" height="120"></rect>
+                            <g id="files-48px-outline_single-content-02" transform="translate(60.000000, 57.000000)" stroke-width="2" stroke="#444444">
+                                <g id="Group">
+                                    <polyline id="Shape" points="24 44 24 32 36 32"></polyline>
+                                    <polygon id="Shape" points="24 44 0 44 0 0 36 0 36 32"></polygon>
+                                    <path d="M8,10 L28,10" id="Shape"></path>
+                                    <path d="M8,20 L28,20" id="Shape"></path>
+                                    <path d="M8,30 L16,30" id="Shape"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -5960,6 +5960,7 @@ img.lazyloaded {
   background-color: #f8f8f8; }
 
 .page-about .landing {
+  height: 100vh;
   background-image: url("../img/about-bg@2x.jpg");
   background-size: cover;
   background-position: top center;
@@ -5972,7 +5973,7 @@ img.lazyloaded {
   background-color: #f8f8f8;
   position: relative;
   overflow: visible;
-  padding: 80px; }
+  padding: 80px 0; }
   @media (min-width: 768px) {
     .page-about .what-we-do {
       padding: 140px 0; } }
@@ -6010,15 +6011,16 @@ img.lazyloaded {
 .page-about .our-skills .services-list {
   margin-top: 100px; }
   .page-about .our-skills .services-list .row-1, .page-about .our-skills .services-list .row-2 {
-    margin-top: 50px; }
+    margin-top: 50px;
+    text-align: center; }
     @media (min-width: 768px) {
       .page-about .our-skills .services-list .row-1, .page-about .our-skills .services-list .row-2 {
         display: -ms-flexbox;
         display: flex;
         -ms-flex-pack: justify;
         justify-content: space-between; } }
-  .page-about .our-skills .services-list .row-1 {
-    margin-bottom: 150px; }
+  .page-about .our-skills .services-list .service-wrapper {
+    margin-bottom: 120px; }
   .page-about .our-skills .services-list .lbl {
     position: absolute;
     width: 100%;
@@ -6118,9 +6120,13 @@ img.lazyloaded {
       -ms-flex-wrap: wrap;
       flex-wrap: wrap; }
       .page-about .crews .leaders-container .leaders .leader-item {
-        -ms-flex: 33.33%;
-        flex: 33.33%;
-        margin-bottom: 30px; }
+        margin-bottom: 30px;
+        -ms-flex: 100%;
+        flex: 100%; }
+        @media (min-width: 768px) {
+          .page-about .crews .leaders-container .leaders .leader-item {
+            -ms-flex: 33.33%;
+            flex: 33.33%; } }
         .page-about .crews .leaders-container .leaders .leader-item .photo {
           display: block;
           height: 360px;

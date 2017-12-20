@@ -1,1 +1,31 @@
-<svg width="156" height="156" viewBox="0 0 156 156" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><title>3</title><defs><path id="a" d="M23 23h110v110H23z"/><mask id="b" x="0" y="0" width="110" height="110" fill="#fff"><use xlink:href="#a"/></mask></defs><g fill="none" fill-rule="evenodd"><use stroke="#DEDEDE" mask="url(#b)" stroke-width="2" fill="#F8F8F8" transform="rotate(45 78 78)" xlink:href="#a"/><path fill="#F8F8F8" d="M18 18h120v120H18z"/><g transform="translate(56 55)" stroke="#231F20" stroke-width="2"><path d="M10 5v8m28 0h6M0 13h22.828m15.747-8H44v40H0V5h30.828" stroke-linecap="round" stroke-linejoin="round"/><path d="M32 9l-4 4 14.752 14.753a2.828 2.828 0 1 0 4-4L32 9z" stroke-linecap="round" stroke-linejoin="round" fill="#FFF"/><circle fill="#FFF" cx="29" cy="10" r="10"/><path d="M8 37h28" stroke-linecap="round" stroke-linejoin="round"/></g></g></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="156px" height="156px" viewBox="0 0 156 156" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="23" y="23" width="110" height="110"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="110" height="110" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Visual-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="02_Case-Study-Cision" transform="translate(-151.000000, -3237.000000)">
+            <g id="Group-15" transform="translate(151.000000, 3237.000000)">
+                <g id="3">
+                    <use id="Rectangle-5" stroke="#DEDEDE" mask="url(#mask-2)" stroke-width="2" fill="#F8F8F8" transform="translate(78.000000, 78.000000) rotate(45.000000) translate(-78.000000, -78.000000) " xlink:href="#path-1"></use>
+                    <rect id="Rectangle-3" fill="#F8F8F8" x="18" y="18" width="120" height="120"></rect>
+                    <g id="Group-7" transform="translate(56.000000, 55.000000)" stroke="#231F20" stroke-width="2">
+                        <path d="M10,5.00075 L10,13.00075" id="Stroke-717" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M38,13.00075 L44,13.00075" id="Stroke-718" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M0,13.00075 L22.828,13.00075" id="Stroke-719" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <polyline id="Stroke-720" stroke-linecap="round" stroke-linejoin="round" points="38.575 5.00075 44 5.00075 44 45.00075 0 45.00075 0 5.00075 30.828 5.00075"></polyline>
+                        <path d="M32,28.58175 L28,24.58175 L42.752,9.82875 C43.857,8.72375 45.647,8.72375 46.752,9.82875 C47.857,10.93375 47.857,12.72375 46.752,13.82875 L32,28.58175 L32,28.58175 Z" id="Stroke-721" stroke-linecap="round" stroke-linejoin="round" fill="#FFFFFF" transform="translate(37.790375, 18.790875) scale(-1, 1) rotate(-180.000000) translate(-37.790375, -18.790875) "></path>
+                        <circle id="Oval-5" fill="#FFFFFF" cx="29" cy="10" r="10"></circle>
+                        <path d="M8,37.00075 L36,37.00075" id="Stroke-723" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

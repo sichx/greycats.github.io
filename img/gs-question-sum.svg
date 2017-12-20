@@ -1,1 +1,22 @@
-<svg width="1026" height="85" viewBox="0 0 1026 85" xmlns="http://www.w3.org/2000/svg"><title>gs-question-sum</title><g stroke="#C6C6C6" fill="none" fill-rule="evenodd"><path d="M520.5 33v51m6.5-7l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round"/><path stroke-linecap="square" d="M.5 0l27.066 30h973.939l23.003-30"/></g></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1026px" height="85px" viewBox="0 0 1026 85" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>gs-question-sum</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Visual-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="02_Case-Study-GS-Compact" transform="translate(-203.000000, -5016.000000)" stroke="#C6C6C6">
+            <g id="Group-46-Copy" transform="translate(0.000000, 4603.000000)">
+                <g id="Group-47" transform="translate(170.000000, 413.000000)">
+                    <g id="gs-question-sum" transform="translate(33.000000, 0.000000)">
+                        <g id="Group-12-Copy" transform="translate(520.000000, 58.500000) rotate(-270.000000) translate(-520.000000, -58.500000) translate(494.500000, 51.500000)" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M0,6.5 L51,6.5" id="Stroke-366"></path>
+                            <polyline id="Stroke-367" points="44 0 51 7 44 14"></polyline>
+                        </g>
+                        <polyline id="Line" stroke-linecap="square" points="0.5 0 27.5662277 30 1001.5047 30 1024.50781 0"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

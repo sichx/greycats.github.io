@@ -1,1 +1,32 @@
-<svg width="70" height="71" viewBox="0 0 70 71" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><title>gs-challenge-icon-4</title><defs><path id="a" d="M.452 0v33.403l9.055 3.53H35L26.394 3.58z"/></defs><g transform="translate(1)" fill="none" fill-rule="evenodd"><ellipse stroke="#231F20" stroke-width="2" fill="#FFF" cx="33.939" cy="35.843" rx="33.939" ry="34.157"/><path d="M33.94 18.327V2.54" stroke="#231F20" stroke-width="2"/><g transform="translate(33.94)"><mask id="b" fill="#fff"><use xlink:href="#a"/></mask><g mask="url(#b)"><g transform="translate(-34.788 2.54)"><ellipse fill="#EBEBEB" cx="33.939" cy="34.157" rx="33.939" ry="34.157"/><path d="M68.14 34.27l-15.534-.113" stroke="#231F20" stroke-width="2"/></g></g></g><ellipse stroke="#231F20" stroke-width="2" fill="#F8F8F8" cx="34.364" cy="36.27" rx="17.394" ry="17.506"/></g></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="71px" viewBox="0 0 70 71" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>gs-challenge-icon-4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.452377759 0 0.452377759 33.4032121 9.50677451 36.9329575 35 36.9329575 26.3938806 3.58016952"></polygon>
+    </defs>
+    <g id="Visual-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="02_Case-Study-GS-Compact" transform="translate(-1133.000000, -2345.000000)">
+            <g id="gs-challenge-icon-4" transform="translate(1134.000000, 2345.000000)">
+                <g id="Group-38">
+                    <ellipse id="Oval-2" stroke="#231F20" stroke-width="2" fill="#FFFFFF" cx="33.9393939" cy="35.8426966" rx="33.9393939" ry="34.1573034"></ellipse>
+                    <path d="M33.9393939,18.3272047 L33.9393939,2.53932584" id="Path-3" stroke="#231F20" stroke-width="2"></path>
+                    <g id="Group-37" transform="translate(33.939394, 0.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Mask"></g>
+                        <g mask="url(#mask-2)">
+                            <g transform="translate(-34.787879, 2.539326)">
+                                <ellipse id="Oval-2" stroke="none" fill="#EBEBEB" fill-rule="evenodd" cx="33.9393939" cy="34.1573034" rx="33.9393939" ry="34.1573034"></ellipse>
+                                <path d="M68.1403342,34.269419 L52.6060606,34.1573034" id="Path-3-Copy" stroke="#231F20" stroke-width="2" fill="none"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <ellipse id="Oval-2" stroke="#231F20" stroke-width="2" fill="#F8F8F8" cx="34.3636364" cy="36.2696629" rx="17.3939394" ry="17.505618"></ellipse>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

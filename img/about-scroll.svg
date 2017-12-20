@@ -1,1 +1,19 @@
-<svg width="30" height="175" viewBox="0 0 30 175" xmlns="http://www.w3.org/2000/svg"><title>Group 4</title><g fill="none" fill-rule="evenodd"><path d="M15 11v2m0-8v2m0 0a2 2 0 1 1 .001 3.999A2 2 0 0 1 15 7z" stroke="#231F20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M17 23h-4c-2.8 0-5-2.2-5-5V6c0-2.8 2.2-5 5-5h4c2.8 0 5 2.2 5 5v12c0 2.8-2.2 5-5 5z" stroke="#231F20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M15 23.5v150" stroke="#231F20" stroke-width="2" stroke-linecap="square"/><path fill="#231F20" d="M0 173h30v2H0z"/></g></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="175px" viewBox="0 0 30 175" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Visual-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="05_About-Us" transform="translate(-705.000000, -835.000000)">
+            <g id="Group-4" transform="translate(705.000000, 836.000000)">
+                <path d="M15,10 L15,12" id="Stroke-437" stroke="#231F20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M15,4 L15,6" id="Stroke-438" stroke="#231F20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M15,6 C16.105,6 17,6.895 17,8 C17,9.105 16.105,10 15,10 C13.895,10 13,9.105 13,8 C13,6.895 13.895,6 15,6 L15,6 Z" id="Stroke-439" stroke="#231F20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M17,22 L13,22 C10.2,22 8,19.8 8,17 L8,5 C8,2.2 10.2,0 13,0 L17,0 C19.8,0 22,2.2 22,5 L22,17 C22,19.8 19.8,22 17,22 L17,22 Z" id="Stroke-440" stroke="#231F20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M15,22.5 L15,172.5" id="Line" stroke="#231F20" stroke-width="2" stroke-linecap="square"></path>
+                <rect id="Rectangle-9" fill="#231F20" x="0" y="172" width="30" height="2"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

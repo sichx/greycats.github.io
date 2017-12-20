@@ -1,1 +1,14 @@
-<svg width="327" height="182" viewBox="0 0 327 182" xmlns="http://www.w3.org/2000/svg"><title>Fill 1 Copy</title><path d="M0 83.85C0 37.553 37.521 0 83.782 0h158.546c46.26 0 83.782 37.552 83.782 83.85 0 46.334-37.521 83.852-83.782 83.852H85.481v14.264l-43.972-25.683h.035C16.68 141.741 0 114.74 0 83.851" fill="#FA7B35" fill-rule="evenodd"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="327px" height="182px" viewBox="0 0 327 182" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>Fill 1 Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Visual-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="02_Case-Study-Cision" transform="translate(-557.000000, -2428.000000)" fill="#FA7B35">
+            <g id="Group-16" transform="translate(557.000000, 2428.000000)">
+                <path d="M0,83.8508375 C0,37.5524032 37.5213786,0 83.7815626,0 L141.762843,0 L184.34718,0 L242.32846,0 C288.588644,0 326.110023,37.5524032 326.110023,83.8508375 C326.110023,130.183978 288.588644,167.701675 242.32846,167.701675 L184.34718,167.701675 L141.762843,167.701675 L85.4807748,167.701675 L85.4807748,181.966035 L41.5093255,156.283246 L41.5440033,156.283246 C16.6800214,141.741234 0,114.739598 0,83.8508375" id="Fill-1-Copy"></path>
+            </g>
+        </g>
+    </g>
+</svg>
