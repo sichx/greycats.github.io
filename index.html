@@ -259,7 +259,7 @@
               </div>
               <div class="clients-list">
                 <div class="row">
-                  <div class="col-md-3 col-sm-6" v-for="(client,index) in clients">
+                  <div class="client-wrapper" v-for="(client,index) in clients">
                     <div class="client-item-container reveal-item">
                       <div class="client-item" v-bind:id="'client-'+index">
                         <div class="thumb"><img v-if="!client.imgSvg" v-bind:src="client.img" v-bind:srcset="client.imgHighRes"><img v-else v-bind:src="client.imgSvg"></div>
