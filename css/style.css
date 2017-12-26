@@ -3473,6 +3473,9 @@ a.circle-app {
   a.circle-app:hover {
     text-decoration: none; }
 
+.rel {
+  position: relative; }
+
 section {
   padding-top: 95px;
   padding-bottom: 95px; }
@@ -4565,6 +4568,8 @@ footer {
     width: 100%;
     height: 100%;
     text-align: center; }
+    .diamond-square .content img {
+      margin-top: 30px; }
 
 img.lazyload,
 img.lazyloading {
@@ -5958,6 +5963,678 @@ img.lazyloaded {
 
 .case-study-portal footer {
   background-color: #f8f8f8; }
+
+body.case-study-orderin .case-study-intro {
+  max-width: 600px; }
+
+body.case-study-orderin .the-story {
+  background-image: url("../img/orderin/order-story-bg.jpg");
+  padding-top: 150px;
+  padding-bottom: 150px; }
+  body.case-study-orderin .the-story p {
+    text-align: center; }
+
+body.case-study-orderin .the-challenge p {
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; }
+
+body.case-study-orderin .the-challenge .bottom-image {
+  text-align: center;
+  margin-top: 50px; }
+
+body.case-study-orderin .the-challenge .services-offered h3 {
+  font-family: "Maison Neue";
+  font-size: 26px;
+  color: #231F20;
+  margin-bottom: 50px;
+  text-align: center; }
+
+body.case-study-orderin .the-challenge .services-offered ul {
+  list-style: none;
+  list-style-image: none;
+  list-style-position: outside;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  body.case-study-orderin .the-challenge .services-offered ul li .diamond-square .content {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    body.case-study-orderin .the-challenge .services-offered ul li .diamond-square .content img {
+      margin-top: 0; }
+  body.case-study-orderin .the-challenge .services-offered ul li .name {
+    font-family: "Mainson Neue Mono"; }
+
+body.case-study-orderin .solutions-detail .heading {
+  font-size: 26px;
+  font-weight: 600; }
+
+body.case-study-orderin .solutions-detail .description {
+  font-size: 22px; }
+
+body.case-study-orderin .solutions-detail .thumbnail-content-block {
+  margin-top: 60px;
+  margin-bottom: 60px; }
+  @media (min-width: 768px) {
+    body.case-study-orderin .solutions-detail .thumbnail-content-block {
+      margin-top: 100px;
+      margin-bottom: 100px; } }
+  body.case-study-orderin .solutions-detail .thumbnail-content-block .thumbnail {
+    padding-left: 15px;
+    padding-right: 15px; }
+  body.case-study-orderin .solutions-detail .thumbnail-content-block .content {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: top;
+    align-items: top;
+    padding-left: 15px;
+    padding-right: 15px; }
+  body.case-study-orderin .solutions-detail .thumbnail-content-block .icon {
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    background-color: #fff;
+    border-radius: 45px;
+    box-shadow: 20px 29px 48px 0 rgba(0, 0, 0, 0.07); }
+    body.case-study-orderin .solutions-detail .thumbnail-content-block .icon img {
+      width: 40px;
+      height: 40px; }
+  body.case-study-orderin .solutions-detail .thumbnail-content-block .text {
+    padding-top: 30px; }
+    @media (min-width: 992px) {
+      body.case-study-orderin .solutions-detail .thumbnail-content-block .text {
+        margin-left: 30px; } }
+
+body.case-study-orderin .solutions-detail .thumbnail-content-block.thumbnail-content-block-center {
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; }
+  body.case-study-orderin .solutions-detail .thumbnail-content-block.thumbnail-content-block-center .icon {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px; }
+  body.case-study-orderin .solutions-detail .thumbnail-content-block.thumbnail-content-block-center .content {
+    display: block; }
+    body.case-study-orderin .solutions-detail .thumbnail-content-block.thumbnail-content-block-center .content .text {
+      margin-left: 0;
+      text-align: center; }
+    body.case-study-orderin .solutions-detail .thumbnail-content-block.thumbnail-content-block-center .content .heading, body.case-study-orderin .solutions-detail .thumbnail-content-block.thumbnail-content-block-center .content .description {
+      text-align: center; }
+
+@media (min-width: 992px) {
+  body.case-study-orderin .solutions-detail #thumbnail-content-block-1 .row, body.case-study-orderin .solutions-detail #thumbnail-content-block-2 .row, body.case-study-orderin .solutions-detail #thumbnail-content-block-3 .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-flow: row-reverse;
+    flex-flow: row-reverse; }
+    body.case-study-orderin .solutions-detail #thumbnail-content-block-1 .row .thumbnail, body.case-study-orderin .solutions-detail #thumbnail-content-block-2 .row .thumbnail, body.case-study-orderin .solutions-detail #thumbnail-content-block-3 .row .thumbnail {
+      width: 50%; }
+      body.case-study-orderin .solutions-detail #thumbnail-content-block-1 .row .thumbnail img, body.case-study-orderin .solutions-detail #thumbnail-content-block-2 .row .thumbnail img, body.case-study-orderin .solutions-detail #thumbnail-content-block-3 .row .thumbnail img {
+        max-width: none; }
+    body.case-study-orderin .solutions-detail #thumbnail-content-block-1 .row .content, body.case-study-orderin .solutions-detail #thumbnail-content-block-2 .row .content, body.case-study-orderin .solutions-detail #thumbnail-content-block-3 .row .content {
+      width: 50%; } }
+
+@media (min-width: 992px) {
+  body.case-study-orderin .solutions-detail #thumbnail-content-block-2 .row {
+    -ms-flex-flow: row;
+    flex-flow: row; }
+    body.case-study-orderin .solutions-detail #thumbnail-content-block-2 .row .thumbnail img {
+      float: right;
+      margin-right: 30px; } }
+
+body.case-study-orderin .solutions-detail .heading-testimonial {
+  font-size: 50px;
+  font-weight: 700;
+  margin-top: 100px;
+  margin-bottom: 70px;
+  text-align: center; }
+
+body.case-study-orderin .platform-info .thumb {
+  margin-bottom: 10px; }
+  body.case-study-orderin .platform-info .thumb img {
+    max-width: 250px; }
+
+body.case-study-orderin .platform-info .url {
+  font-size: 18px;
+  margin-bottom: 15px; }
+
+.platform-info {
+  text-align: center; }
+  .platform-info .avail {
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    color: #808285; }
+
+body.case-study-pared .landing .case-study-intro {
+  max-width: 650px; }
+
+body.case-study-pared .the-story {
+  background-image: url("../img/pared/story-bg.jpg");
+  padding-top: 150px;
+  padding-bottom: 150px; }
+  body.case-study-pared .the-story p {
+    text-align: center;
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto; }
+
+body.case-study-pared .the-challenge .content-wrapper > p {
+  text-align: center;
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto; }
+
+body.case-study-pared .the-challenge .bottom-image {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+body.case-study-pared .the-challenge .services-offered h3 {
+  font-family: "Maison Neue";
+  font-size: 26px;
+  color: #231F20;
+  margin-bottom: 50px;
+  text-align: center; }
+
+body.case-study-pared .the-challenge .services-offered ul {
+  list-style: none;
+  list-style-image: none;
+  list-style-position: outside;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  body.case-study-pared .the-challenge .services-offered ul li .diamond-square .content {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    body.case-study-pared .the-challenge .services-offered ul li .diamond-square .content img {
+      margin-top: 0; }
+  body.case-study-pared .the-challenge .services-offered ul li .name {
+    font-family: "Mainson Neue Mono"; }
+
+body.case-study-pared .solutions-detail .heading {
+  font-size: 26px;
+  font-weight: 600; }
+
+body.case-study-pared .solutions-detail .description {
+  font-size: 22px; }
+
+body.case-study-pared .solutions-detail .thumbnail-content-block {
+  margin-top: 60px;
+  margin-bottom: 60px; }
+  @media (min-width: 768px) {
+    body.case-study-pared .solutions-detail .thumbnail-content-block {
+      margin-top: 0px;
+      margin-bottom: 0px; }
+      body.case-study-pared .solutions-detail .thumbnail-content-block h2 {
+        text-align: left; }
+      body.case-study-pared .solutions-detail .thumbnail-content-block .headline {
+        text-align: left; } }
+  body.case-study-pared .solutions-detail .thumbnail-content-block .thumbnail {
+    padding-left: 15px;
+    padding-right: 15px; }
+  body.case-study-pared .solutions-detail .thumbnail-content-block .content {
+    padding-left: 15px;
+    padding-right: 15px; }
+  body.case-study-pared .solutions-detail .thumbnail-content-block h2 {
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 1px; }
+  body.case-study-pared .solutions-detail .thumbnail-content-block .headline {
+    font-size: 26px; }
+
+@media (min-width: 768px) {
+  body.case-study-pared .solutions-detail #thumbnail-content-block-1 .row,
+  body.case-study-pared .solutions-detail #thumbnail-content-block-2 .row,
+  body.case-study-pared .solutions-detail #thumbnail-content-block-3 .row,
+  body.case-study-pared .solutions-detail #thumbnail-content-block-4 .row,
+  body.case-study-pared .solutions-detail #thumbnail-content-block-5 .row,
+  body.case-study-pared .solutions-detail #thumbnail-content-block-6 .row,
+  body.case-study-pared .solutions-detail #thumbnail-content-block-7 .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center; }
+  body.case-study-pared .solutions-detail #thumbnail-content-block-1 .thumbnail, body.case-study-pared .solutions-detail #thumbnail-content-block-1 .content,
+  body.case-study-pared .solutions-detail #thumbnail-content-block-2 .thumbnail,
+  body.case-study-pared .solutions-detail #thumbnail-content-block-2 .content,
+  body.case-study-pared .solutions-detail #thumbnail-content-block-3 .thumbnail,
+  body.case-study-pared .solutions-detail #thumbnail-content-block-3 .content,
+  body.case-study-pared .solutions-detail #thumbnail-content-block-4 .thumbnail,
+  body.case-study-pared .solutions-detail #thumbnail-content-block-4 .content,
+  body.case-study-pared .solutions-detail #thumbnail-content-block-5 .thumbnail,
+  body.case-study-pared .solutions-detail #thumbnail-content-block-5 .content,
+  body.case-study-pared .solutions-detail #thumbnail-content-block-6 .thumbnail,
+  body.case-study-pared .solutions-detail #thumbnail-content-block-6 .content,
+  body.case-study-pared .solutions-detail #thumbnail-content-block-7 .thumbnail,
+  body.case-study-pared .solutions-detail #thumbnail-content-block-7 .content {
+    width: 50%; } }
+
+@media (min-width: 768px) {
+  body.case-study-pared .solutions-detail #thumbnail-content-block-2 .row,
+  body.case-study-pared .solutions-detail #thumbnail-content-block-4 .row,
+  body.case-study-pared .solutions-detail #thumbnail-content-block-6 .row {
+    -ms-flex-flow: row-reverse;
+    flex-flow: row-reverse; } }
+
+@media (min-width: 768px) {
+  body.case-study-pared .solutions-detail #thumbnail-content-block-1 {
+    margin-bottom: 100px; } }
+
+body.case-study-pared .solutions-detail #thumbnail-content-block-1 .heading {
+  margin-top: 50px; }
+
+@media (min-width: 768px) {
+  body.case-study-pared .solutions-detail #thumbnail-content-block-3 .row {
+    -ms-flex-align: start;
+    align-items: start; }
+  body.case-study-pared .solutions-detail #thumbnail-content-block-3 .thumbnail {
+    position: relative; }
+    body.case-study-pared .solutions-detail #thumbnail-content-block-3 .thumbnail img {
+      position: absolute;
+      max-width: 100%;
+      top: 0; }
+  body.case-study-pared .solutions-detail #thumbnail-content-block-3 .content {
+    padding-top: 50px;
+    padding-bottom: 100px; } }
+
+@media (min-width: 768px) {
+  body.case-study-pared .solutions-detail #thumbnail-content-block-4 .thumbnail {
+    position: relative;
+    top: -100px; } }
+
+body.case-study-pared .solutions-detail #thumbnail-content-block-5 .heading {
+  margin-top: 30px; }
+  @media (min-width: 768px) {
+    body.case-study-pared .solutions-detail #thumbnail-content-block-5 .heading {
+      margin-top: 150px; } }
+
+body.case-study-pared .heading-testimonial {
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 40px; }
+
+body.case-study-pared .platform-info .thumb {
+  margin-bottom: 20px; }
+  body.case-study-pared .platform-info .thumb img {
+    max-width: 144px; }
+
+body.case-study-usgm .case-study-intro {
+  max-width: 600px; }
+
+body.case-study-usgm .the-story {
+  background-image: url("../img/usgm/usgm-story-bg.png");
+  padding-top: 150px;
+  padding-bottom: 150px; }
+  body.case-study-usgm .the-story p {
+    text-align: center; }
+  body.case-study-usgm .the-story .stats {
+    margin-top: 50px; }
+  @media (max-width: 767px) {
+    body.case-study-usgm .the-story .stat-col {
+      width: 32%;
+      margin-bottom: 30px; } }
+  body.case-study-usgm .the-story .stat-col .num span {
+    font-size: 0.3em; }
+    body.case-study-usgm .the-story .stat-col .num span.small {
+      font-size: 60%; }
+
+body.case-study-usgm .services-offered h3, body.case-study-usgm .steps h3 {
+  font-family: "Maison Neue";
+  font-size: 26px;
+  color: #231F20;
+  margin-bottom: 50px;
+  text-align: center; }
+
+body.case-study-usgm .services-offered ul, body.case-study-usgm .steps ul {
+  list-style: none;
+  list-style-image: none;
+  list-style-position: outside;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-left: 0; }
+  body.case-study-usgm .services-offered ul li, body.case-study-usgm .steps ul li {
+    -ms-flex: 1;
+    flex: 1;
+    text-align: center; }
+    body.case-study-usgm .services-offered ul li .diamond-square .content, body.case-study-usgm .steps ul li .diamond-square .content {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      body.case-study-usgm .services-offered ul li .diamond-square .content img, body.case-study-usgm .steps ul li .diamond-square .content img {
+        margin-top: 0; }
+    body.case-study-usgm .services-offered ul li .name, body.case-study-usgm .steps ul li .name {
+      font-family: "Mainson Neue Mono"; }
+
+body.case-study-usgm .the-challenge p {
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; }
+
+body.case-study-usgm .the-challenge .bottom-image {
+  text-align: center;
+  margin-top: 50px; }
+
+body.case-study-usgm .solutions-detail .heading {
+  font-size: 26px;
+  font-weight: 600; }
+
+body.case-study-usgm .solutions-detail .description {
+  font-size: 22px; }
+
+body.case-study-usgm .solutions-detail .thumbnail-content-block {
+  margin-top: 60px;
+  margin-bottom: 60px; }
+  @media (min-width: 768px) {
+    body.case-study-usgm .solutions-detail .thumbnail-content-block {
+      margin-top: 100px;
+      margin-bottom: 100px; } }
+  body.case-study-usgm .solutions-detail .thumbnail-content-block .thumbnail {
+    padding-left: 15px;
+    padding-right: 15px; }
+  body.case-study-usgm .solutions-detail .thumbnail-content-block .content {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: top;
+    align-items: top;
+    padding-left: 15px;
+    padding-right: 15px; }
+  body.case-study-usgm .solutions-detail .thumbnail-content-block .icon {
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    background-color: #fff;
+    border-radius: 45px;
+    box-shadow: 20px 29px 48px 0 rgba(0, 0, 0, 0.07); }
+    body.case-study-usgm .solutions-detail .thumbnail-content-block .icon img {
+      width: 40px;
+      height: 40px; }
+  body.case-study-usgm .solutions-detail .thumbnail-content-block .text {
+    padding-top: 30px; }
+    @media (min-width: 992px) {
+      body.case-study-usgm .solutions-detail .thumbnail-content-block .text {
+        margin-left: 30px; } }
+
+body.case-study-usgm .solutions-detail .thumbnail-content-block.thumbnail-content-block-center {
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; }
+  body.case-study-usgm .solutions-detail .thumbnail-content-block.thumbnail-content-block-center .icon {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px; }
+  body.case-study-usgm .solutions-detail .thumbnail-content-block.thumbnail-content-block-center .content {
+    display: block; }
+    body.case-study-usgm .solutions-detail .thumbnail-content-block.thumbnail-content-block-center .content .text {
+      margin-left: 0;
+      text-align: center; }
+    body.case-study-usgm .solutions-detail .thumbnail-content-block.thumbnail-content-block-center .content .heading, body.case-study-usgm .solutions-detail .thumbnail-content-block.thumbnail-content-block-center .content .description {
+      text-align: center; }
+
+@media (min-width: 992px) {
+  body.case-study-usgm .solutions-detail #thumbnail-content-block-1 .row, body.case-study-usgm .solutions-detail #thumbnail-content-block-2 .row, body.case-study-usgm .solutions-detail #thumbnail-content-block-3 .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-flow: row-reverse;
+    flex-flow: row-reverse; }
+    body.case-study-usgm .solutions-detail #thumbnail-content-block-1 .row .thumbnail, body.case-study-usgm .solutions-detail #thumbnail-content-block-2 .row .thumbnail, body.case-study-usgm .solutions-detail #thumbnail-content-block-3 .row .thumbnail {
+      width: 50%; }
+      body.case-study-usgm .solutions-detail #thumbnail-content-block-1 .row .thumbnail img, body.case-study-usgm .solutions-detail #thumbnail-content-block-2 .row .thumbnail img, body.case-study-usgm .solutions-detail #thumbnail-content-block-3 .row .thumbnail img {
+        max-width: none; }
+    body.case-study-usgm .solutions-detail #thumbnail-content-block-1 .row .content, body.case-study-usgm .solutions-detail #thumbnail-content-block-2 .row .content, body.case-study-usgm .solutions-detail #thumbnail-content-block-3 .row .content {
+      width: 50%; } }
+
+@media (min-width: 992px) {
+  body.case-study-usgm .solutions-detail #thumbnail-content-block-2 .row {
+    -ms-flex-flow: row;
+    flex-flow: row; }
+    body.case-study-usgm .solutions-detail #thumbnail-content-block-2 .row .thumbnail img {
+      float: right;
+      margin-right: 30px; } }
+
+body.case-study-usgm .solutions-detail .heading-testimonial {
+  font-size: 50px;
+  font-weight: 700;
+  margin-top: 100px;
+  margin-bottom: 70px;
+  text-align: center; }
+
+body.case-study-usgm .smooth-registration > div {
+  margin-bottom: 60px; }
+
+body.case-study-usgm .smooth-registration .button {
+  background-color: #FA7E16;
+  color: #FFFFFF;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  border-radius: 3px;
+  text-align: center;
+  display: inherit;
+  text-decoration: none; }
+  body.case-study-usgm .smooth-registration .button > span {
+    font-size: 17px; }
+  body.case-study-usgm .smooth-registration .button:hover {
+    background-color: #F57103; }
+  body.case-study-usgm .smooth-registration .button:active {
+    background-color: #ec971f;
+    border-color: #d58512; }
+
+body.case-study-usgm .smooth-registration .steps {
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  margin: 40px 0; }
+  body.case-study-usgm .smooth-registration .steps ul {
+    margin-bottom: 0px; }
+  body.case-study-usgm .smooth-registration .steps .content {
+    position: relative;
+    line-height: 70px; }
+    body.case-study-usgm .smooth-registration .steps .content img {
+      margin-top: -3px; }
+    body.case-study-usgm .smooth-registration .steps .content .name {
+      display: inline-block;
+      margin-left: 0;
+      margin-bottom: 0px; }
+    body.case-study-usgm .smooth-registration .steps .content .right-arrow {
+      position: absolute;
+      right: -8px;
+      top: 50%;
+      width: 30px;
+      margin-top: -15px;
+      height: 30px;
+      border-top: 1px solid #e0e0e0;
+      border-right: 1px solid #e0e0e0;
+      transform: rotate(45deg); }
+
+body.case-study-usgm .smooth-registration .term {
+  text-align: center;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+  height: 300px;
+  padding: 20px;
+  border-radius: 3px;
+  position: relative; }
+  body.case-study-usgm .smooth-registration .term .green {
+    color: #00b03d; }
+  body.case-study-usgm .smooth-registration .term .big {
+    font-size: 32px; }
+  body.case-study-usgm .smooth-registration .term .desc-text {
+    display: inline-block;
+    width: 100px;
+    text-align: left; }
+  body.case-study-usgm .smooth-registration .term span {
+    font-size: 0.8rem; }
+  body.case-study-usgm .smooth-registration .term img {
+    margin-right: 5px;
+    zoom: 0.8; }
+  body.case-study-usgm .smooth-registration .term .desc {
+    height: 85px;
+    border-bottom: 1px solid #ccc; }
+  body.case-study-usgm .smooth-registration .term .bill {
+    margin-top: 30px; }
+    body.case-study-usgm .smooth-registration .term .bill .symbol {
+      text-align: left;
+      vertical-align: top; }
+    body.case-study-usgm .smooth-registration .term .bill-des {
+      font-size: 0.8rem;
+      margin: 10px 0; }
+    body.case-study-usgm .smooth-registration .term .bill > span {
+      line-height: 0; }
+  body.case-study-usgm .smooth-registration .term .button {
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 20px; }
+  body.case-study-usgm .smooth-registration .term .popular {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 80px;
+    width: 100%;
+    overflow: hidden; }
+    body.case-study-usgm .smooth-registration .term .popular-label {
+      position: absolute;
+      top: 13px;
+      right: -37px;
+      width: 158px;
+      height: 30px;
+      transform: rotate(33deg);
+      background-color: #0178C2;
+      font-size: 15px;
+      color: #FFF;
+      line-height: 34px; }
+
+body.case-study-usgm .smooth-registration .address {
+  margin-bottom: 30px; }
+  body.case-study-usgm .smooth-registration .address > .heading {
+    margin: 90px 0 10px; }
+  body.case-study-usgm .smooth-registration .address .desc {
+    text-align: center; }
+  body.case-study-usgm .smooth-registration .address .form {
+    width: 440px;
+    height: 270px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    padding-top: 60px;
+    background-image: url("../img/usgm/map.png"); }
+    body.case-study-usgm .smooth-registration .address .form .select {
+      width: 300px;
+      height: 60px;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: #FFF;
+      padding: 20px;
+      position: relative; }
+      body.case-study-usgm .smooth-registration .address .form .select .triangle-down {
+        width: 0;
+        height: 0;
+        border-width: 6px 6px 0;
+        border-style: solid;
+        border-color: #000 transparent transparent;
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        margin-top: -4px; }
+    body.case-study-usgm .smooth-registration .address .form .button {
+      width: 300px;
+      height: 40px;
+      line-height: 40px;
+      margin-top: 20px; }
+
+body.case-study-usgm .intuitive .mail-box {
+  text-align: center; }
+  body.case-study-usgm .intuitive .mail-box h4 {
+    margin: 20px 0; }
+
+body.case-study-usgm .landing-page {
+  padding-bottom: 0; }
+  body.case-study-usgm .landing-page .pages {
+    position: relative;
+    background-image: url("../img/usgm/landing-page-bg.png"); }
+  body.case-study-usgm .landing-page img {
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2); }
+  body.case-study-usgm .landing-page .content {
+    z-index: 2;
+    padding-top: 40px; }
+    body.case-study-usgm .landing-page .content img {
+      margin-top: 50px; }
+  body.case-study-usgm .landing-page .thumbnails {
+    position: absolute;
+    right: 0;
+    bottom: 0; }
+  body.case-study-usgm .landing-page .title {
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 30px;
+    line-height: 1.2em;
+    margin-bottom: 30px; }
+
+body.case-study-usgm .style-guide .container {
+  position: relative; }
+
+body.case-study-usgm .style-guide img {
+  margin: 40px 0; }
+
+body.case-study-usgm .style-guide .bg {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1; }
+
+body.case-study-usgm .usability-test img {
+  margin: 40px 0; }
+
+body.case-study-usgm .platform-info .thumb {
+  margin-bottom: 10px; }
+  body.case-study-usgm .platform-info .thumb img {
+    max-width: 190px; }
+
+body.case-study-usgm .platform-info .url {
+  font-size: 18px;
+  margin-bottom: 15px; }
+
+body.case-study-usgm .heading {
+  font-size: 26px;
+  text-align: center;
+  margin: 30px 0; }
+
+.platform-info {
+  text-align: center; }
+  .platform-info .avail {
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    color: #808285; }
 
 .page-about .landing {
   height: 100vh;
