@@ -5998,7 +5998,8 @@ body.case-study-orderin .the-challenge .services-offered ul {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: justify;
-  justify-content: space-between; }
+  justify-content: space-between;
+  padding-left: 0; }
   body.case-study-orderin .the-challenge .services-offered ul li .diamond-square .content {
     display: -ms-flexbox;
     display: flex;
@@ -6109,6 +6110,9 @@ body.case-study-orderin .platform-info .url {
   font-size: 18px;
   margin-bottom: 15px; }
 
+body.case-study-orderin footer {
+  background-color: #f8f8f8; }
+
 .platform-info {
   text-align: center; }
   .platform-info .avail {
@@ -6156,7 +6160,8 @@ body.case-study-pared .the-challenge .services-offered ul {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: justify;
-  justify-content: space-between; }
+  justify-content: space-between;
+  padding-left: 0; }
   body.case-study-pared .the-challenge .services-offered ul li .diamond-square .content {
     display: -ms-flexbox;
     display: flex;
@@ -6275,6 +6280,9 @@ body.case-study-pared .platform-info .thumb {
   margin-bottom: 20px; }
   body.case-study-pared .platform-info .thumb img {
     max-width: 144px; }
+
+body.case-study-pared footer {
+  background-color: #f8f8f8; }
 
 body.case-study-usgm .case-study-intro {
   max-width: 600px; }
@@ -6627,6 +6635,9 @@ body.case-study-usgm .heading {
   text-align: center;
   margin: 30px 0; }
 
+body.case-study-usgm footer {
+  background-color: #f8f8f8; }
+
 .platform-info {
   text-align: center; }
   .platform-info .avail {
@@ -6635,6 +6646,210 @@ body.case-study-usgm .heading {
     margin-bottom: 15px;
     text-transform: uppercase;
     color: #808285; }
+
+body.case-study-crew {
+  /** **/ }
+  body.case-study-crew .landing .case-study-intro {
+    max-width: 550px; }
+  body.case-study-crew .the-story {
+    background-image: url(../img/crew/story-bg.jpg);
+    text-align: center; }
+    @media (min-width: 768px) {
+      body.case-study-crew .the-story {
+        text-align: left; } }
+    body.case-study-crew .the-story .content-wrapper {
+      max-width: 800px; }
+    body.case-study-crew .the-story .story-items {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+      body.case-study-crew .the-story .story-items .story-item {
+        max-width: none;
+        width: 50%;
+        margin-bottom: 20px; }
+        @media (min-width: 768px) {
+          body.case-study-crew .the-story .story-items .story-item {
+            max-width: 230px;
+            width: auto;
+            -ms-flex: 1;
+            flex: 1; } }
+    body.case-study-crew .the-story .story-items {
+      margin-top: 30px; }
+    @media (max-width: 767px) {
+      body.case-study-crew .the-story .story-item {
+        text-align: left; } }
+    body.case-study-crew .the-story .story-item .num {
+      font-size: 52px;
+      letter-spacing: 2px;
+      line-height: 52px;
+      font-weight: 700;
+      margin-bottom: 15px;
+      display: block; }
+      body.case-study-crew .the-story .story-item .num:after {
+        content: "";
+        display: block;
+        width: 30px;
+        height: 3px;
+        margin-top: 7px;
+        background-color: #fff; }
+      body.case-study-crew .the-story .story-item .num [class*="icon-"] {
+        font-size: 18px;
+        vertical-align: middle; }
+    body.case-study-crew .the-story .story-item p {
+      font-size: 16px; }
+  @media (max-width: 991px) {
+    body.case-study-crew .the-challenge {
+      text-align: center; } }
+  body.case-study-crew .the-challenge .content-wrapper {
+    max-width: 800px; }
+  body.case-study-crew .the-challenge .challenge-thumb {
+    margin-bottom: 30px;
+    text-align: center; }
+  body.case-study-crew .the-challenge .challenge-explains {
+    margin-top: 50px; }
+    @media (min-width: 768px) {
+      body.case-study-crew .the-challenge .challenge-explains {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: justify;
+        justify-content: space-between; } }
+    body.case-study-crew .the-challenge .challenge-explains .orange-box {
+      background: #F15D22;
+      box-shadow: 0 10px 30px 0 rgba(241, 93, 34, 0.2);
+      border-radius: 5px;
+      color: #fff;
+      padding: 20px 15px;
+      text-align: center;
+      margin-bottom: 30px; }
+      @media (min-width: 768px) {
+        body.case-study-crew .the-challenge .challenge-explains .orange-box {
+          margin-left: 15px;
+          margin-right: 15px;
+          max-width: 290px;
+          margin-bottom: 0; } }
+      body.case-study-crew .the-challenge .challenge-explains .orange-box h3 {
+        font-size: 18px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        margin-top: 0;
+        margin-bottom: 15px;
+        text-transform: uppercase; }
+      body.case-study-crew .the-challenge .challenge-explains .orange-box p {
+        font-size: 16px; }
+  body.case-study-crew .the-solution .content-wrapper {
+    max-width: 840px;
+    margin-left: auto;
+    margin-right: auto; }
+  body.case-study-crew .the-solution .arrow {
+    margin-top: 50px; }
+  body.case-study-crew .solutions-detail .heading {
+    margin-top: 15px;
+    font-size: 30px;
+    font-weight: 700; }
+    @media (min-width: 768px) {
+      body.case-study-crew .solutions-detail .heading {
+        font-size: 50px;
+        margin-top: 0; } }
+  body.case-study-crew .solutions-detail .description {
+    font-size: 22px; }
+  body.case-study-crew .solutions-detail .thumbnail-content-block {
+    margin-top: 60px;
+    margin-bottom: 60px; }
+    @media (min-width: 768px) {
+      body.case-study-crew .solutions-detail .thumbnail-content-block {
+        margin-top: 70px;
+        margin-bottom: 70px; }
+        body.case-study-crew .solutions-detail .thumbnail-content-block h2 {
+          text-align: left; }
+        body.case-study-crew .solutions-detail .thumbnail-content-block .headline {
+          text-align: left; }
+        body.case-study-crew .solutions-detail .thumbnail-content-block .row {
+          display: -ms-flexbox;
+          display: flex;
+          -ms-flex-align: center;
+          align-items: center;
+          -ms-flex-pack: justify;
+          justify-content: space-between; }
+          body.case-study-crew .solutions-detail .thumbnail-content-block .row:after, body.case-study-crew .solutions-detail .thumbnail-content-block .row:before {
+            display: none; }
+        body.case-study-crew .solutions-detail .thumbnail-content-block .thumbnail {
+          width: 50%; }
+        body.case-study-crew .solutions-detail .thumbnail-content-block .content {
+          width: 45%; }
+        body.case-study-crew .solutions-detail .thumbnail-content-block.reverse .row {
+          -ms-flex-flow: row-reverse;
+          flex-flow: row-reverse; } }
+    body.case-study-crew .solutions-detail .thumbnail-content-block .thumbnail {
+      padding-left: 15px;
+      padding-right: 15px; }
+    body.case-study-crew .solutions-detail .thumbnail-content-block .content {
+      padding-left: 15px;
+      padding-right: 15px; }
+  body.case-study-crew .solutions-detail .thumbnail-content-block.thumbnail-content-block-center {
+    max-width: 840px;
+    margin-left: auto;
+    margin-right: auto; }
+    body.case-study-crew .solutions-detail .thumbnail-content-block.thumbnail-content-block-center .content, body.case-study-crew .solutions-detail .thumbnail-content-block.thumbnail-content-block-center .thumbnail {
+      text-align: center;
+      width: 100%; }
+    body.case-study-crew .solutions-detail .thumbnail-content-block.thumbnail-content-block-center .content .heading, body.case-study-crew .solutions-detail .thumbnail-content-block.thumbnail-content-block-center .content .description {
+      text-align: center; }
+  body.case-study-crew .testimonials {
+    padding-top: 0; }
+    body.case-study-crew .testimonials .heading-testimonial {
+      text-align: center;
+      margin-bottom: 40px; }
+  body.case-study-crew .services-offered {
+    text-align: center; }
+    body.case-study-crew .services-offered h3 {
+      font-family: "Maison Neue";
+      font-size: 26px;
+      color: #231F20;
+      margin-top: 40px;
+      margin-bottom: 50px;
+      text-align: center; }
+    body.case-study-crew .services-offered ul {
+      list-style: none;
+      list-style-image: none;
+      list-style-position: outside;
+      padding-left: 0;
+      text-align: center; }
+      @media (min-width: 992px) {
+        body.case-study-crew .services-offered ul {
+          display: -ms-flexbox;
+          display: flex;
+          -ms-flex-pack: justify;
+          justify-content: space-between; } }
+      body.case-study-crew .services-offered ul.center {
+        -ms-flex-pack: center;
+        justify-content: center; }
+      body.case-study-crew .services-offered ul li {
+        max-width: 260px;
+        text-align: center;
+        display: inline-block; }
+        body.case-study-crew .services-offered ul li .diamond-square .content {
+          display: -ms-flexbox;
+          display: flex;
+          -ms-flex-pack: center;
+          justify-content: center;
+          -ms-flex-align: center;
+          align-items: center; }
+          body.case-study-crew .services-offered ul li .diamond-square .content img {
+            margin-top: 0; }
+        body.case-study-crew .services-offered ul li .name {
+          margin-top: 15px;
+          font-weight: 500;
+          font-size: 18px;
+          letter-spacing: 1px;
+          text-align: center;
+          text-transform: uppercase; }
+        body.case-study-crew .services-offered ul li .desc {
+          font-size: 16px; }
+  body.case-study-crew footer {
+    background-color: #f8f8f8; }
 
 .page-about .landing {
   height: 100vh;
