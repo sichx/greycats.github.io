@@ -7242,11 +7242,13 @@ body.fp-responsive .fp-section {
           display: inline-block;
           vertical-align: middle;
           transition: 500ms all;
-          line-height: 25px; }
+          line-height: 25px;
+          color: #dddddd; }
         .homepage .page-nav ul li.active {
           color: #2866DC; }
           .homepage .page-nav ul li.active .icon-triangle {
-            transform: rotate(90deg); }
+            transform: rotate(90deg);
+            color: #2866DC; }
           .homepage .page-nav ul li.active .text .inner {
             color: #2866DC; }
   .homepage .page-home .fp-tableCell {
