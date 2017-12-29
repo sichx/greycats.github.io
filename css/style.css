@@ -7237,7 +7237,7 @@ body.fp-responsive .fp-section {
             transition: 500ms all;
             position: relative;
             display: inline-block;
-            transform: translateX(-100%); }
+            color: #dddddd; }
         .homepage .page-nav ul li .icon-triangle {
           display: inline-block;
           vertical-align: middle;
@@ -7248,7 +7248,7 @@ body.fp-responsive .fp-section {
           .homepage .page-nav ul li.active .icon-triangle {
             transform: rotate(90deg); }
           .homepage .page-nav ul li.active .text .inner {
-            transform: translateX(0); }
+            color: #2866DC; }
   .homepage .page-home .fp-tableCell {
     vertical-align: top; }
     @media (min-height: 900px) {
@@ -7847,7 +7847,7 @@ body.fp-responsive .fp-section {
       margin-bottom: 15px; }
       @media (min-width: 768px) {
         .homepage .section-clients .clients-list .client-wrapper {
-          width: 14.28%;
+          width: 25%;
           padding-left: 7.5px;
           padding-right: 7.5px; } }
     .homepage .section-clients .clients-list .col-md-3 {
@@ -7872,7 +7872,7 @@ body.fp-responsive .fp-section {
       cursor: pointer; }
       @media (min-width: 992px) {
         .homepage .section-clients .clients-list .client-item {
-          height: 67px; } }
+          height: 120px; } }
       .homepage .section-clients .clients-list .client-item .thumb {
         height: 50px;
         text-align: center;
