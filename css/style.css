@@ -6125,10 +6125,20 @@ body.case-study-orderin footer {
 body.case-study-pared .landing .case-study-intro {
   max-width: 650px; }
 
+body.case-study-pared .landing .landing-image {
+  position: relative;
+  top: -30px; }
+
 body.case-study-pared .the-story {
   background-image: url("../img/pared/story-bg.jpg");
   padding-top: 150px;
   padding-bottom: 150px; }
+  @media (min-width: 992px) {
+    body.case-study-pared .the-story {
+      padding-top: 200px;
+      padding-bottom: 200px; } }
+  body.case-study-pared .the-story .title {
+    margin-bottom: 50px; }
   body.case-study-pared .the-story p {
     text-align: center;
     max-width: 650px;
@@ -6157,22 +6167,38 @@ body.case-study-pared .the-challenge .services-offered ul {
   list-style: none;
   list-style-image: none;
   list-style-position: outside;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
   padding-left: 0; }
-  body.case-study-pared .the-challenge .services-offered ul li .diamond-square .content {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -ms-flex-align: center;
-    align-items: center; }
-    body.case-study-pared .the-challenge .services-offered ul li .diamond-square .content img {
-      margin-top: 0; }
-  body.case-study-pared .the-challenge .services-offered ul li .name {
-    font-family: "Mainson Neue Mono"; }
+  @media (min-width: 768px) {
+    body.case-study-pared .the-challenge .services-offered ul {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -ms-flex-pack: center;
+      justify-content: center; } }
+  body.case-study-pared .the-challenge .services-offered ul li {
+    margin-bottom: 35px;
+    text-align: center;
+    display: block;
+    width: 100%; }
+    @media (min-width: 768px) {
+      body.case-study-pared .the-challenge .services-offered ul li {
+        width: 25%; } }
+    body.case-study-pared .the-challenge .services-offered ul li .diamond-square {
+      display: inline-block; }
+      body.case-study-pared .the-challenge .services-offered ul li .diamond-square .content {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -ms-flex-align: center;
+        align-items: center; }
+        body.case-study-pared .the-challenge .services-offered ul li .diamond-square .content img {
+          margin-top: 0; }
+    body.case-study-pared .the-challenge .services-offered ul li .name {
+      font-family: "Mainson Neue Mono";
+      margin-top: 15px;
+      text-align: center; }
 
 body.case-study-pared .solutions-detail .heading {
   font-size: 26px;
@@ -6199,9 +6225,12 @@ body.case-study-pared .solutions-detail .thumbnail-content-block {
     padding-left: 15px;
     padding-right: 15px; }
   body.case-study-pared .solutions-detail .thumbnail-content-block h2 {
-    font-size: 50px;
     font-weight: 700;
-    letter-spacing: 1px; }
+    letter-spacing: 1px;
+    font-size: 40px; }
+    @media (min-width: 768px) {
+      body.case-study-pared .solutions-detail .thumbnail-content-block h2 {
+        font-size: 50px; } }
   body.case-study-pared .solutions-detail .thumbnail-content-block .headline {
     font-size: 26px; }
 
@@ -6248,28 +6277,23 @@ body.case-study-pared .solutions-detail #thumbnail-content-block-1 .heading {
 
 @media (min-width: 768px) {
   body.case-study-pared .solutions-detail #thumbnail-content-block-3 .row {
-    -ms-flex-align: start;
-    align-items: start; }
-  body.case-study-pared .solutions-detail #thumbnail-content-block-3 .thumbnail {
-    position: relative; }
-    body.case-study-pared .solutions-detail #thumbnail-content-block-3 .thumbnail img {
-      position: absolute;
-      max-width: 100%;
-      top: 0; }
-  body.case-study-pared .solutions-detail #thumbnail-content-block-3 .content {
+    -ms-flex-align: center;
+    align-items: center;
     padding-top: 50px;
-    padding-bottom: 100px; } }
+    padding-bottom: 50px; }
+  body.case-study-pared .solutions-detail #thumbnail-content-block-3 .thumbnail {
+    position: relative;
+    top: 50px; } }
 
 @media (min-width: 768px) {
   body.case-study-pared .solutions-detail #thumbnail-content-block-4 .thumbnail {
-    position: relative;
-    top: -100px; } }
+    position: relative; } }
 
 body.case-study-pared .solutions-detail #thumbnail-content-block-5 .heading {
   margin-top: 30px; }
   @media (min-width: 768px) {
     body.case-study-pared .solutions-detail #thumbnail-content-block-5 .heading {
-      margin-top: 150px; } }
+      margin-top: 100px; } }
 
 body.case-study-pared .heading-testimonial {
   text-align: center;
@@ -6283,6 +6307,35 @@ body.case-study-pared .platform-info .thumb {
 
 body.case-study-pared footer {
   background-color: #f8f8f8; }
+
+body.case-study-pared .dashboard-container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center; }
+  @media (min-width: 768px) {
+    body.case-study-pared .dashboard-container {
+      padding-top: 100px;
+      padding-bottom: 200px; } }
+  body.case-study-pared .dashboard-container .thumbnail img {
+    max-width: 100%; }
+  body.case-study-pared .dashboard-container .heading {
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 60px;
+    margin-top: 40px;
+    margin-bottom: 15px; }
+    @media (min-width: 768px) {
+      body.case-study-pared .dashboard-container .heading {
+        font-size: 50px;
+        margin-top: 70px;
+        margin-bottom: 15px; } }
+  body.case-study-pared .dashboard-container .sub-heading {
+    font-size: 26px;
+    line-height: 1.5em;
+    margin-bottom: 40px; }
+  body.case-study-pared .dashboard-container p {
+    font-size: 22px; }
 
 body.case-study-usgm .case-study-intro {
   max-width: 600px; }
@@ -7825,31 +7878,32 @@ body.fp-responsive .fp-section {
       .homepage .section-clients .container-centerized .heading {
         margin-bottom: 20px; } }
   .homepage .section-clients .clients-list {
-    margin-top: 50px; }
+    margin-top: -20px; }
     @media (max-height: 800px) {
       .homepage .section-clients .clients-list {
-        margin-top: 20px;
+        margin-top: -10px;
         width: 90%;
         margin-left: auto;
         margin-right: auto; } }
-    @media (min-width: 992px) {
-      .homepage .section-clients .clients-list .row {
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-        -ms-flex-align: stretch;
-        align-items: stretch; } }
-    @media (max-height: 800px) {
-      .homepage .section-clients .clients-list .row {
-        margin-left: -7.5px;
-        margin-right: -7.5px; } }
+    .homepage .section-clients .clients-list .row {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -ms-flex-align: stretch;
+      align-items: stretch; }
+      @media (max-height: 800px) {
+        .homepage .section-clients .clients-list .row {
+          margin-left: -7.5px;
+          margin-right: -7.5px; } }
     .homepage .section-clients .clients-list .client-wrapper {
       width: 33.33%;
-      margin-bottom: 15px; }
+      margin-bottom: 15px;
+      padding-left: 5px;
+      padding-right: 5px; }
       @media (min-width: 768px) {
         .homepage .section-clients .clients-list .client-wrapper {
-          width: 25%;
+          width: 14.28%;
           padding-left: 7.5px;
           padding-right: 7.5px; } }
     .homepage .section-clients .clients-list .col-md-3 {
@@ -7865,25 +7919,33 @@ body.fp-responsive .fp-section {
           padding-right: 7.5px; } }
     .homepage .section-clients .clients-list .client-item {
       text-align: left;
-      padding: 20px;
       background-color: #fff;
       height: 100%;
+      padding: 10px 5px;
       transition: box-shadow 500ms;
       display: table;
       width: 100%;
       cursor: pointer; }
       @media (min-width: 992px) {
         .homepage .section-clients .clients-list .client-item {
-          height: 120px; } }
+          height: 50px;
+          padding: 20px; } }
+      @media (max-height: 800px) {
+        .homepage .section-clients .clients-list .client-item {
+          height: 50px;
+          padding: 13px; } }
       .homepage .section-clients .clients-list .client-item .thumb {
-        height: 50px;
+        height: 40px;
         text-align: center;
         vertical-align: middle;
         display: table-cell;
         text-align: center; }
+        @media (max-height: 800px) {
+          .homepage .section-clients .clients-list .client-item .thumb {
+            height: 20px; } }
       .homepage .section-clients .clients-list .client-item .thumb img {
         max-width: 80%;
-        max-height: 50px;
+        max-height: 100%;
         filter: grayscale(100%);
         opacity: 0.6;
         transition: all 500ms; }
