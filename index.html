@@ -159,8 +159,8 @@
           <section class="section-work">
             <div class="container container-centerized">
               <div class="heading">
-                <div class="sec-subheading" data-text="What we do"></div>
-                <div class="sec-heading" data-text="We build winning&lt;br/&gt;products"></div>
+                <div class="sec-subheading" data-text="Our work"></div>
+                <div class="sec-heading" data-text="With many industry&lt;br/&gt;fields"></div>
               </div>
               <div class="works-list" id="work-container">
                 <div class="case-study-dcom card reveal-item">
@@ -184,7 +184,7 @@
                     <div class="content-container">
                       <div class="title">Portal</div>
                       <div class="desc">
-                        <p>Learn about the solution that helps optimize Wifi setup time to under 7 minutes on your phone</p>
+                        <p>Learn about the solution that helps optimize Wifi setup time to under 7 minutes on your phone.</p>
                       </div><a class="more" href="portal.html">View Case Study</a>
                     </div>
                   </div>
@@ -202,13 +202,13 @@
                     </div>
                   </div>
                 </div>
-                <div class="case-study-greatschools card cs-more">
+                <div class="case-study-greatschools card reveal-item">
                   <div class="thumb">
                     <div class="pattern"></div><a class="logo" href="great-schools.html"><img src="img/client-gs-white.png" src-set="img/client-gs-white@2x.png 2x" alt="cision"></a>
                   </div>
                   <div class="content">
                     <div class="content-container">
-                      <div class="title">Great Schools</div>
+                      <div class="title">Greatschool</div>
                       <div class="desc">
                         <p>See how we are helping millions of parents get a great education for their child.</p>
                       </div><a class="more" href="great-schools.html">View Case Study</a>
@@ -216,7 +216,9 @@
                   </div>
                 </div>
               </div>
-              <p class="text-center more-container"><span class="reveal-item" style="display: inline-block" @click="expandClient"><a class="btn btn-arrow-down sm">Show more<span class="arr">...</span></a></span></p>
+              <p class="text-center more-container">
+                <div class="works-more"><a class="btn btn-arrow-down sm" href="work.html">View all works<span class="arr"> <span class="icon-arrow-right"></span></span></a></div>
+              </p>
             </div>
           </section>
           <section class="section-how">
@@ -262,12 +264,12 @@
           <section class="section-clients">
             <div class="container container-centerized">
               <div class="heading">
-                <div class="sec-subheading" data-text="OUR CUSTOMERS"></div>
-                <div class="sec-heading" data-text="Great companies work with great customers!"></div>
+                <div class="sec-subheading" data-text="OUR&lt;br/&gt;CUSTOMERS"></div>
+                <div class="sec-heading" data-text="Beyond the client"></div>
               </div>
               <div class="clients-list">
                 <div class="row">
-                  <div class="client-wrapper" v-for="(client,index) in clients">
+                  <div class="client-wrapper" v-for="(client,index) in clients" data-toggle="modal" v-bind:data-target="'#' + client.name + 'Modal'">
                     <div class="client-item-container reveal-item">
                       <div class="client-item" v-bind:id="'client-'+index">
                         <div class="thumb"><img v-if="!client.imgSvg" v-bind:src="client.img" v-bind:srcset="client.imgHighRes"><img v-else v-bind:src="client.imgSvg"></div>
@@ -301,7 +303,7 @@
         <ul>
           <li v-bind:class="{active: currentPage == 1}"><a v-on:click="goToPage(1)"><span class="icon-triangle"></span><span class="text"> <span class="inner">Introduction</span></span></a></li>
           <li v-bind:class="{active: currentPage == 2}"><a v-on:click="goToPage(2)"><span class="icon-triangle"></span><span class="text"> <span class="inner">Services</span></span></a></li>
-          <li v-bind:class="{active: currentPage == 3}"><a v-on:click="goToPage(3)"><span class="icon-triangle"></span><span class="text"> <span class="inner">Case Studies</span></span></a></li>
+          <li v-bind:class="{active: currentPage == 3}"><a v-on:click="goToPage(3)"><span class="icon-triangle"></span><span class="text"> <span class="inner">Work</span></span></a></li>
           <li v-bind:class="{active: currentPage == 4}"><a v-on:click="goToPage(4)"><span class="icon-triangle"></span><span class="text"> <span class="inner">Process</span></span></a></li>
           <li v-bind:class="{active: currentPage == 5}"><a v-on:click="goToPage(5)"><span class="icon-triangle"></span><span class="text"> <span class="inner">Customers</span></span></a></li>
           <li><a href="about.html"><span class="icon-triangle"></span><span class="text"> <span class="inner">About Us</span></span></a></li>
@@ -332,6 +334,48 @@
             </ul>
           </div>
           <div class="logo"><img src="img/ilabs-logo-bubbles.svg"></div>
+        </div>
+      </div>
+    </div>
+    <div class="client-modal modal fade" id="DictionaryModal" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <div class="modal-title">
+              <div class="sec-subheading">OUR<br/>CUSTOMERS</div>
+              <div class="sec-heading">Dictionary.com</div>
+            </div>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-6 client-description">
+                <h4>With 2,000,000+ trusted definitions and synonyms, 100+ million app downloads, Dictionary.com has spread the logophile-spirits to millions of mobile users world wide, affirming its position as the leading free English dictionary app for iPhone and Android.</h4><span class="client-service">
+                  <h4>Service: </h4>IOS, Android, UX/UI Design, Prototypes, User Testing</span>
+                <div class="stats">
+                  <div class="stat-col">
+                    <div class="num">10%</div>
+                    <div class="desc">Increase in 1-week<br>retention</div>
+                  </div>
+                  <div class="stat-col">
+                    <div class="num">5%</div>
+                    <div class="desc">Increase in<br>page view</div>
+                  </div>
+                  <div class="stat-col">
+                    <div class="num">100M</div>
+                    <div class="desc">Download</div>
+                  </div>
+                  <div class="stat-col">
+                    <div class="num">4.5<span class="icon-star"></span></div>
+                    <div class="desc">Reviews on <br>App Store</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 client-image"><img src="img/dcom-customer.png" srcset="img/dcom-customer@2x.png 2x"></div>
+            </div>
+            <div class="view-detail"><a class="btn btn-arrow-down sm" href="dcom.html">View Case Study<span class="arr"><span class="icon-arrow-right"></span></span></a></div>
+          </div>
+          <div class="modal-footer"></div>
         </div>
       </div>
     </div>
