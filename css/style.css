@@ -7357,8 +7357,8 @@ body.case-study-crew {
         flex: 100%; }
         @media (min-width: 768px) {
           .page-about .crews .leaders-container .leaders .leader-item {
-            -ms-flex: 33.33%;
-            flex: 33.33%; } }
+            -ms-flex: 0 0 33.33%;
+            flex: 0 0 33.33%; } }
         .page-about .crews .leaders-container .leaders .leader-item .photo {
           display: block;
           height: 360px;
