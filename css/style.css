@@ -8453,20 +8453,32 @@ body.fp-responsive .fp-section {
     left: 0;
     right: 0;
     bottom: 0; }
+  .page-menu .menu-scroll-content {
+    height: 100%;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px; }
+    @media (max-width: 767px) {
+      .page-menu .menu-scroll-content {
+        overflow-y: auto;
+        overflow-x: hidden;
+        padding-bottom: 75px; } }
   .page-menu .menu-content {
-    position: absolute;
+    position: fixed;
     max-width: 800px;
     width: 100%;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 90px;
-    text-align: center; }
+    text-align: center;
+    overflow: hidden;
+    top: 50px; }
     @media (min-width: 768px) {
       .page-menu .menu-content {
         padding-top: 0;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%); } }
+    @media (max-width: 767px) {
+      .page-menu .menu-content {
+        bottom: 50px; } }
     .page-menu .menu-content .menu-wrapper {
       display: inline-block; }
     .page-menu .menu-content .logo {

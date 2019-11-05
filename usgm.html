@@ -350,29 +350,31 @@
       <div class="page-menu">
         <div class="overlay"></div>
         <div class="menu-content">
-          <div class="menu-wrapper">
-            <ul>
-              <li v-bind:class="{active: currentPage == 1 }"><a href="index.html#introduction" v-on:click="closeMenu">Home</a></li>
-              <li v-bind:class="{active: currentPage == 2 }"><a href="index.html#services" v-on:click="closeMenu">Services</a></li>
-              <li v-bind:class="{active: currentPage == 3 }"><a href="index.html#case-studies" v-on:click="closeMenu">Case Studies</a>
-                <ul class="sub-menu">
-                  <li><a href="great-schools.html">Greatschools</a></li>
-                  <li><a href="portal.html">Portal</a></li>
-                  <li><a href="cision.html">Cision</a></li>
-                  <li><a href="dcom.html">Dictionary.com</a></li>
-                  <li><a href="pared.html">Pared</a></li>
-                  <li><a href="crew.html">Crew</a></li>
-                </ul>
-              </li>
-              <li v-bind:class="{active: currentPage == 4 }"><a href="index.html#process" v-on:click="closeMenu">Process</a></li>
-              <li v-bind:class="{active: currentPage == 5 }"><a href="index.html#customers" v-on:click="closeMenu">Customers</a></li>
-              <li v-bind:class="{active: currentPage == 6 }"><a href="index.html#contact" v-on:click="closeMenu">Contact</a></li>
-              <li><a href="data-consulting.html">Data Practice</a></li>
-              <li><a href="ilabsturns5">ILabs Turns 5</a></li>
-              <li><a href="about.html">About Us</a></li>
-            </ul>
+          <div class="menu-scroll-content">
+            <div class="menu-wrapper">
+              <ul>
+                <li v-bind:class="{active: currentPage == 1 }"><a href="index.html#introduction" v-on:click="closeMenu">Home</a></li>
+                <li v-bind:class="{active: currentPage == 2 }"><a href="index.html#services" v-on:click="closeMenu">Services</a></li>
+                <li v-bind:class="{active: currentPage == 3 }"><a href="index.html#case-studies" v-on:click="closeMenu">Case Studies</a>
+                  <ul class="sub-menu">
+                    <li><a href="great-schools.html">Greatschools</a></li>
+                    <li><a href="portal.html">Portal</a></li>
+                    <li><a href="cision.html">Cision</a></li>
+                    <li><a href="dcom.html">Dictionary.com</a></li>
+                    <li><a href="pared.html">Pared</a></li>
+                    <li><a href="crew.html">Crew</a></li>
+                  </ul>
+                </li>
+                <li v-bind:class="{active: currentPage == 4 }"><a href="index.html#process" v-on:click="closeMenu">Process</a></li>
+                <li v-bind:class="{active: currentPage == 5 }"><a href="index.html#customers" v-on:click="closeMenu">Customers</a></li>
+                <li v-bind:class="{active: currentPage == 6 }"><a href="index.html#contact" v-on:click="closeMenu">Contact</a></li>
+                <li><a href="data-consulting.html">Data Practice</a></li>
+                <li><a href="ilabsturns5">ILabs Turns 5</a></li>
+                <li><a href="about.html">About Us</a></li>
+              </ul>
+            </div>
+            <div class="logo"><img src="img/ilabs-logo-bubbles.svg"></div>
           </div>
-          <div class="logo"><img src="img/ilabs-logo-bubbles.svg"></div>
         </div>
       </div>
     </div>
