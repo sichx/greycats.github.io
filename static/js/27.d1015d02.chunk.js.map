@@ -1,0 +1,1 @@
+{"version":3,"sources":["assets/imgs/2x/Hero/Hero-animation-1920x1080.mp4"],"names":["module","exports"],"mappings":"4GAAAA,EAAOC,QAAU,IAA0B","file":"static/js/27.d1015d02.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/Hero-animation-1920x1080.a5855433.mp4\";"],"sourceRoot":""}
