@@ -3,6 +3,8 @@
   <head>
     <meta name="viewport" content="width=device-width" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta property='og:title' content="HindSight 2020"/>
+    <meta property='og:image' content="thumb.png"/>
     <title>iLabs 2019 Year In Review</title>
     <link href="font.css" rel="stylesheet" type="text/css" />
     <style type="text/css">
@@ -295,6 +297,7 @@
         height: 755px;
         background: url("header-bg.png") no-repeat;
         background-size: cover;
+        position: relative;
       }
       .header .logo-wrapper {
         padding-top: 27px;
@@ -547,6 +550,17 @@
         height: 21px;
         margin: 0px 7px;
       }
+      .link-to-home {
+        width: 98px;
+        height: 26px;
+        cursor: pointer;
+        position: absolute;
+        background-color: transparent;
+        z-index: 10;
+        width: 98px;
+        top: 24px;
+        left: calc(50% - 49px);
+      }
     </style>
   </head>
   <body class="">
@@ -612,6 +626,9 @@
                     cellspacing="0"
                   >
                     <tbody>
+                      <a href="https://www.interactivelabs.com" target="_blank">
+                        <div class="link-to-home"></div>
+                      </a>
                       <!-- <tr>
                         <td align="center" class="logo-wrapper">
                           <img
